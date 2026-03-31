@@ -26,7 +26,7 @@ export function MarketingFooter() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/pricing"
+                  href="/#pricing"
                   className="text-sm text-text-secondary hover:text-text-primary transition-colors"
                 >
                   Pricing

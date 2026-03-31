@@ -18,18 +18,18 @@ export function MarketingNav() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link
-            href="/"
-            className="text-sm text-text-secondary hover:text-text-primary transition-colors"
-          >
-            Home
-          </Link>
-          <Link
-            href="/pricing"
+          <a
+            href="#pricing"
             className="text-sm text-text-secondary hover:text-text-primary transition-colors"
           >
             Pricing
-          </Link>
+          </a>
+          <a
+            href="#faq"
+            className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+          >
+            FAQ
+          </a>
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
@@ -65,20 +65,20 @@ export function MarketingNav() {
       {open && (
         <div className="md:hidden border-t border-border bg-surface">
           <nav className="flex flex-col px-5 py-4 space-y-1">
-            <Link
-              href="/"
-              onClick={() => setOpen(false)}
-              className="text-sm text-text-secondary hover:text-text-primary py-2.5 transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              href="/pricing"
+            <a
+              href="#pricing"
               onClick={() => setOpen(false)}
               className="text-sm text-text-secondary hover:text-text-primary py-2.5 transition-colors"
             >
               Pricing
-            </Link>
+            </a>
+            <a
+              href="#faq"
+              onClick={() => setOpen(false)}
+              className="text-sm text-text-secondary hover:text-text-primary py-2.5 transition-colors"
+            >
+              FAQ
+            </a>
             <div className="pt-3 border-t border-border flex flex-col gap-2">
               <Link href="/login" onClick={() => setOpen(false)}>
                 <Button variant="outline" className="w-full">

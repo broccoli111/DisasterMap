@@ -1,6 +1,9 @@
 import { isSupabaseConfigured, createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { PricingCard } from "@/components/pricing-card";
+import { formatCurrency } from "@/lib/utils";
+import type { SubscriptionPlan } from "@/types";
 
 export const dynamic = "force-dynamic";
 
@@ -9,7 +12,7 @@ const fallbackHero = {
   subtitle:
     "Your on-demand creative and engineering partner. Submit tasks, track progress, and receive polished deliverables — all in one place.",
   cta_text: "Get Started",
-  cta_link: "/pricing",
+  cta_link: "#pricing",
 };
 
 const fallbackFeatures = {
@@ -49,6 +52,41 @@ const fallbackSteps = {
   ],
 };
 
+const fallbackTiers = [
+  {
+    id: "a",
+    name: "Standard",
+    plan: "A" as SubscriptionPlan,
+    price: 3500,
+    features: [
+      "One active task at a time",
+      "Unlimited requests",
+      "48-hour turnaround",
+      "Dedicated project manager",
+      "Pause or cancel anytime",
+    ],
+    stripe_price_id: "",
+    created_at: "",
+  },
+  {
+    id: "b",
+    name: "Pro",
+    plan: "B" as SubscriptionPlan,
+    price: 5500,
+    features: [
+      "Two active tasks at a time",
+      "Unlimited requests",
+      "24-hour turnaround",
+      "Dedicated project manager",
+      "Priority support",
+      "Pause or cancel anytime",
+      "Strategy consultation calls",
+    ],
+    stripe_price_id: "",
+    created_at: "",
+  },
+];
+
 const fallbackFaqs = [
   { id: "1", question: "How does the subscription work?", answer: "Once subscribed, you can submit unlimited design and development requests. We work through them based on priority, delivering completed work for your review." },
   { id: "2", question: "What counts as a single task?", answer: "A task is a self-contained unit of work — a landing page, a logo concept, a component build, etc. Complex projects are broken into multiple tasks." },
@@ -64,6 +102,7 @@ async function getContent() {
       hero: fallbackHero,
       features: fallbackFeatures,
       howItWorks: fallbackSteps,
+      tiers: fallbackTiers,
       faqs: fallbackFaqs,
     };
   }
@@ -71,32 +110,41 @@ async function getContent() {
   try {
     const supabase = await createClient();
 
-    const [heroRes, featuresRes, howItWorksRes, faqsRes] = await Promise.all([
-      supabase
-        .from("site_content")
-        .select("content")
-        .eq("page", "home")
-        .eq("section", "hero")
-        .single(),
-      supabase
-        .from("site_content")
-        .select("content")
-        .eq("page", "home")
-        .eq("section", "features")
-        .single(),
-      supabase
-        .from("site_content")
-        .select("content")
-        .eq("page", "home")
-        .eq("section", "how_it_works")
-        .single(),
-      supabase.from("faqs").select("*").order("sort_order"),
-    ]);
+    const [heroRes, featuresRes, howItWorksRes, tiersRes, faqsRes] =
+      await Promise.all([
+        supabase
+          .from("site_content")
+          .select("content")
+          .eq("page", "home")
+          .eq("section", "hero")
+          .single(),
+        supabase
+          .from("site_content")
+          .select("content")
+          .eq("page", "home")
+          .eq("section", "features")
+          .single(),
+        supabase
+          .from("site_content")
+          .select("content")
+          .eq("page", "home")
+          .eq("section", "how_it_works")
+          .single(),
+        supabase.from("pricing_tiers").select("*").order("price"),
+        supabase.from("faqs").select("*").order("sort_order"),
+      ]);
 
     return {
       hero: (heroRes.data?.content as Record<string, string>) || fallbackHero,
-      features: (featuresRes.data?.content as typeof fallbackFeatures) || fallbackFeatures,
-      howItWorks: (howItWorksRes.data?.content as typeof fallbackSteps) || fallbackSteps,
+      features:
+        (featuresRes.data?.content as typeof fallbackFeatures) ||
+        fallbackFeatures,
+      howItWorks:
+        (howItWorksRes.data?.content as typeof fallbackSteps) || fallbackSteps,
+      tiers:
+        tiersRes.data && tiersRes.data.length > 0
+          ? tiersRes.data
+          : fallbackTiers,
       faqs: faqsRes.data || fallbackFaqs,
     };
   } catch {
@@ -104,6 +152,7 @@ async function getContent() {
       hero: fallbackHero,
       features: fallbackFeatures,
       howItWorks: fallbackSteps,
+      tiers: fallbackTiers,
       faqs: fallbackFaqs,
     };
   }
@@ -133,12 +182,16 @@ const featureIcons: Record<string, React.ReactNode> = {
 };
 
 export default async function HomePage() {
-  const { hero, features, howItWorks, faqs } = await getContent();
+  const { hero, features, howItWorks, tiers, faqs } = await getContent();
 
-  const heroTitle = (hero as Record<string, string>)?.title || fallbackHero.title;
-  const heroSubtitle = (hero as Record<string, string>)?.subtitle || fallbackHero.subtitle;
-  const ctaText = (hero as Record<string, string>)?.cta_text || fallbackHero.cta_text;
-  const ctaLink = (hero as Record<string, string>)?.cta_link || fallbackHero.cta_link;
+  const heroTitle =
+    (hero as Record<string, string>)?.title || fallbackHero.title;
+  const heroSubtitle =
+    (hero as Record<string, string>)?.subtitle || fallbackHero.subtitle;
+  const ctaText =
+    (hero as Record<string, string>)?.cta_text || fallbackHero.cta_text;
+  const ctaLink =
+    (hero as Record<string, string>)?.cta_link || fallbackHero.cta_link;
 
   const featureItems = (features as typeof fallbackFeatures)?.items || [];
   const steps = (howItWorks as typeof fallbackSteps)?.steps || [];
@@ -156,9 +209,9 @@ export default async function HomePage() {
               {heroSubtitle}
             </p>
             <div className="mt-8 flex items-center justify-center gap-4">
-              <Link href={ctaLink}>
+              <a href={ctaLink}>
                 <Button size="lg">{ctaText}</Button>
-              </Link>
+              </a>
               <Link href="/login">
                 <Button variant="outline" size="lg">
                   Log in
@@ -172,12 +225,12 @@ export default async function HomePage() {
 
       {/* Features */}
       {featureItems.length > 0 && (
-        <section className="py-20 bg-surface-secondary">
+        <section className="py-16 sm:py-20 bg-surface-secondary">
           <div className="max-w-6xl mx-auto px-5 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-bold text-text-primary text-center mb-8 sm:mb-12">
               Everything you need to move fast
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               {featureItems.map((feature) => (
                 <div
                   key={feature.title}
@@ -201,7 +254,7 @@ export default async function HomePage() {
 
       {/* How it works */}
       {steps.length > 0 && (
-        <section className="py-20">
+        <section className="py-16 sm:py-20">
           <div className="max-w-4xl mx-auto px-5 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-bold text-text-primary text-center mb-8 sm:mb-12">
               How it works
@@ -225,9 +278,36 @@ export default async function HomePage() {
         </section>
       )}
 
+      {/* Pricing */}
+      <section id="pricing" className="py-16 sm:py-20 bg-surface-secondary scroll-mt-16">
+        <div className="max-w-5xl mx-auto px-5 sm:px-6">
+          <div className="text-center mb-10 sm:mb-14">
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary mb-4">
+              Simple, transparent pricing
+            </h2>
+            <p className="text-lg text-text-secondary max-w-xl mx-auto">
+              Choose the plan that fits your needs. No hidden fees. Pause or
+              cancel anytime.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {tiers.map((tier) => (
+              <PricingCard
+                key={tier.id}
+                name={tier.name}
+                plan={tier.plan}
+                price={formatCurrency(tier.price)}
+                features={tier.features}
+                highlighted={tier.plan === "B"}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       {faqs.length > 0 && (
-        <section className="py-20 bg-surface-secondary">
+        <section id="faq" className="py-16 sm:py-20 scroll-mt-16">
           <div className="max-w-3xl mx-auto px-5 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-bold text-text-primary text-center mb-8 sm:mb-12">
               Frequently asked questions
@@ -241,7 +321,7 @@ export default async function HomePage() {
                   <summary className="flex items-center justify-between cursor-pointer p-5 text-text-primary font-medium text-sm">
                     {faq.question}
                     <svg
-                      className="w-5 h-5 text-text-tertiary transition-transform group-open:rotate-180"
+                      className="w-5 h-5 text-text-tertiary transition-transform group-open:rotate-180 shrink-0 ml-4"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -265,7 +345,7 @@ export default async function HomePage() {
       )}
 
       {/* CTA */}
-      <section className="py-20">
+      <section className="py-16 sm:py-20 bg-surface-secondary">
         <div className="max-w-4xl mx-auto px-5 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-text-primary mb-4">
             Ready to ship faster?
@@ -274,8 +354,8 @@ export default async function HomePage() {
             Join teams that use our platform to accelerate their design and
             development workflow.
           </p>
-          <Link href="/pricing">
-            <Button size="lg">View pricing</Button>
+          <Link href="/signup">
+            <Button size="lg">Get Started</Button>
           </Link>
         </div>
       </section>

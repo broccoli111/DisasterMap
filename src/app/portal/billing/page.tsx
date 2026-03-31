@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
+import Link from "next/link";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BillingPortalButton } from "@/components/billing-portal-button";
@@ -60,9 +61,9 @@ export default async function BillingPage() {
           ) : (
             <p className="text-sm text-text-tertiary">
               No billing account linked. Subscribe from the{" "}
-              <a href="/pricing" className="text-accent hover:text-accent-hover">
+              <Link href="/#pricing" className="text-accent hover:text-accent-hover">
                 pricing page
-              </a>
+              </Link>
               .
             </p>
           )}
