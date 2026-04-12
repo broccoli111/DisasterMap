@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Natural Disaster Atlas</title>
+  <meta name="description" content="Interactive world map visualizing recorded natural disasters across history with timeline controls and disaster-type filters.">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <script src="vendor/leaflet/leaflet.js"></script>
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Loading overlay -->
+  <div id="loading-overlay">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Loading Global Disaster Atlas…</div>
+  </div>
+
+  <!-- Map container -->
+  <div id="map"></div>
+
+  <!-- Top bar -->
+  <div id="top-bar" class="glass-panel">
+    <span class="app-title"><span>&#x1F30D;</span> Global Natural Disaster Atlas</span>
+    <span id="event-counter">0 events visible</span>
+  </div>
+
+  <!-- Search -->
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Search events, countries, years…" autocomplete="off">
+    <div id="search-results" class="glass-panel"></div>
+  </div>
+
+  <!-- Filter panel toggle (visible when panel is collapsed) -->
+  <button id="filter-toggle" title="Show filters">&#9776;</button>
+
+  <!-- Filter panel -->
+  <div id="filter-panel" class="glass-panel">
+    <!-- Built by JS -->
+  </div>
+
+  <!-- Timeline controls -->
+  <div id="timeline-panel" class="glass-panel">
+    <span class="timeline-label">From</span>
+    <input type="number" id="year-start" class="year-input" min="0" max="2026" step="1">
+    <input type="range" id="timeline-slider" step="1">
+    <span class="timeline-label">To</span>
+    <input type="number" id="year-end" class="year-input" min="0" max="2026" step="1">
+    <button class="timeline-btn" id="timeline-last50-btn">Last 50y</button>
+    <button class="timeline-btn" id="timeline-all-btn">All</button>
+    <button class="timeline-btn" id="playback-btn" title="Playback">&#9654;</button>
+  </div>
+
+  <!-- Legend -->
+  <div id="legend-panel" class="glass-panel">
+    <!-- Built by JS -->
+  </div>
+
+  <!-- Toolbar -->
+  <div id="toolbar">
+    <button class="toolbar-btn" id="tool-fit" title="Fit map to visible events">&#x2922;</button>
+    <button class="toolbar-btn" id="tool-export" title="Export filtered data as JSON">&#x2913;</button>
+    <button class="toolbar-btn" id="tool-theme" title="Toggle map theme">&#x263E;</button>
+  </div>
+
+  <!-- App JS (ES module) -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>

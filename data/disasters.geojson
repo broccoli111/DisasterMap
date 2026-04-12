@@ -1,0 +1,1455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2011_japan",
+        "name": "Tohoku Earthquake & Tsunami",
+        "type": "earthquake",
+        "year": 2011,
+        "country": "Japan",
+        "region": "Tohoku, Honshu",
+        "severity": "9.1 Mw",
+        "deaths": 15899,
+        "description": "The most powerful earthquake ever recorded in Japan triggered a massive tsunami with waves up to 40 meters, causing the Fukushima nuclear disaster and widespread devastation across northeastern Japan.",
+        "source": "USGS / Japan Meteorological Agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.373, 38.322]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2011_japan_area",
+        "name": "Tohoku Earthquake & Tsunami — Affected Area",
+        "type": "earthquake",
+        "year": 2011,
+        "country": "Japan",
+        "region": "Tohoku, Honshu",
+        "severity": "9.1 Mw",
+        "deaths": 15899,
+        "description": "The most powerful earthquake ever recorded in Japan triggered a massive tsunami with waves up to 40 meters.",
+        "source": "USGS / Japan Meteorological Agency",
+        "_areaOf": "eq_2011_japan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [140.5, 36.5], [143.5, 36.5], [143.5, 40.0], [140.5, 40.0], [140.5, 36.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ts_2004_indian_ocean",
+        "name": "2004 Indian Ocean Tsunami",
+        "type": "tsunami",
+        "year": 2004,
+        "country": "Indonesia / Multi-country",
+        "region": "Indian Ocean",
+        "severity": "9.1 Mw triggering earthquake",
+        "deaths": 227898,
+        "description": "One of the deadliest natural disasters in recorded history. A massive undersea earthquake off Sumatra generated tsunamis striking 14 countries across the Indian Ocean.",
+        "source": "USGS / NOAA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.854, 3.316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ts_2004_indian_ocean_path",
+        "name": "2004 Indian Ocean Tsunami — Wave Path",
+        "type": "tsunami",
+        "year": 2004,
+        "country": "Indonesia / Multi-country",
+        "region": "Indian Ocean",
+        "severity": "9.1 Mw triggering earthquake",
+        "deaths": 227898,
+        "description": "Tsunami waves radiated across the Indian Ocean.",
+        "source": "NOAA",
+        "_areaOf": "ts_2004_indian_ocean"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [95.854, 3.316], [92.0, 6.0], [85.0, 8.0], [80.0, 7.5], [79.8, 6.9], [77.0, 8.5], [73.0, 4.0], [55.0, -5.0], [45.0, -12.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2005_katrina",
+        "name": "Hurricane Katrina",
+        "type": "hurricane",
+        "year": 2005,
+        "country": "United States",
+        "region": "Gulf Coast",
+        "severity": "Category 5",
+        "maxWind": "280 km/h",
+        "deaths": 1836,
+        "description": "One of the costliest and deadliest hurricanes in US history. Katrina devastated New Orleans when levees failed, flooding 80% of the city.",
+        "source": "NHC / NOAA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-75.1, 23.1], [-76.0, 23.4], [-79.6, 24.0], [-82.0, 24.5], [-84.0, 25.0], [-86.0, 25.5], [-87.7, 26.0], [-89.0, 27.5], [-89.6, 29.3], [-89.6, 31.0], [-89.0, 33.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2005_katrina_area",
+        "name": "Hurricane Katrina — Affected Area",
+        "type": "hurricane",
+        "year": 2005,
+        "country": "United States",
+        "region": "Gulf Coast",
+        "severity": "Category 5",
+        "maxWind": "280 km/h",
+        "deaths": 1836,
+        "description": "Devastated the Gulf Coast, especially New Orleans.",
+        "source": "NHC / NOAA",
+        "_areaOf": "hu_2005_katrina"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-91.5, 28.5], [-87.5, 28.5], [-87.5, 31.5], [-91.5, 31.5], [-91.5, 28.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2010_haiti",
+        "name": "2010 Haiti Earthquake",
+        "type": "earthquake",
+        "year": 2010,
+        "country": "Haiti",
+        "region": "Port-au-Prince",
+        "severity": "7.0 Mw",
+        "deaths": 316000,
+        "description": "A catastrophic earthquake struck near Port-au-Prince, devastating the capital and surrounding areas. It was the most destructive event in Haiti's history.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.571, 18.457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1906_sanfran",
+        "name": "1906 San Francisco Earthquake",
+        "type": "earthquake",
+        "year": 1906,
+        "country": "United States",
+        "region": "San Francisco, California",
+        "severity": "7.9 Mw",
+        "deaths": 3000,
+        "description": "A devastating earthquake and subsequent fires destroyed over 80% of San Francisco. One of the worst natural disasters in US history.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.42, 37.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1976_tangshan",
+        "name": "1976 Tangshan Earthquake",
+        "type": "earthquake",
+        "year": 1976,
+        "country": "China",
+        "region": "Tangshan, Hebei",
+        "severity": "7.5 Mw",
+        "deaths": 242000,
+        "description": "One of the deadliest earthquakes of the 20th century, it struck in the early morning and virtually leveled the industrial city of Tangshan.",
+        "source": "USGS / China Earthquake Administration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.18, 39.63]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2015_nepal",
+        "name": "2015 Nepal Earthquake",
+        "type": "earthquake",
+        "year": 2015,
+        "country": "Nepal",
+        "region": "Gorkha District",
+        "severity": "7.8 Mw",
+        "deaths": 8964,
+        "description": "A major earthquake struck central Nepal, triggering avalanches on Mount Everest and destroying historic temples in Kathmandu.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.731, 28.147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1960_chile",
+        "name": "1960 Great Chilean Earthquake",
+        "type": "earthquake",
+        "year": 1960,
+        "country": "Chile",
+        "region": "Valdivia",
+        "severity": "9.5 Mw",
+        "deaths": 5700,
+        "description": "The most powerful earthquake ever recorded. It triggered tsunamis that affected southern Chile, Hawaii, Japan, the Philippines, and New Zealand.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.407, -38.143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2023_turkey",
+        "name": "2023 Turkey–Syria Earthquake",
+        "type": "earthquake",
+        "year": 2023,
+        "country": "Turkey / Syria",
+        "region": "Southeastern Turkey",
+        "severity": "7.8 Mw",
+        "deaths": 59259,
+        "description": "A devastating earthquake doublet struck southeastern Turkey and northern Syria, causing massive destruction across both countries.",
+        "source": "USGS / AFAD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.174, 37.220]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_1883_krakatoa",
+        "name": "Krakatoa Eruption",
+        "type": "volcanic_eruption",
+        "year": 1883,
+        "country": "Indonesia",
+        "region": "Sunda Strait",
+        "severity": "VEI 6",
+        "deaths": 36000,
+        "description": "One of the most catastrophic volcanic eruptions in recorded history. The explosion was heard 4,800 km away and generated devastating tsunamis.",
+        "source": "Smithsonian Global Volcanism Program"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.423, -6.102]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_1980_sthelens",
+        "name": "Mount St. Helens Eruption",
+        "type": "volcanic_eruption",
+        "year": 1980,
+        "country": "United States",
+        "region": "Washington State",
+        "severity": "VEI 5",
+        "deaths": 57,
+        "description": "A catastrophic lateral eruption caused the largest landslide in recorded history. The blast devastated 600 km² of forest.",
+        "source": "USGS / Smithsonian GVP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.189, 46.200]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_1991_pinatubo",
+        "name": "Mount Pinatubo Eruption",
+        "type": "volcanic_eruption",
+        "year": 1991,
+        "country": "Philippines",
+        "region": "Luzon",
+        "severity": "VEI 6",
+        "deaths": 847,
+        "description": "The second-largest volcanic eruption of the 20th century. It ejected 10 km³ of material and caused global temperatures to drop by 0.5°C.",
+        "source": "USGS / PHIVOLCS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.350, 15.130]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_79_vesuvius",
+        "name": "Mount Vesuvius Eruption (79 AD)",
+        "type": "volcanic_eruption",
+        "year": 79,
+        "country": "Italy",
+        "region": "Campania",
+        "severity": "VEI 5",
+        "deaths": 16000,
+        "description": "The eruption buried the Roman cities of Pompeii and Herculaneum under meters of volcanic ash and pumice.",
+        "source": "Historical records / Smithsonian GVP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.426, 40.821]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2017_maria",
+        "name": "Hurricane Maria",
+        "type": "hurricane",
+        "year": 2017,
+        "country": "Puerto Rico / Caribbean",
+        "region": "Caribbean",
+        "severity": "Category 5",
+        "maxWind": "280 km/h",
+        "deaths": 2975,
+        "description": "Hurricane Maria devastated Puerto Rico, causing a near-total power grid collapse and severe infrastructure damage.",
+        "source": "NHC / NOAA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-57.0, 13.5], [-59.5, 14.0], [-61.5, 15.0], [-64.0, 16.0], [-66.0, 17.5], [-67.5, 18.5], [-70.0, 20.0], [-73.0, 23.0], [-75.0, 28.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2013_haiyan",
+        "name": "Typhoon Haiyan (Yolanda)",
+        "type": "hurricane",
+        "year": 2013,
+        "country": "Philippines",
+        "region": "Visayas",
+        "severity": "Category 5 equivalent",
+        "maxWind": "315 km/h",
+        "deaths": 6300,
+        "description": "One of the strongest tropical cyclones ever recorded. It devastated the Visayas region, particularly Tacloban City.",
+        "source": "JTWC / PAGASA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [131.0, 7.0], [128.0, 8.5], [125.0, 10.5], [122.0, 11.5], [119.0, 12.0], [116.0, 13.0], [113.0, 14.5], [110.0, 16.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_1970_bhola",
+        "name": "1970 Bhola Cyclone",
+        "type": "hurricane",
+        "year": 1970,
+        "country": "Bangladesh (East Pakistan)",
+        "region": "Bay of Bengal",
+        "severity": "Category 3 equivalent",
+        "maxWind": "185 km/h",
+        "deaths": 500000,
+        "description": "The deadliest tropical cyclone ever recorded. A massive storm surge devastated the low-lying Ganges Delta.",
+        "source": "NOAA / Historical records"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [87.0, 14.0], [88.0, 16.0], [89.0, 18.0], [89.5, 20.0], [90.0, 22.0], [90.5, 23.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2019_dorian",
+        "name": "Hurricane Dorian",
+        "type": "hurricane",
+        "year": 2019,
+        "country": "Bahamas / United States",
+        "region": "Atlantic / Bahamas",
+        "severity": "Category 5",
+        "maxWind": "298 km/h",
+        "deaths": 84,
+        "description": "The strongest hurricane on record to strike the Bahamas, with catastrophic devastation on Grand Bahama and Abaco Islands.",
+        "source": "NHC / NOAA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-57.0, 14.0], [-62.0, 15.5], [-66.0, 16.5], [-70.0, 18.5], [-74.0, 22.0], [-77.0, 25.0], [-78.0, 26.5], [-79.0, 29.0], [-78.5, 32.0], [-76.0, 35.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_2019_australia",
+        "name": "2019–2020 Australian Bushfires",
+        "type": "wildfire",
+        "year": 2019,
+        "country": "Australia",
+        "region": "New South Wales / Victoria",
+        "severity": "186,000 km² burned",
+        "deaths": 34,
+        "description": "Unprecedented bushfires burned across southeastern Australia, destroying over 3,000 homes and killing an estimated 3 billion animals.",
+        "source": "Australian Bureau of Meteorology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.5, -33.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_2019_australia_area",
+        "name": "2019–2020 Australian Bushfires — Burned Area",
+        "type": "wildfire",
+        "year": 2019,
+        "country": "Australia",
+        "region": "New South Wales / Victoria",
+        "severity": "186,000 km² burned",
+        "deaths": 34,
+        "description": "Major burn zones across NSW and Victoria.",
+        "source": "Australian Bureau of Meteorology",
+        "_areaOf": "wf_2019_australia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [148.0, -32.0], [152.0, -32.0], [152.0, -37.5], [148.0, -37.5], [148.0, -32.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_2018_california",
+        "name": "2018 California Wildfires (Camp Fire)",
+        "type": "wildfire",
+        "year": 2018,
+        "country": "United States",
+        "region": "California",
+        "severity": "766 km² burned (Camp Fire)",
+        "deaths": 85,
+        "description": "The Camp Fire was the deadliest and most destructive wildfire in California history, destroying the town of Paradise.",
+        "source": "CAL FIRE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.437, 39.810]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_2020_us_west",
+        "name": "2020 Western US Wildfires",
+        "type": "wildfire",
+        "year": 2020,
+        "country": "United States",
+        "region": "California / Oregon / Washington",
+        "severity": "40,000+ km² burned",
+        "deaths": 46,
+        "description": "Record-breaking wildfires burned across the western United States, turning skies orange and causing widespread evacuations.",
+        "source": "NIFC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.5, 42.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_2023_canada",
+        "name": "2023 Canadian Wildfires",
+        "type": "wildfire",
+        "year": 2023,
+        "country": "Canada",
+        "region": "Multiple provinces",
+        "severity": "185,000+ km² burned",
+        "deaths": 8,
+        "description": "Canada's worst wildfire season on record burned an area larger than Greece, sending smoke across North America and into Europe.",
+        "source": "Canadian Interagency Forest Fire Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.0, 52.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dr_1930_dustbowl",
+        "name": "Dust Bowl",
+        "type": "drought",
+        "year": 1930,
+        "country": "United States",
+        "region": "Great Plains",
+        "severity": "Decade-long severe drought",
+        "deaths": 7000,
+        "description": "A severe drought combined with decades of poor farming practices created massive dust storms that devastated the ecology and agriculture of the American prairies.",
+        "source": "NOAA / Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-104.0, 32.0], [-96.0, 32.0], [-96.0, 42.0], [-104.0, 42.0], [-104.0, 32.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dr_2011_horn_africa",
+        "name": "2011 Horn of Africa Drought",
+        "type": "drought",
+        "year": 2011,
+        "country": "Somalia / Kenya / Ethiopia",
+        "region": "Horn of Africa",
+        "severity": "Worst drought in 60 years",
+        "deaths": 260000,
+        "description": "A devastating drought caused a severe food crisis affecting over 13 million people across the Horn of Africa, with famine declared in parts of Somalia.",
+        "source": "UN / FEWS NET"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.0, -2.0], [48.0, -2.0], [48.0, 12.0], [34.0, 12.0], [34.0, -2.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dr_2019_india",
+        "name": "2019 Indian Drought",
+        "type": "drought",
+        "year": 2019,
+        "country": "India",
+        "region": "Maharashtra / Tamil Nadu",
+        "severity": "Severe — 44% rainfall deficit",
+        "deaths": 90,
+        "description": "Delayed monsoon rains led to severe water shortages across India, with Chennai's reservoirs nearly running dry.",
+        "source": "India Meteorological Department"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [73.0, 8.0], [80.5, 8.0], [80.5, 22.0], [73.0, 22.0], [73.0, 8.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_2010_pakistan",
+        "name": "2010 Pakistan Floods",
+        "type": "flooding",
+        "year": 2010,
+        "country": "Pakistan",
+        "region": "Indus River Basin",
+        "severity": "One-fifth of country submerged",
+        "deaths": 1985,
+        "description": "Unprecedented monsoon rains caused massive flooding along the Indus River, affecting 20 million people and submerging one-fifth of Pakistan's land area.",
+        "source": "NDMA Pakistan / UN OCHA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [67.0, 24.0], [72.0, 24.0], [72.0, 35.0], [67.0, 35.0], [67.0, 24.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_2022_pakistan",
+        "name": "2022 Pakistan Floods",
+        "type": "flooding",
+        "year": 2022,
+        "country": "Pakistan",
+        "region": "Sindh / Balochistan",
+        "severity": "One-third of country underwater",
+        "deaths": 1739,
+        "description": "Catastrophic monsoon flooding submerged a third of Pakistan, displacing 33 million people in what officials called a climate catastrophe.",
+        "source": "NDMA Pakistan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [65.0, 23.0], [73.0, 23.0], [73.0, 33.0], [65.0, 33.0], [65.0, 23.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_1931_china",
+        "name": "1931 China Floods",
+        "type": "flooding",
+        "year": 1931,
+        "country": "China",
+        "region": "Yangtze / Yellow River",
+        "severity": "Deadliest natural disaster of 20th century",
+        "deaths": 3700000,
+        "description": "A series of devastating floods along China's major rivers caused possibly the worst natural disaster in recorded history.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [110.0, 28.0], [122.0, 28.0], [122.0, 36.0], [110.0, 36.0], [110.0, 28.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_2021_germany",
+        "name": "2021 European Floods",
+        "type": "flooding",
+        "year": 2021,
+        "country": "Germany / Belgium",
+        "region": "Western Europe",
+        "severity": "Record rainfall",
+        "deaths": 243,
+        "description": "Extreme rainfall caused catastrophic flooding in western Germany and Belgium, with entire towns swept away.",
+        "source": "DWD / European Environment Agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.5, 49.5], [8.0, 49.5], [8.0, 51.5], [5.5, 51.5], [5.5, 49.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hw_2003_europe",
+        "name": "2003 European Heatwave",
+        "type": "heatwave",
+        "year": 2003,
+        "country": "France / Europe",
+        "region": "Western & Central Europe",
+        "severity": "Temperatures exceeded 40°C",
+        "deaths": 70000,
+        "description": "The hottest summer on record in Europe at the time caused an estimated 70,000 excess deaths, with France suffering the highest toll.",
+        "source": "WHO / Météo-France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-5.0, 40.0], [15.0, 40.0], [15.0, 55.0], [-5.0, 55.0], [-5.0, 40.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hw_2010_russia",
+        "name": "2010 Russian Heatwave",
+        "type": "heatwave",
+        "year": 2010,
+        "country": "Russia",
+        "region": "Western Russia",
+        "severity": "39.0°C record in Moscow",
+        "deaths": 55736,
+        "description": "An unprecedented heatwave caused devastating wildfires and severe smog in Moscow. The hottest summer in Russian recorded history.",
+        "source": "Russian Federal Service for Hydrometeorology"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [30.0, 50.0], [50.0, 50.0], [50.0, 60.0], [30.0, 60.0], [30.0, 50.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hw_2022_europe",
+        "name": "2022 European Heatwave",
+        "type": "heatwave",
+        "year": 2022,
+        "country": "United Kingdom / France / Spain",
+        "region": "Western Europe",
+        "severity": "40.3°C record in UK",
+        "deaths": 62000,
+        "description": "Record-breaking temperatures swept across Europe, with the UK exceeding 40°C for the first time. Over 60,000 heat-related deaths were estimated.",
+        "source": "Met Office / Nature Medicine"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-10.0, 36.0], [15.0, 36.0], [15.0, 55.0], [-10.0, 55.0], [-10.0, 36.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "to_1925_tristate",
+        "name": "Tri-State Tornado",
+        "type": "tornado",
+        "year": 1925,
+        "country": "United States",
+        "region": "Missouri / Illinois / Indiana",
+        "severity": "F5",
+        "deaths": 695,
+        "description": "The deadliest tornado in US history traveled 352 km through three states, maintaining contact with the ground for over 3.5 hours.",
+        "source": "NOAA / SPC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-90.0, 37.5], [-89.5, 37.8], [-89.0, 38.0], [-88.5, 38.3], [-88.0, 38.5], [-87.8, 38.6]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "to_2011_joplin",
+        "name": "2011 Joplin Tornado",
+        "type": "tornado",
+        "year": 2011,
+        "country": "United States",
+        "region": "Joplin, Missouri",
+        "severity": "EF5",
+        "deaths": 158,
+        "description": "A devastating EF5 tornado struck Joplin, Missouri, killing 158 people and destroying one-third of the city.",
+        "source": "NWS / SPC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-94.55, 37.05], [-94.45, 37.06], [-94.35, 37.07], [-94.25, 37.08]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "to_2013_moore",
+        "name": "2013 Moore, Oklahoma Tornado",
+        "type": "tornado",
+        "year": 2013,
+        "country": "United States",
+        "region": "Moore, Oklahoma",
+        "severity": "EF5",
+        "deaths": 24,
+        "description": "A massive EF5 tornado 2.1 km wide struck Moore, Oklahoma, with winds exceeding 340 km/h.",
+        "source": "NWS"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-97.55, 35.30], [-97.45, 35.33], [-97.35, 35.35], [-97.25, 35.37]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "to_1989_bangladesh",
+        "name": "1989 Daulatpur–Saturia Tornado",
+        "type": "tornado",
+        "year": 1989,
+        "country": "Bangladesh",
+        "region": "Manikganj District",
+        "severity": "F3+",
+        "deaths": 1300,
+        "description": "The deadliest tornado in world history struck the Daulatpur and Saturia areas of Bangladesh.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [89.85, 23.80], [89.90, 23.85], [89.95, 23.90], [90.00, 23.92]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ts_2011_japan",
+        "name": "2011 Tohoku Tsunami",
+        "type": "tsunami",
+        "year": 2011,
+        "country": "Japan",
+        "region": "Pacific Coast of Tohoku",
+        "severity": "Waves up to 40 meters",
+        "deaths": 15899,
+        "description": "Triggered by the 9.1 magnitude Tohoku earthquake, this tsunami devastated Japan's northeastern coast.",
+        "source": "Japan Meteorological Agency"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [142.373, 38.322], [142.0, 38.5], [141.5, 38.8], [141.0, 39.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ts_1960_chile",
+        "name": "1960 Chilean Tsunami",
+        "type": "tsunami",
+        "year": 1960,
+        "country": "Chile / Pacific",
+        "region": "Pacific Ocean",
+        "severity": "Waves up to 25 meters",
+        "deaths": 1000,
+        "description": "Triggered by the 9.5 magnitude Great Chilean Earthquake, this tsunami traveled across the Pacific Ocean affecting Hawaii, Japan, and the Philippines.",
+        "source": "NOAA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.407, -38.143], [-90.0, -20.0], [-130.0, -5.0], [-155.5, 19.5], [-170.0, 25.0], [140.0, 35.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bl_1888_us",
+        "name": "Great Blizzard of 1888",
+        "type": "blizzard",
+        "year": 1888,
+        "country": "United States",
+        "region": "Northeastern US",
+        "severity": "Snow drifts up to 15 meters",
+        "deaths": 400,
+        "description": "One of the most severe blizzards in US history paralyzed the East Coast with 127 cm of snow and hurricane-force winds.",
+        "source": "NOAA / Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.0, 39.0], [-71.0, 39.0], [-71.0, 43.0], [-76.0, 43.0], [-76.0, 39.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bl_1972_iran",
+        "name": "1972 Iran Blizzard",
+        "type": "blizzard",
+        "year": 1972,
+        "country": "Iran",
+        "region": "Northwestern Iran",
+        "severity": "8 meters of snow in some areas",
+        "deaths": 4000,
+        "description": "The deadliest blizzard in recorded history dropped up to 8 meters of snow over a week, burying entire villages.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [48.0, 31.0], [54.0, 31.0], [54.0, 38.0], [48.0, 38.0], [48.0, 31.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bl_2021_texas",
+        "name": "2021 Texas Winter Storm (Uri)",
+        "type": "blizzard",
+        "year": 2021,
+        "country": "United States",
+        "region": "Texas / Southern US",
+        "severity": "Historic cold snap, power grid failure",
+        "deaths": 246,
+        "description": "Winter Storm Uri brought unprecedented cold to Texas, collapsing the power grid and leaving millions without electricity and water for days.",
+        "source": "NWS / Texas DSHS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-106.5, 26.0], [-93.5, 26.0], [-93.5, 36.5], [-106.5, 36.5], [-106.5, 26.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "is_1998_us_canada",
+        "name": "1998 North American Ice Storm",
+        "type": "ice_storm",
+        "year": 1998,
+        "country": "Canada / United States",
+        "region": "Quebec / Ontario / New England",
+        "severity": "80mm of freezing rain",
+        "deaths": 35,
+        "description": "A devastating ice storm coated eastern Canada and the northeastern US in thick ice, toppling power lines and leaving millions without power for weeks.",
+        "source": "Environment Canada / NOAA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.0, 43.0], [-70.0, 43.0], [-70.0, 47.0], [-76.0, 47.0], [-76.0, 43.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "is_2009_us",
+        "name": "2009 North American Ice Storm",
+        "type": "ice_storm",
+        "year": 2009,
+        "country": "United States",
+        "region": "Kentucky / Arkansas",
+        "severity": "50mm+ ice accumulation",
+        "deaths": 55,
+        "description": "One of the costliest ice storms in US history knocked out power to 2 million customers across the central US.",
+        "source": "NWS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-95.0, 34.0], [-83.0, 34.0], [-83.0, 39.0], [-95.0, 39.0], [-95.0, 34.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cw_1709_europe",
+        "name": "Great Frost of 1709",
+        "type": "cold_wave",
+        "year": 1709,
+        "country": "France / Europe",
+        "region": "Europe",
+        "severity": "Coldest European winter in 500 years",
+        "deaths": 600000,
+        "description": "The most severe winter in European history froze rivers, killed crops, and caused widespread famine across the continent.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-10.0, 40.0], [25.0, 40.0], [25.0, 60.0], [-10.0, 60.0], [-10.0, 40.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cw_2018_us",
+        "name": "2018–2019 North American Cold Wave",
+        "type": "cold_wave",
+        "year": 2019,
+        "country": "United States / Canada",
+        "region": "Midwest US / Central Canada",
+        "severity": "-52°C wind chill",
+        "deaths": 22,
+        "description": "A polar vortex event brought dangerously cold temperatures to the Midwest, with wind chills as low as -52°C.",
+        "source": "NWS / Environment Canada"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-97.0, 38.0], [-82.0, 38.0], [-82.0, 50.0], [-97.0, 50.0], [-97.0, 38.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1556_china",
+        "name": "1556 Shaanxi Earthquake",
+        "type": "earthquake",
+        "year": 1556,
+        "country": "China",
+        "region": "Shaanxi Province",
+        "severity": "~8.0 Mw",
+        "deaths": 830000,
+        "description": "The deadliest earthquake in recorded history killed an estimated 830,000 people in China's Shaanxi Province.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.7, 34.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2005_kashmir",
+        "name": "2005 Kashmir Earthquake",
+        "type": "earthquake",
+        "year": 2005,
+        "country": "Pakistan / India",
+        "region": "Kashmir",
+        "severity": "7.6 Mw",
+        "deaths": 86000,
+        "description": "A devastating earthquake struck the Kashmir region, destroying entire villages in the mountainous terrain.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.588, 34.539]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_1992_andrew",
+        "name": "Hurricane Andrew",
+        "type": "hurricane",
+        "year": 1992,
+        "country": "United States",
+        "region": "Florida / Louisiana",
+        "severity": "Category 5",
+        "maxWind": "280 km/h",
+        "deaths": 65,
+        "description": "At the time the costliest hurricane in US history, Andrew devastated southern Florida with extreme winds.",
+        "source": "NHC / NOAA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-59.0, 17.0], [-64.0, 19.0], [-69.0, 22.0], [-75.0, 24.5], [-80.0, 25.5], [-85.0, 26.0], [-89.5, 28.0], [-91.0, 29.5]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_1815_tambora",
+        "name": "Mount Tambora Eruption",
+        "type": "volcanic_eruption",
+        "year": 1815,
+        "country": "Indonesia",
+        "region": "Sumbawa Island",
+        "severity": "VEI 7",
+        "deaths": 71000,
+        "description": "The most powerful volcanic eruption in recorded history caused the 'Year Without a Summer' in 1816, leading to global crop failures.",
+        "source": "Smithsonian GVP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.0, -8.25]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_1887_yellow_river",
+        "name": "1887 Yellow River Flood",
+        "type": "flooding",
+        "year": 1887,
+        "country": "China",
+        "region": "Yellow River / Henan",
+        "severity": "Catastrophic levee breach",
+        "deaths": 900000,
+        "description": "The Yellow River breached its dikes, flooding an estimated 130,000 km² and causing one of the deadliest floods in history.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [112.0, 33.0], [117.0, 33.0], [117.0, 36.0], [112.0, 36.0], [112.0, 33.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_1871_peshtigo",
+        "name": "1871 Peshtigo Fire",
+        "type": "wildfire",
+        "year": 1871,
+        "country": "United States",
+        "region": "Wisconsin",
+        "severity": "4,860 km² burned",
+        "deaths": 1500,
+        "description": "The deadliest wildfire in American history occurred on the same night as the Great Chicago Fire, destroying the town of Peshtigo.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.749, 45.054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1755_lisbon",
+        "name": "1755 Lisbon Earthquake",
+        "type": "earthquake",
+        "year": 1755,
+        "country": "Portugal",
+        "region": "Lisbon",
+        "severity": "~8.5 Mw",
+        "deaths": 60000,
+        "description": "A catastrophic earthquake, tsunami, and fires destroyed the city of Lisbon on All Saints' Day. It profoundly influenced European philosophy.",
+        "source": "Historical records"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.139, 38.722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dr_2020_sahel",
+        "name": "Sahel Drought Crisis",
+        "type": "drought",
+        "year": 2020,
+        "country": "Niger / Mali / Burkina Faso",
+        "region": "Sahel Region, West Africa",
+        "severity": "Severe — millions food insecure",
+        "deaths": 500,
+        "description": "Prolonged drought in the Sahel region combined with conflict left over 10 million people facing food insecurity.",
+        "source": "UN OCHA / FAO"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-5.0, 10.0], [15.0, 10.0], [15.0, 18.0], [-5.0, 18.0], [-5.0, 10.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2017_harvey",
+        "name": "Hurricane Harvey",
+        "type": "hurricane",
+        "year": 2017,
+        "country": "United States",
+        "region": "Texas Gulf Coast",
+        "severity": "Category 4",
+        "maxWind": "215 km/h",
+        "deaths": 107,
+        "description": "Harvey stalled over Houston for days, dropping over 1.5 meters of rain and causing catastrophic flooding in the US's fourth-largest city.",
+        "source": "NHC / NOAA"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.0, 18.0], [-88.0, 20.0], [-93.0, 23.0], [-96.0, 26.0], [-97.0, 28.0], [-96.5, 29.5], [-95.5, 30.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_2022_tonga",
+        "name": "2022 Hunga Tonga Eruption",
+        "type": "volcanic_eruption",
+        "year": 2022,
+        "country": "Tonga",
+        "region": "South Pacific",
+        "severity": "VEI 5–6",
+        "deaths": 6,
+        "description": "A massive submarine eruption generated atmospheric shockwaves circling the globe and caused tsunami waves across the Pacific.",
+        "source": "Smithsonian GVP / NOAA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-175.382, -20.546]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_2011_thailand",
+        "name": "2011 Thailand Floods",
+        "type": "flooding",
+        "year": 2011,
+        "country": "Thailand",
+        "region": "Chao Phraya River Basin",
+        "severity": "Worst flooding in 50 years",
+        "deaths": 815,
+        "description": "Severe monsoonal flooding inundated much of Thailand including parts of Bangkok, disrupting global hard drive production.",
+        "source": "Thai Meteorological Department"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [99.5, 13.5], [101.5, 13.5], [101.5, 16.5], [99.5, 16.5], [99.5, 13.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1985_mexico",
+        "name": "1985 Mexico City Earthquake",
+        "type": "earthquake",
+        "year": 1985,
+        "country": "Mexico",
+        "region": "Mexico City",
+        "severity": "8.0 Mw",
+        "deaths": 10000,
+        "description": "A powerful earthquake caused severe damage to Mexico City, collapsing hundreds of buildings and leading to major changes in building codes.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.533, 18.190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hw_2021_pnw",
+        "name": "2021 Pacific Northwest Heat Dome",
+        "type": "heatwave",
+        "year": 2021,
+        "country": "Canada / United States",
+        "region": "British Columbia / Pacific Northwest",
+        "severity": "49.6°C record in Lytton, BC",
+        "deaths": 1400,
+        "description": "An unprecedented heat dome event shattered temperature records across the Pacific Northwest. Lytton, BC recorded 49.6°C before being destroyed by wildfire.",
+        "source": "Environment Canada / NWS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-126.0, 44.0], [-119.0, 44.0], [-119.0, 52.0], [-126.0, 52.0], [-126.0, 44.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vo_1902_pelee",
+        "name": "Mount Pelée Eruption",
+        "type": "volcanic_eruption",
+        "year": 1902,
+        "country": "Martinique (France)",
+        "region": "Caribbean",
+        "severity": "VEI 4",
+        "deaths": 29000,
+        "description": "A pyroclastic flow destroyed the city of Saint-Pierre in minutes, killing nearly all inhabitants in one of the deadliest volcanic disasters.",
+        "source": "Smithsonian GVP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-61.166, 14.809]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dr_1983_ethiopia",
+        "name": "1983–1985 Ethiopian Famine/Drought",
+        "type": "drought",
+        "year": 1983,
+        "country": "Ethiopia",
+        "region": "Tigray / Wollo",
+        "severity": "Severe multi-year drought",
+        "deaths": 400000,
+        "description": "A devastating drought caused widespread famine in Ethiopia, leading to massive international relief efforts.",
+        "source": "UN / Historical records"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.0, 6.0], [45.0, 6.0], [45.0, 15.0], [35.0, 15.0], [35.0, 6.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_2004_sumatra",
+        "name": "2004 Sumatra Earthquake",
+        "type": "earthquake",
+        "year": 2004,
+        "country": "Indonesia",
+        "region": "Off west coast of Sumatra",
+        "severity": "9.1 Mw",
+        "deaths": 227898,
+        "description": "The third-largest earthquake ever recorded triggered the devastating 2004 Indian Ocean tsunami.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.854, 3.316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "to_2011_superoutbreak",
+        "name": "2011 Super Outbreak",
+        "type": "tornado",
+        "year": 2011,
+        "country": "United States",
+        "region": "Southeastern US",
+        "severity": "362 tornadoes, 4 EF5",
+        "deaths": 324,
+        "description": "The largest tornado outbreak ever recorded produced 362 tornadoes across the southeastern United States in just three days.",
+        "source": "NWS / SPC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-88.5, 33.0], [-87.5, 33.5], [-86.5, 34.0], [-85.5, 34.5], [-84.5, 35.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fl_2005_mumbai",
+        "name": "2005 Mumbai Floods",
+        "type": "flooding",
+        "year": 2005,
+        "country": "India",
+        "region": "Mumbai, Maharashtra",
+        "severity": "944mm rainfall in 24 hours",
+        "deaths": 1094,
+        "description": "Mumbai received a record 944mm of rain in a single day, bringing the city to a standstill and causing widespread destruction.",
+        "source": "India Meteorological Department"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.7, 18.8], [73.1, 18.8], [73.1, 19.3], [72.7, 19.3], [72.7, 18.8]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wf_2010_russia",
+        "name": "2010 Russian Wildfires",
+        "type": "wildfire",
+        "year": 2010,
+        "country": "Russia",
+        "region": "Western Russia",
+        "severity": "Hundreds of fires, severe smog",
+        "deaths": 62,
+        "description": "Extreme heat sparked widespread wildfires across western Russia, blanketing Moscow in toxic smog.",
+        "source": "Russian Emergency Ministry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.0, 54.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cw_1985_us",
+        "name": "1985 United States Cold Wave",
+        "type": "cold_wave",
+        "year": 1985,
+        "country": "United States",
+        "region": "Eastern United States",
+        "severity": "-40°C in some areas",
+        "deaths": 126,
+        "description": "An Arctic cold wave brought dangerously low temperatures across the eastern US, causing widespread crop damage and dozens of deaths.",
+        "source": "NWS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-92.0, 30.0], [-75.0, 30.0], [-75.0, 45.0], [-92.0, 45.0], [-92.0, 30.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "is_2013_us",
+        "name": "2013 US Ice Storm",
+        "type": "ice_storm",
+        "year": 2013,
+        "country": "United States",
+        "region": "Texas / Midwest",
+        "severity": "25mm+ ice, widespread power outages",
+        "deaths": 17,
+        "description": "A major ice storm paralyzed parts of Texas and the Midwest, coating everything in thick ice and causing widespread damage.",
+        "source": "NWS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-100.0, 30.0], [-90.0, 30.0], [-90.0, 38.0], [-100.0, 38.0], [-100.0, 30.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eq_1999_turkey",
+        "name": "1999 İzmit Earthquake",
+        "type": "earthquake",
+        "year": 1999,
+        "country": "Turkey",
+        "region": "İzmit / Kocaeli",
+        "severity": "7.6 Mw",
+        "deaths": 17127,
+        "description": "A devastating earthquake struck northwestern Turkey near İzmit, causing massive destruction in the densely populated industrial region.",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.864, 40.748]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hu_2020_amphan",
+        "name": "Cyclone Amphan",
+        "type": "hurricane",
+        "year": 2020,
+        "country": "India / Bangladesh",
+        "region": "Bay of Bengal",
+        "severity": "Category 5 equivalent",
+        "maxWind": "260 km/h",
+        "deaths": 128,
+        "description": "The strongest cyclone to form in the Bay of Bengal since 1999, causing extensive damage in West Bengal and Bangladesh.",
+        "source": "IMD / JTWC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [86.0, 11.0], [86.5, 13.0], [87.0, 16.0], [87.5, 18.0], [88.0, 20.0], [88.5, 22.0]
+        ]
+      }
+    }
+  ]
+}
