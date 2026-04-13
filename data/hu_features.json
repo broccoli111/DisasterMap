@@ -1,0 +1,1614 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2024_helene",
+      "name": "Hurricane Helene",
+      "type": "hurricane",
+      "year": 2024,
+      "country": "United States",
+      "region": "Southeast USA / Appalachia",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "225 km/h",
+      "deaths": 232,
+      "description": "Helene made landfall in Florida's Big Bend region before tracking inland and causing catastrophic flooding across the southern Appalachians, devastating western North Carolina.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-84.5, 19.8],
+        [-85.2, 21.5],
+        [-86.0, 24.0],
+        [-85.5, 26.5],
+        [-84.3, 29.0],
+        [-83.8, 30.5],
+        [-83.2, 32.5],
+        [-82.5, 35.0],
+        [-82.0, 36.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2024_milton",
+      "name": "Hurricane Milton",
+      "type": "hurricane",
+      "year": 2024,
+      "country": "United States",
+      "region": "Florida",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "285 km/h",
+      "deaths": 36,
+      "description": "Milton rapidly intensified in the Gulf of Mexico to Category 5 strength before making landfall near Siesta Key, Florida as a Category 3, causing significant storm surge and tornado outbreaks.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-94.0, 21.0],
+        [-92.0, 21.5],
+        [-90.0, 22.0],
+        [-88.0, 23.0],
+        [-86.5, 24.5],
+        [-84.5, 26.0],
+        [-82.7, 27.3],
+        [-80.5, 27.8],
+        [-78.0, 28.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2024_yagi",
+      "name": "Typhoon Yagi",
+      "type": "hurricane",
+      "year": 2024,
+      "country": "Vietnam / Philippines / China",
+      "region": "Western Pacific / South China Sea",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 828,
+      "description": "Yagi was the strongest typhoon to hit Vietnam in 30 years, causing massive flooding and landslides across northern Vietnam, Laos, and Myanmar.",
+      "source": "JTWC / PAGASA"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [133.0, 14.5],
+        [129.0, 15.0],
+        [125.0, 16.0],
+        [120.5, 17.5],
+        [117.0, 18.5],
+        [113.5, 19.0],
+        [110.0, 19.8],
+        [107.5, 20.5],
+        [106.0, 21.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2023_freddy",
+      "name": "Cyclone Freddy",
+      "type": "hurricane",
+      "year": 2023,
+      "country": "Mozambique / Malawi / Madagascar",
+      "region": "Southeast Africa / Indian Ocean",
+      "severity": "Category 4 equivalent",
+      "category": 4,
+      "maxWind": "250 km/h",
+      "deaths": 1434,
+      "description": "Freddy became the longest-lasting tropical cyclone on record at 36 days, crossing the Indian Ocean twice and making multiple landfalls in southeastern Africa.",
+      "source": "JTWC / Météo-France"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [95.0, -14.0],
+        [85.0, -15.5],
+        [75.0, -17.0],
+        [65.0, -18.0],
+        [55.0, -18.5],
+        [48.0, -18.0],
+        [42.0, -17.5],
+        [37.5, -18.0],
+        [35.5, -19.0],
+        [35.0, -16.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2023_otis",
+      "name": "Hurricane Otis",
+      "type": "hurricane",
+      "year": 2023,
+      "country": "Mexico",
+      "region": "Acapulco / Guerrero",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "270 km/h",
+      "deaths": 52,
+      "description": "Otis underwent unprecedented rapid intensification from a tropical storm to Category 5 in just 12 hours before making a direct hit on Acapulco, causing catastrophic damage.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-97.5, 11.5],
+        [-98.0, 12.5],
+        [-98.5, 13.5],
+        [-99.0, 14.5],
+        [-99.3, 15.5],
+        [-99.5, 16.2],
+        [-99.8, 16.9],
+        [-99.9, 17.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2022_ian",
+      "name": "Hurricane Ian",
+      "type": "hurricane",
+      "year": 2022,
+      "country": "United States / Cuba",
+      "region": "Florida / Cuba",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "250 km/h",
+      "deaths": 161,
+      "description": "Ian made landfall near Cayo Costa, Florida as a powerful Category 4 hurricane, causing catastrophic storm surge in Fort Myers and widespread devastation across central Florida.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-79.0, 14.5],
+        [-80.0, 16.0],
+        [-81.0, 18.0],
+        [-82.5, 20.5],
+        [-83.0, 22.0],
+        [-82.8, 24.0],
+        [-82.2, 26.0],
+        [-81.5, 27.5],
+        [-80.0, 30.0],
+        [-78.0, 33.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2022_noru",
+      "name": "Typhoon Noru",
+      "type": "hurricane",
+      "year": 2022,
+      "country": "Philippines / Vietnam",
+      "region": "Western Pacific / Southeast Asia",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "250 km/h",
+      "deaths": 42,
+      "description": "Noru rapidly intensified before striking Luzon in the Philippines, then re-emerged into the South China Sea and made a second landfall in central Vietnam.",
+      "source": "JTWC / PAGASA"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [134.0, 13.0],
+        [130.0, 14.0],
+        [126.0, 15.0],
+        [122.5, 15.5],
+        [120.0, 15.5],
+        [117.0, 16.0],
+        [113.0, 16.0],
+        [109.0, 16.5],
+        [107.0, 17.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2021_ida",
+      "name": "Hurricane Ida",
+      "type": "hurricane",
+      "year": 2021,
+      "country": "United States",
+      "region": "Louisiana / Northeast USA",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "240 km/h",
+      "deaths": 107,
+      "description": "Ida made landfall in Louisiana on the 16th anniversary of Hurricane Katrina, devastating the region before its remnants caused historic flooding in the northeastern United States.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-80.5, 17.0],
+        [-82.0, 19.0],
+        [-84.0, 21.5],
+        [-86.5, 24.0],
+        [-88.5, 26.5],
+        [-89.6, 28.5],
+        [-90.1, 29.5],
+        [-89.0, 32.0],
+        [-84.0, 36.0],
+        [-75.0, 40.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2020_amphan",
+      "name": "Cyclone Amphan",
+      "type": "hurricane",
+      "year": 2020,
+      "country": "India / Bangladesh",
+      "region": "Bay of Bengal / West Bengal",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 128,
+      "description": "Amphan was the strongest cyclone to form in the Bay of Bengal since 1999, causing massive destruction in West Bengal and Bangladesh with record storm surge.",
+      "source": "IMD / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [87.0, 10.0],
+        [86.5, 12.0],
+        [86.0, 14.0],
+        [86.5, 16.0],
+        [87.0, 18.0],
+        [87.5, 19.5],
+        [88.0, 21.0],
+        [88.5, 22.5],
+        [89.0, 24.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2020_eta",
+      "name": "Hurricane Eta",
+      "type": "hurricane",
+      "year": 2020,
+      "country": "Nicaragua / Honduras / Guatemala",
+      "region": "Central America",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "240 km/h",
+      "deaths": 274,
+      "description": "Eta devastated Central America with extreme rainfall and catastrophic flooding, particularly in Honduras and Guatemala, before later impacting Cuba and Florida.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-76.5, 13.0],
+        [-78.0, 13.5],
+        [-80.0, 14.0],
+        [-82.0, 14.0],
+        [-83.5, 14.5],
+        [-84.0, 15.5],
+        [-84.5, 17.0],
+        [-85.0, 19.0],
+        [-83.0, 22.0],
+        [-81.0, 25.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2020_iota",
+      "name": "Hurricane Iota",
+      "type": "hurricane",
+      "year": 2020,
+      "country": "Nicaragua / Colombia",
+      "region": "Central America / Caribbean",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 61,
+      "description": "Iota struck nearly the same area of Nicaragua as Hurricane Eta just two weeks prior, becoming the strongest hurricane of the 2020 season and the latest Category 5 on record in the Atlantic.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-72.0, 12.5],
+        [-74.5, 13.0],
+        [-77.0, 13.0],
+        [-79.5, 13.0],
+        [-81.5, 13.5],
+        [-83.0, 14.0],
+        [-83.8, 14.5],
+        [-84.5, 15.5],
+        [-85.0, 16.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2019_dorian",
+      "name": "Hurricane Dorian",
+      "type": "hurricane",
+      "year": 2019,
+      "country": "Bahamas / United States",
+      "region": "Abaco Islands / Grand Bahama",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "295 km/h",
+      "deaths": 84,
+      "description": "Dorian devastated the Abaco Islands and Grand Bahama, stalling for over 24 hours and producing catastrophic storm surge. It was the strongest hurricane on record to strike the Bahamas.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-57.0, 14.0],
+        [-60.0, 15.5],
+        [-64.0, 17.0],
+        [-68.0, 19.0],
+        [-73.0, 22.0],
+        [-76.0, 24.5],
+        [-77.5, 26.5],
+        [-78.0, 28.0],
+        [-77.5, 31.0],
+        [-74.0, 35.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2019_idai",
+      "name": "Cyclone Idai",
+      "type": "hurricane",
+      "year": 2019,
+      "country": "Mozambique / Zimbabwe / Malawi",
+      "region": "Southeast Africa",
+      "severity": "Category 3 equivalent",
+      "category": 3,
+      "maxWind": "195 km/h",
+      "deaths": 1593,
+      "description": "Idai was one of the deadliest cyclones in the Southern Hemisphere, causing catastrophic flooding in Mozambique, Zimbabwe, and Malawi. Beira, Mozambique was nearly destroyed.",
+      "source": "JTWC / Météo-France"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [42.0, -15.0],
+        [40.5, -16.0],
+        [39.0, -17.5],
+        [37.5, -18.5],
+        [36.0, -19.0],
+        [35.5, -19.5],
+        [35.0, -19.8],
+        [34.8, -19.8]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2018_mangkhut",
+      "name": "Typhoon Mangkhut",
+      "type": "hurricane",
+      "year": 2018,
+      "country": "Philippines / China / Hong Kong",
+      "region": "Western Pacific / South China Sea",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "285 km/h",
+      "deaths": 134,
+      "description": "Mangkhut was the strongest typhoon of 2018, striking northern Luzon before barreling into Hong Kong and southern China, causing widespread landslides and flooding.",
+      "source": "JTWC / PAGASA"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [155.0, 11.0],
+        [148.0, 12.5],
+        [140.0, 14.0],
+        [133.0, 15.5],
+        [127.0, 16.5],
+        [122.0, 17.0],
+        [118.0, 18.5],
+        [115.0, 20.0],
+        [113.0, 21.5],
+        [111.0, 22.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2018_michael",
+      "name": "Hurricane Michael",
+      "type": "hurricane",
+      "year": 2018,
+      "country": "United States",
+      "region": "Florida Panhandle",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 74,
+      "description": "Michael made landfall near Mexico Beach, Florida as a Category 5 hurricane, the first to strike the US at that intensity since Andrew in 1992. It caused catastrophic damage to the Florida Panhandle.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-86.0, 18.0],
+        [-86.0, 20.0],
+        [-86.5, 22.0],
+        [-86.5, 24.0],
+        [-86.0, 26.0],
+        [-85.5, 28.0],
+        [-85.3, 30.0],
+        [-84.5, 32.5],
+        [-82.0, 35.5],
+        [-78.0, 38.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2018_florence",
+      "name": "Hurricane Florence",
+      "type": "hurricane",
+      "year": 2018,
+      "country": "United States",
+      "region": "Carolinas",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "220 km/h",
+      "deaths": 54,
+      "description": "Florence stalled near the Carolina coast, dumping record-breaking rainfall that caused catastrophic inland flooding across North and South Carolina.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-48.0, 18.0],
+        [-54.0, 21.0],
+        [-60.0, 24.0],
+        [-65.0, 27.0],
+        [-70.0, 30.0],
+        [-74.0, 32.5],
+        [-76.5, 33.5],
+        [-77.5, 34.0],
+        [-78.5, 34.0],
+        [-80.0, 34.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2017_harvey",
+      "name": "Hurricane Harvey",
+      "type": "hurricane",
+      "year": 2017,
+      "country": "United States",
+      "region": "Texas / Houston",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "215 km/h",
+      "deaths": 107,
+      "description": "Harvey stalled over southeast Texas for days, producing unprecedented rainfall totals exceeding 1.5 meters and catastrophic flooding in the Houston metropolitan area.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-74.0, 13.0],
+        [-79.0, 14.5],
+        [-84.0, 16.0],
+        [-89.0, 19.0],
+        [-93.0, 22.0],
+        [-95.5, 25.5],
+        [-96.5, 27.5],
+        [-96.0, 28.5],
+        [-95.5, 29.5],
+        [-94.0, 30.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2017_irma",
+      "name": "Hurricane Irma",
+      "type": "hurricane",
+      "year": 2017,
+      "country": "Caribbean / United States",
+      "region": "Leeward Islands / Florida",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "285 km/h",
+      "deaths": 134,
+      "description": "Irma maintained Category 5 intensity for 60 consecutive hours, the longest on record in the Atlantic. It devastated Barbuda, St. Martin, and the Virgin Islands before striking Florida.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-34.0, 14.0],
+        [-42.0, 15.5],
+        [-50.0, 16.5],
+        [-56.0, 17.0],
+        [-61.5, 17.5],
+        [-66.0, 18.5],
+        [-72.0, 20.0],
+        [-78.0, 22.0],
+        [-80.5, 24.5],
+        [-81.5, 26.0],
+        [-82.0, 28.5],
+        [-83.5, 31.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2017_maria",
+      "name": "Hurricane Maria",
+      "type": "hurricane",
+      "year": 2017,
+      "country": "Puerto Rico / Dominica",
+      "region": "Caribbean / Puerto Rico",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "280 km/h",
+      "deaths": 2975,
+      "description": "Maria devastated Dominica and Puerto Rico, causing the worst natural disaster on record for both islands. Puerto Rico's power grid was completely destroyed, leaving the island without electricity for months.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-52.0, 12.5],
+        [-56.0, 13.5],
+        [-59.0, 14.5],
+        [-61.5, 15.5],
+        [-64.0, 17.0],
+        [-66.0, 18.0],
+        [-67.5, 19.0],
+        [-69.0, 20.5],
+        [-71.0, 23.0],
+        [-72.5, 26.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2016_matthew",
+      "name": "Hurricane Matthew",
+      "type": "hurricane",
+      "year": 2016,
+      "country": "Haiti / United States",
+      "region": "Caribbean / US East Coast",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "270 km/h",
+      "deaths": 603,
+      "description": "Matthew was a catastrophic Category 5 hurricane that devastated southwestern Haiti, killing over 500 people, before tracking along the US East Coast causing significant flooding.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-60.0, 12.0],
+        [-65.0, 13.0],
+        [-70.0, 13.5],
+        [-73.0, 14.5],
+        [-74.5, 17.0],
+        [-74.0, 19.5],
+        [-76.0, 22.0],
+        [-78.0, 25.0],
+        [-79.5, 28.0],
+        [-78.5, 31.0],
+        [-76.0, 34.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2015_pam",
+      "name": "Cyclone Pam",
+      "type": "hurricane",
+      "year": 2015,
+      "country": "Vanuatu",
+      "region": "South Pacific",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "250 km/h",
+      "deaths": 16,
+      "description": "Pam was one of the most intense tropical cyclones in South Pacific history, causing widespread devastation across Vanuatu, destroying 90% of structures on some islands.",
+      "source": "JTWC / FMS"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [170.0, -8.0],
+        [169.5, -10.0],
+        [169.0, -12.5],
+        [168.5, -14.5],
+        [168.0, -16.5],
+        [168.2, -18.0],
+        [168.5, -20.0],
+        [169.0, -22.5],
+        [170.0, -25.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2015_patricia",
+      "name": "Hurricane Patricia",
+      "type": "hurricane",
+      "year": 2015,
+      "country": "Mexico",
+      "region": "Jalisco / Pacific Coast",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "345 km/h",
+      "deaths": 13,
+      "description": "Patricia became the strongest hurricane ever recorded in the Western Hemisphere with sustained winds of 345 km/h, making landfall in a sparsely populated area of Jalisco, Mexico.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-100.0, 12.0],
+        [-101.0, 13.0],
+        [-102.5, 14.5],
+        [-103.5, 16.0],
+        [-104.5, 17.5],
+        [-105.0, 19.0],
+        [-104.5, 20.5],
+        [-103.0, 22.0],
+        [-101.0, 23.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2013_haiyan",
+      "name": "Typhoon Haiyan",
+      "type": "hurricane",
+      "year": 2013,
+      "country": "Philippines",
+      "region": "Visayas / Tacloban",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "315 km/h",
+      "deaths": 6300,
+      "description": "Haiyan (local name Yolanda) was one of the strongest tropical cyclones ever recorded, devastating the Visayas region with catastrophic storm surge that obliterated Tacloban City.",
+      "source": "JTWC / PAGASA"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [155.0, 7.0],
+        [148.0, 7.5],
+        [140.0, 8.5],
+        [133.0, 9.5],
+        [128.0, 10.5],
+        [125.0, 11.0],
+        [121.0, 11.5],
+        [117.0, 13.0],
+        [113.0, 15.0],
+        [109.0, 17.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2012_sandy",
+      "name": "Hurricane Sandy",
+      "type": "hurricane",
+      "year": 2012,
+      "country": "United States / Caribbean",
+      "region": "US East Coast / New Jersey / New York",
+      "severity": "Category 3",
+      "category": 3,
+      "maxWind": "185 km/h",
+      "deaths": 233,
+      "description": "Sandy merged with an extratropical system to become a superstorm with an enormous wind field, causing devastating storm surge flooding in New York City and the New Jersey coast.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-77.0, 14.0],
+        [-77.5, 17.0],
+        [-76.5, 19.5],
+        [-76.0, 22.0],
+        [-76.5, 25.0],
+        [-75.0, 28.0],
+        [-73.5, 31.0],
+        [-72.5, 34.0],
+        [-73.0, 37.0],
+        [-74.0, 39.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2011_joplin",
+      "name": "Cyclone Yasi",
+      "type": "hurricane",
+      "year": 2011,
+      "country": "Australia",
+      "region": "Queensland / Coral Sea",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "285 km/h",
+      "deaths": 1,
+      "description": "Yasi was the most powerful cyclone to hit Queensland since 1918, making landfall near Mission Beach with destructive winds and storm surge, though mass evacuations kept casualties low.",
+      "source": "BOM / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [163.0, -12.0],
+        [160.0, -13.5],
+        [157.0, -15.0],
+        [154.0, -16.0],
+        [151.0, -17.0],
+        [148.5, -17.8],
+        [147.0, -18.5],
+        [145.5, -19.5],
+        [143.0, -21.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2008_nargis",
+      "name": "Cyclone Nargis",
+      "type": "hurricane",
+      "year": 2008,
+      "country": "Myanmar",
+      "region": "Irrawaddy Delta / Bay of Bengal",
+      "severity": "Category 4 equivalent",
+      "category": 4,
+      "maxWind": "215 km/h",
+      "deaths": 138366,
+      "description": "Nargis was the deadliest natural disaster in Myanmar's history, causing catastrophic storm surge flooding in the densely populated Irrawaddy Delta region.",
+      "source": "IMD / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [87.0, 10.0],
+        [87.5, 11.5],
+        [88.5, 13.0],
+        [89.5, 14.5],
+        [91.0, 15.5],
+        [93.0, 16.0],
+        [95.0, 16.5],
+        [96.5, 17.0],
+        [97.0, 17.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2005_katrina",
+      "name": "Hurricane Katrina",
+      "type": "hurricane",
+      "year": 2005,
+      "country": "United States",
+      "region": "Gulf Coast / New Orleans / Mississippi",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "280 km/h",
+      "deaths": 1836,
+      "description": "Katrina caused catastrophic levee failures in New Orleans and total destruction along the Mississippi coast, becoming the costliest natural disaster in US history at the time.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-75.5, 23.0],
+        [-76.5, 23.5],
+        [-79.5, 24.5],
+        [-81.0, 25.5],
+        [-83.5, 25.0],
+        [-86.0, 25.5],
+        [-88.0, 26.5],
+        [-89.0, 28.0],
+        [-89.5, 29.5],
+        [-89.0, 32.0],
+        [-87.0, 35.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2005_rita",
+      "name": "Hurricane Rita",
+      "type": "hurricane",
+      "year": 2005,
+      "country": "United States",
+      "region": "Texas / Louisiana border",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "280 km/h",
+      "deaths": 120,
+      "description": "Rita became the fourth-most intense Atlantic hurricane ever recorded before making landfall near the Texas-Louisiana border, causing significant storm surge and refinery damage.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-63.0, 19.0],
+        [-68.0, 21.0],
+        [-73.0, 22.5],
+        [-78.0, 23.5],
+        [-82.0, 24.0],
+        [-85.5, 24.5],
+        [-88.5, 25.5],
+        [-91.0, 27.0],
+        [-93.5, 29.5],
+        [-94.5, 31.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2005_wilma",
+      "name": "Hurricane Wilma",
+      "type": "hurricane",
+      "year": 2005,
+      "country": "Mexico / United States",
+      "region": "Yucatan / Florida",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "295 km/h",
+      "deaths": 87,
+      "description": "Wilma was the most intense Atlantic hurricane on record with a pressure of 882 hPa, devastating Cancún before crossing Florida.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-80.0, 15.0],
+        [-82.0, 16.0],
+        [-84.5, 17.0],
+        [-86.5, 18.0],
+        [-87.5, 19.5],
+        [-87.0, 21.0],
+        [-86.0, 22.5],
+        [-83.5, 24.5],
+        [-81.0, 26.0],
+        [-78.0, 27.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2004_ivan",
+      "name": "Hurricane Ivan",
+      "type": "hurricane",
+      "year": 2004,
+      "country": "Caribbean / United States",
+      "region": "Grenada / Alabama / Gulf Coast",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "270 km/h",
+      "deaths": 124,
+      "description": "Ivan was a long-lived and powerful Cape Verde hurricane that devastated Grenada before making landfall in Alabama. Its remnants later looped back into the Gulf of Mexico.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-42.0, 9.5],
+        [-52.0, 10.5],
+        [-60.0, 11.5],
+        [-65.0, 12.5],
+        [-70.0, 14.0],
+        [-76.0, 17.0],
+        [-82.0, 20.0],
+        [-85.0, 23.0],
+        [-87.0, 27.0],
+        [-87.5, 30.5],
+        [-86.0, 34.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2004_jeanne",
+      "name": "Hurricane Jeanne",
+      "type": "hurricane",
+      "year": 2004,
+      "country": "Haiti / United States",
+      "region": "Haiti / Florida",
+      "severity": "Category 3",
+      "category": 3,
+      "maxWind": "195 km/h",
+      "deaths": 3037,
+      "description": "Jeanne caused catastrophic flooding in Haiti, particularly around Gonaïves where mudslides killed thousands, before later striking Florida as a Category 3 hurricane.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-58.0, 16.0],
+        [-63.0, 17.5],
+        [-67.0, 18.5],
+        [-71.0, 19.0],
+        [-72.5, 19.5],
+        [-72.0, 22.0],
+        [-73.0, 24.5],
+        [-75.5, 26.0],
+        [-78.0, 27.0],
+        [-80.0, 27.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1998_mitch",
+      "name": "Hurricane Mitch",
+      "type": "hurricane",
+      "year": 1998,
+      "country": "Honduras / Nicaragua",
+      "region": "Central America",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "285 km/h",
+      "deaths": 11374,
+      "description": "Mitch was the deadliest Atlantic hurricane since 1780, stalling over Central America and dumping catastrophic rainfall that caused massive floods and mudslides in Honduras and Nicaragua.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-76.0, 13.0],
+        [-78.0, 14.0],
+        [-80.0, 15.5],
+        [-82.5, 16.0],
+        [-83.5, 16.5],
+        [-84.0, 16.0],
+        [-85.0, 16.5],
+        [-86.5, 17.0],
+        [-87.5, 18.5],
+        [-88.0, 21.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1992_andrew",
+      "name": "Hurricane Andrew",
+      "type": "hurricane",
+      "year": 1992,
+      "country": "United States / Bahamas",
+      "region": "South Florida / Louisiana",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "280 km/h",
+      "deaths": 65,
+      "description": "Andrew was a compact but extremely powerful hurricane that devastated Homestead, Florida, leaving 250,000 people homeless and becoming the costliest US natural disaster at the time.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-48.0, 13.0],
+        [-55.0, 16.0],
+        [-60.0, 19.0],
+        [-65.0, 22.0],
+        [-73.0, 24.5],
+        [-77.0, 25.5],
+        [-80.0, 25.5],
+        [-83.0, 25.8],
+        [-87.0, 27.5],
+        [-90.0, 29.5],
+        [-91.5, 30.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1991_bangladesh",
+      "name": "Bangladesh Cyclone (02B)",
+      "type": "hurricane",
+      "year": 1991,
+      "country": "Bangladesh",
+      "region": "Chittagong / Bay of Bengal",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 138866,
+      "description": "The 1991 Bangladesh cyclone produced a 6-meter storm surge that inundated the low-lying coastal areas of Chittagong, killing over 138,000 people in one of history's deadliest tropical cyclones.",
+      "source": "IMD / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [89.0, 8.5],
+        [89.0, 10.0],
+        [89.5, 12.0],
+        [90.0, 14.0],
+        [90.5, 16.0],
+        [91.0, 18.0],
+        [91.5, 20.0],
+        [91.8, 21.5],
+        [92.0, 22.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1989_hugo",
+      "name": "Hurricane Hugo",
+      "type": "hurricane",
+      "year": 1989,
+      "country": "Caribbean / United States",
+      "region": "US Virgin Islands / South Carolina",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 107,
+      "description": "Hugo devastated the US Virgin Islands and struck South Carolina as a Category 4, causing massive destruction in Charleston and becoming the costliest US hurricane at the time.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-40.0, 11.5],
+        [-48.0, 13.0],
+        [-55.0, 14.5],
+        [-60.0, 15.5],
+        [-63.0, 16.5],
+        [-65.0, 17.5],
+        [-67.0, 19.5],
+        [-72.0, 23.0],
+        [-77.0, 28.0],
+        [-79.5, 32.5],
+        [-78.0, 36.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1988_gilbert",
+      "name": "Hurricane Gilbert",
+      "type": "hurricane",
+      "year": 1988,
+      "country": "Jamaica / Mexico",
+      "region": "Caribbean / Yucatan / Gulf of Mexico",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "295 km/h",
+      "deaths": 433,
+      "description": "Gilbert was the most intense Atlantic hurricane ever recorded at the time with a pressure of 888 hPa, devastating Jamaica and the Yucatan Peninsula.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-59.0, 13.5],
+        [-63.0, 14.5],
+        [-67.0, 16.0],
+        [-71.0, 17.5],
+        [-75.0, 18.0],
+        [-79.0, 18.5],
+        [-83.0, 19.5],
+        [-87.0, 20.5],
+        [-90.0, 21.5],
+        [-95.0, 23.5],
+        [-98.0, 25.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1980_allen",
+      "name": "Hurricane Allen",
+      "type": "hurricane",
+      "year": 1980,
+      "country": "Caribbean / Mexico / United States",
+      "region": "Caribbean / Gulf of Mexico / Texas",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "305 km/h",
+      "deaths": 269,
+      "description": "Allen reached Category 5 intensity three separate times and held record maximum sustained winds of 305 km/h for an Atlantic hurricane until surpassed decades later.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-42.0, 11.0],
+        [-50.0, 12.5],
+        [-57.0, 13.5],
+        [-63.0, 14.5],
+        [-69.0, 16.0],
+        [-75.0, 17.5],
+        [-80.0, 18.5],
+        [-85.0, 19.5],
+        [-90.0, 21.5],
+        [-95.0, 24.0],
+        [-97.5, 26.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1979_david",
+      "name": "Hurricane David",
+      "type": "hurricane",
+      "year": 1979,
+      "country": "Dominican Republic / United States",
+      "region": "Caribbean / US East Coast",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "280 km/h",
+      "deaths": 2068,
+      "description": "David was a devastating Category 5 hurricane that struck Dominica and the Dominican Republic before tracking along the US East Coast, causing over 2,000 fatalities.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-46.0, 11.0],
+        [-52.0, 12.5],
+        [-57.0, 14.0],
+        [-61.0, 15.0],
+        [-65.0, 16.5],
+        [-69.0, 18.0],
+        [-73.0, 20.0],
+        [-77.0, 24.0],
+        [-79.5, 28.0],
+        [-78.0, 32.0],
+        [-74.0, 38.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1976_tracy_aftermath",
+      "name": "Typhoon Olga",
+      "type": "hurricane",
+      "year": 1976,
+      "country": "Philippines",
+      "region": "Western Pacific / Luzon",
+      "severity": "Category 3 equivalent",
+      "category": 3,
+      "maxWind": "195 km/h",
+      "deaths": 215,
+      "description": "Typhoon Olga struck the Philippines in 1976, causing significant flooding and destruction across Luzon.",
+      "source": "JTWC / PAGASA"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [140.0, 10.5],
+        [136.0, 12.0],
+        [132.0, 14.0],
+        [128.0, 15.5],
+        [124.0, 16.5],
+        [121.0, 17.5],
+        [118.0, 19.0],
+        [115.0, 21.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2010_tomas",
+      "name": "Hurricane Tomas",
+      "type": "hurricane",
+      "year": 2010,
+      "country": "Haiti / Saint Lucia",
+      "region": "Caribbean / Windward Islands",
+      "severity": "Category 2",
+      "category": 2,
+      "maxWind": "165 km/h",
+      "deaths": 71,
+      "description": "Tomas caused deadly flooding and mudslides in earthquake-ravaged Haiti and damaged Saint Lucia and Saint Vincent.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-57.0, 11.0],
+        [-59.5, 12.0],
+        [-61.0, 13.5],
+        [-62.0, 14.5],
+        [-63.0, 15.0],
+        [-65.0, 15.5],
+        [-68.0, 17.0],
+        [-72.0, 18.5],
+        [-73.5, 20.0],
+        [-74.0, 23.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2014_odile",
+      "name": "Hurricane Odile",
+      "type": "hurricane",
+      "year": 2014,
+      "country": "Mexico",
+      "region": "Baja California Sur",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "220 km/h",
+      "deaths": 15,
+      "description": "Odile was the strongest hurricane to make landfall on the Baja California Peninsula in recorded history, devastating Cabo San Lucas.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-104.0, 12.5],
+        [-105.0, 14.0],
+        [-106.5, 16.0],
+        [-107.5, 18.0],
+        [-109.0, 20.0],
+        [-109.5, 22.5],
+        [-110.0, 24.0],
+        [-111.5, 26.0],
+        [-113.0, 28.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1999_orissa",
+      "name": "Odisha Super Cyclone",
+      "type": "hurricane",
+      "year": 1999,
+      "country": "India",
+      "region": "Odisha / Bay of Bengal",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 9887,
+      "description": "The 1999 Odisha cyclone was the strongest to strike India in the 20th century, with a massive storm surge devastating coastal Odisha and killing nearly 10,000 people.",
+      "source": "IMD / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [90.0, 12.0],
+        [89.5, 13.0],
+        [88.5, 14.5],
+        [87.5, 16.0],
+        [86.5, 17.5],
+        [86.0, 19.0],
+        [85.5, 20.0],
+        [85.0, 20.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2007_sidr",
+      "name": "Cyclone Sidr",
+      "type": "hurricane",
+      "year": 2007,
+      "country": "Bangladesh",
+      "region": "Bay of Bengal / Sundarbans",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "260 km/h",
+      "deaths": 3447,
+      "description": "Sidr made landfall in Bangladesh with devastating storm surge, destroying large areas of the Sundarbans mangrove forest and causing thousands of deaths along the coast.",
+      "source": "IMD / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [90.0, 9.5],
+        [89.5, 11.0],
+        [89.0, 13.0],
+        [88.5, 15.0],
+        [88.5, 17.0],
+        [89.0, 19.0],
+        [89.5, 20.5],
+        [89.5, 22.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2009_morakot",
+      "name": "Typhoon Morakot",
+      "type": "hurricane",
+      "year": 2009,
+      "country": "Taiwan / China",
+      "region": "Western Pacific / Taiwan",
+      "severity": "Category 2 equivalent",
+      "category": 2,
+      "maxWind": "155 km/h",
+      "deaths": 673,
+      "description": "Morakot caused the worst flooding in Taiwan in 50 years, burying the village of Xiaolin in a massive mudslide and killing over 600 people.",
+      "source": "JTWC / CWB"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [135.0, 18.0],
+        [132.0, 19.5],
+        [129.0, 21.0],
+        [126.0, 22.0],
+        [123.0, 23.0],
+        [120.5, 23.5],
+        [118.0, 24.5],
+        [116.0, 26.0],
+        [114.0, 27.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1985_gloria",
+      "name": "Hurricane Gloria",
+      "type": "hurricane",
+      "year": 1985,
+      "country": "United States",
+      "region": "US East Coast / Long Island",
+      "severity": "Category 4",
+      "category": 4,
+      "maxWind": "230 km/h",
+      "deaths": 14,
+      "description": "Gloria was the first significant hurricane to strike the northeastern US since 1960, making landfall on Long Island and causing widespread damage across New England.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-52.0, 18.0],
+        [-58.0, 20.0],
+        [-63.0, 22.0],
+        [-68.0, 24.5],
+        [-72.0, 27.5],
+        [-74.5, 30.5],
+        [-75.5, 33.0],
+        [-75.0, 36.0],
+        [-73.5, 39.0],
+        [-72.0, 41.0],
+        [-70.0, 43.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2003_isabel",
+      "name": "Hurricane Isabel",
+      "type": "hurricane",
+      "year": 2003,
+      "country": "United States",
+      "region": "North Carolina / Mid-Atlantic",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "270 km/h",
+      "deaths": 51,
+      "description": "Isabel was the most significant hurricane to affect the Mid-Atlantic region in decades, causing record storm surge in the Chesapeake Bay and severe flooding in Virginia and North Carolina.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-40.0, 16.0],
+        [-48.0, 18.0],
+        [-55.0, 20.0],
+        [-60.0, 22.5],
+        [-65.0, 24.0],
+        [-70.0, 27.0],
+        [-73.0, 30.0],
+        [-75.5, 33.0],
+        [-76.5, 35.0],
+        [-77.0, 37.5],
+        [-76.0, 40.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2016_winston",
+      "name": "Cyclone Winston",
+      "type": "hurricane",
+      "year": 2016,
+      "country": "Fiji",
+      "region": "South Pacific / Fiji",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "285 km/h",
+      "deaths": 44,
+      "description": "Winston was the strongest cyclone on record in the Southern Hemisphere, making a direct hit on Fiji with devastating winds and storm surge.",
+      "source": "JTWC / FMS"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-172.0, -14.5],
+        [-174.0, -16.0],
+        [-176.0, -17.0],
+        [180.0, -17.5],
+        [178.0, -17.8],
+        [177.0, -17.5],
+        [175.0, -17.0],
+        [173.0, -18.0],
+        [170.0, -20.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2020_goni",
+      "name": "Typhoon Goni (Rolly)",
+      "type": "hurricane",
+      "year": 2020,
+      "country": "Philippines",
+      "region": "Bicol / Western Pacific",
+      "severity": "Category 5 equivalent",
+      "category": 5,
+      "maxWind": "315 km/h",
+      "deaths": 32,
+      "description": "Goni was the strongest landfalling tropical cyclone on record globally, striking the Bicol region of the Philippines with catastrophic 315 km/h winds.",
+      "source": "JTWC / PAGASA"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [145.0, 10.5],
+        [140.0, 11.5],
+        [135.0, 12.5],
+        [130.0, 13.0],
+        [127.0, 13.5],
+        [124.0, 13.5],
+        [121.0, 14.0],
+        [118.0, 15.0],
+        [115.0, 16.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1983_alicia",
+      "name": "Hurricane Alicia",
+      "type": "hurricane",
+      "year": 1983,
+      "country": "United States",
+      "region": "Texas / Houston / Galveston",
+      "severity": "Category 3",
+      "category": 3,
+      "maxWind": "185 km/h",
+      "deaths": 21,
+      "description": "Alicia made landfall near Galveston as a Category 3 hurricane, causing significant damage in Houston, including shattering glass facades in the downtown skyline.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-91.0, 25.0],
+        [-92.0, 26.0],
+        [-93.0, 27.0],
+        [-94.0, 28.0],
+        [-94.8, 29.0],
+        [-95.0, 29.5],
+        [-95.5, 30.5],
+        [-96.5, 32.0]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_1977_anita",
+      "name": "Hurricane Anita",
+      "type": "hurricane",
+      "year": 1977,
+      "country": "Mexico",
+      "region": "Tamaulipas / Gulf of Mexico",
+      "severity": "Category 5",
+      "category": 5,
+      "maxWind": "280 km/h",
+      "deaths": 11,
+      "description": "Anita was the first Category 5 hurricane in the Atlantic basin since Camille in 1969, making landfall in a sparsely populated area of Tamaulipas, Mexico.",
+      "source": "NOAA / NHC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-90.0, 22.5],
+        [-91.5, 23.0],
+        [-93.0, 23.5],
+        [-94.5, 23.5],
+        [-96.0, 24.0],
+        [-97.0, 24.5],
+        [-97.5, 25.0],
+        [-98.0, 25.5]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hu_2025_alfred",
+      "name": "Tropical Storm Alfred",
+      "type": "hurricane",
+      "year": 2025,
+      "country": "Australia",
+      "region": "Queensland / Coral Sea",
+      "severity": "Category 1 equivalent",
+      "category": 1,
+      "maxWind": "120 km/h",
+      "deaths": 3,
+      "description": "Alfred brought record rainfall and severe flooding to Far North Queensland in early 2025, disrupting communities across the Cairns region.",
+      "source": "BOM / JTWC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [155.0, -13.0],
+        [153.0, -14.0],
+        [150.5, -15.0],
+        [148.5, -16.0],
+        [147.0, -16.5],
+        [146.0, -17.0],
+        [145.5, -17.5]
+      ]
+    }
+  }
+]
