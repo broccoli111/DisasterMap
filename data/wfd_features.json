@@ -1,0 +1,1579 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2025_la_palisades",
+      "name": "Palisades Fire",
+      "type": "wildfire",
+      "year": 2025,
+      "country": "United States",
+      "region": "Pacific Palisades, Los Angeles, California",
+      "severity": "23,448 acres",
+      "deaths": 10,
+      "description": "Devastating wildfire that swept through Pacific Palisades and surrounding neighborhoods in January 2025, destroying thousands of structures in one of Los Angeles' most destructive fire events.",
+      "source": "CAL FIRE / LAFD"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-118.5298, 34.0465]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2025_la_eaton",
+      "name": "Eaton Fire",
+      "type": "wildfire",
+      "year": 2025,
+      "country": "United States",
+      "region": "Altadena, Pasadena, Los Angeles, California",
+      "severity": "14,117 acres",
+      "deaths": 17,
+      "description": "Destructive wildfire that burned through Altadena and the foothills above Pasadena in January 2025, destroying over 7,000 structures.",
+      "source": "CAL FIRE"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-118.1006, 34.1950]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2024_jasper",
+      "name": "Jasper Wildfire",
+      "type": "wildfire",
+      "year": 2024,
+      "country": "Canada",
+      "region": "Jasper, Alberta",
+      "severity": "79,000 acres",
+      "deaths": 0,
+      "description": "Massive wildfire that swept into the town of Jasper in July 2024, destroying roughly a third of the town's structures within Jasper National Park.",
+      "source": "Alberta Wildfire / Parks Canada"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-118.0814, 52.8737]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2024_park_fire",
+      "name": "Park Fire",
+      "type": "wildfire",
+      "year": 2024,
+      "country": "United States",
+      "region": "Butte County, California",
+      "severity": "429,603 acres",
+      "deaths": 0,
+      "description": "California's fourth-largest wildfire in state history, burning across Butte and Tehama counties from July to August 2024.",
+      "source": "CAL FIRE"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-121.6500, 40.0500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2023_maui",
+      "name": "Maui Wildfires (Lahaina Fire)",
+      "type": "wildfire",
+      "year": 2023,
+      "country": "United States",
+      "region": "Lahaina, Maui, Hawaii",
+      "severity": "2,170 acres",
+      "deaths": 101,
+      "description": "Deadliest US wildfire in over a century. Wind-driven fire devastated the historic town of Lahaina on August 8, 2023, destroying nearly 2,200 structures.",
+      "source": "Hawaii DLNR / FEMA"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-156.6825, 20.8783]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2023_canada_record",
+      "name": "2023 Canadian Wildfire Season",
+      "type": "wildfire",
+      "year": 2023,
+      "country": "Canada",
+      "region": "Multiple provinces (Quebec, BC, Alberta, NWT, Ontario)",
+      "severity": "45 million acres",
+      "deaths": 8,
+      "description": "Record-breaking Canadian wildfire season that burned over 45 million acres, more than double any previously recorded season. Smoke blanketed much of North America.",
+      "source": "Canadian Interagency Forest Fire Centre"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-75.0000, 52.0000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2023_chile",
+      "name": "Central Chile Wildfires",
+      "type": "wildfire",
+      "year": 2023,
+      "country": "Chile",
+      "region": "Biobío and Ñuble regions",
+      "severity": "1.1 million acres",
+      "deaths": 26,
+      "description": "Devastating wildfires in south-central Chile during the 2023 summer, killing at least 26 people and destroying thousands of homes.",
+      "source": "CONAF Chile"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.6800, -36.8200]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2022_new_mexico",
+      "name": "Hermits Peak / Calf Canyon Fire",
+      "type": "wildfire",
+      "year": 2022,
+      "country": "United States",
+      "region": "San Miguel County, New Mexico",
+      "severity": "341,471 acres",
+      "deaths": 2,
+      "description": "Largest wildfire in New Mexico history, caused by a US Forest Service prescribed burn that escaped control. Burned from April to August 2022.",
+      "source": "US Forest Service"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105.4500, 35.8500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2021_dixie_fire",
+      "name": "Dixie Fire",
+      "type": "wildfire",
+      "year": 2021,
+      "country": "United States",
+      "region": "Butte and Plumas Counties, California",
+      "severity": "963,309 acres",
+      "deaths": 1,
+      "description": "Largest single (non-complex) wildfire in California history. Burned for over three months and destroyed the town of Greenville.",
+      "source": "CAL FIRE"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-121.3800, 40.0700]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2021_turkey",
+      "name": "2021 Turkey Wildfires",
+      "type": "wildfire",
+      "year": 2021,
+      "country": "Turkey",
+      "region": "Antalya and Muğla provinces, Mediterranean coast",
+      "severity": "395,000 acres",
+      "deaths": 9,
+      "description": "Turkey's worst wildfire season on record. Over 200 fires broke out across southern Turkey in July–August 2021 during an extreme heatwave.",
+      "source": "AFAD Turkey"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.7133, 36.8969]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2020_us_west_coast",
+      "name": "2020 US West Coast Fire Siege",
+      "type": "wildfire",
+      "year": 2020,
+      "country": "United States",
+      "region": "California, Oregon, Washington",
+      "severity": "10.2 million acres (combined)",
+      "deaths": 46,
+      "description": "Record-breaking wildfire season across the US West Coast. Simultaneous large fires in California, Oregon, and Washington burned millions of acres and created hazardous smoke conditions.",
+      "source": "NIFC / CAL FIRE"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.2700, 40.6500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2020_pantanal",
+      "name": "Pantanal Fires",
+      "type": "wildfire",
+      "year": 2020,
+      "country": "Brazil",
+      "region": "Pantanal wetlands, Mato Grosso do Sul",
+      "severity": "10.6 million acres",
+      "deaths": 0,
+      "description": "Record fires burned roughly 30% of the world's largest tropical wetland, the Pantanal, devastating wildlife habitat.",
+      "source": "INPE Brazil"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-57.6500, -19.0500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2019_black_summer",
+      "name": "Black Summer Bushfires",
+      "type": "wildfire",
+      "year": 2019,
+      "country": "Australia",
+      "region": "New South Wales, Victoria, South Australia, Queensland",
+      "severity": "46 million acres",
+      "deaths": 34,
+      "description": "Catastrophic bushfire season from September 2019 to March 2020 across southeastern Australia. Killed an estimated 3 billion animals and destroyed over 3,000 homes.",
+      "source": "NSW RFS / BOM Australia"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [149.9500, -36.3500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2019_amazon",
+      "name": "2019 Amazon Rainforest Fires",
+      "type": "wildfire",
+      "year": 2019,
+      "country": "Brazil",
+      "region": "Amazon Basin, multiple states",
+      "severity": "2.2 million acres",
+      "deaths": 0,
+      "description": "Surge of fires in the Amazon in August 2019, driven by deforestation and drought. Over 80,000 fires detected by satellite, drawing global attention.",
+      "source": "INPE Brazil"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-55.4500, -6.5000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2019_siberia",
+      "name": "2019 Siberian Wildfires",
+      "type": "wildfire",
+      "year": 2019,
+      "country": "Russia",
+      "region": "Krasnoyarsk Krai, Irkutsk Oblast, Yakutia",
+      "severity": "6.7 million acres",
+      "deaths": 0,
+      "description": "Massive wildfires across Siberia's boreal forest in summer 2019, releasing large amounts of CO₂ and blanketing cities in smoke.",
+      "source": "Greenpeace Russia / NASA"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [104.0000, 62.0000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2018_camp_fire",
+      "name": "Camp Fire",
+      "type": "wildfire",
+      "year": 2018,
+      "country": "United States",
+      "region": "Paradise, Butte County, California",
+      "severity": "153,336 acres",
+      "deaths": 85,
+      "description": "Deadliest and most destructive wildfire in California history. Destroyed the town of Paradise on November 8, 2018, killing 85 people and destroying 18,804 structures.",
+      "source": "CAL FIRE"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-121.4370, 39.7596]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2018_greece_attica",
+      "name": "Attica Wildfires",
+      "type": "wildfire",
+      "year": 2018,
+      "country": "Greece",
+      "region": "Mati, East Attica",
+      "severity": "3,000 acres",
+      "deaths": 104,
+      "description": "Deadly wildfire swept through the seaside village of Mati near Athens on July 23, 2018. Rapid spread trapped residents trying to escape to the sea.",
+      "source": "Greek Fire Service"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [24.0226, 38.0440]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2017_portugal",
+      "name": "Pedrógão Grande Fire",
+      "type": "wildfire",
+      "year": 2017,
+      "country": "Portugal",
+      "region": "Pedrógão Grande, Leiria district",
+      "severity": "115,000 acres",
+      "deaths": 66,
+      "description": "Deadliest wildfire in Portuguese history. Many victims were trapped in their cars on a road between Figueiró dos Vinhos and Castanheira de Pêra on June 17, 2017.",
+      "source": "ANPC Portugal"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-8.1358, 39.9196]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2017_portugal_october",
+      "name": "October 2017 Portugal Wildfires",
+      "type": "wildfire",
+      "year": 2017,
+      "country": "Portugal",
+      "region": "Central and Northern Portugal",
+      "severity": "500,000 acres",
+      "deaths": 50,
+      "description": "Series of devastating wildfires across central and northern Portugal in October 2017, fueled by Hurricane Ophelia's dry winds. Combined with the June fires, 2017 was Portugal's deadliest fire year.",
+      "source": "ANPC Portugal"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-8.4100, 40.5200]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2016_fort_mcmurray",
+      "name": "Fort McMurray Wildfire (The Beast)",
+      "type": "wildfire",
+      "year": 2016,
+      "country": "Canada",
+      "region": "Fort McMurray, Alberta",
+      "severity": "1.5 million acres",
+      "deaths": 2,
+      "description": "Costliest disaster in Canadian history (~$9.9 billion). Forced evacuation of all 88,000 residents of Fort McMurray in May 2016 and destroyed 2,400 structures.",
+      "source": "Alberta Emergency Management Agency"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-111.3803, 56.7264]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2015_indonesia",
+      "name": "2015 Indonesian Forest Fires",
+      "type": "wildfire",
+      "year": 2015,
+      "country": "Indonesia",
+      "region": "Sumatra and Kalimantan (Borneo)",
+      "severity": "6.4 million acres",
+      "deaths": 19,
+      "description": "Widespread peat and forest fires caused by El Niño drought and land-clearing practices. Generated a toxic haze that blanketed Southeast Asia for months.",
+      "source": "BNPB Indonesia / World Bank"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [109.3500, -1.5000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2014_northwest_territories",
+      "name": "2014 Northwest Territories Fires",
+      "type": "wildfire",
+      "year": 2014,
+      "country": "Canada",
+      "region": "Northwest Territories",
+      "severity": "8.5 million acres",
+      "deaths": 0,
+      "description": "Record-breaking fire season in the Northwest Territories with over 385 fires burning 3.4 million hectares of boreal forest.",
+      "source": "Government of NWT"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-119.0000, 63.0000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2010_russia",
+      "name": "2010 Russian Wildfires",
+      "type": "wildfire",
+      "year": 2010,
+      "country": "Russia",
+      "region": "Western Russia, Moscow Oblast",
+      "severity": "2.5 million acres",
+      "deaths": 56,
+      "description": "Record heatwave fueled hundreds of wildfires across western Russia. Moscow was blanketed in thick smoke for weeks. Contributed to an estimated 56,000 excess deaths from heat and smoke.",
+      "source": "EMERCOM Russia"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [39.7000, 54.2000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2009_black_saturday",
+      "name": "Black Saturday Bushfires",
+      "type": "wildfire",
+      "year": 2009,
+      "country": "Australia",
+      "region": "Victoria",
+      "severity": "1.1 million acres",
+      "deaths": 173,
+      "description": "Deadliest bushfire disaster in Australian history. On February 7, 2009, temperatures exceeded 46°C with extreme winds, igniting multiple fires that destroyed 2,029 homes.",
+      "source": "CFA Victoria / 2009 Victorian Bushfires Royal Commission"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [145.4300, -37.4000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2007_greece",
+      "name": "2007 Greek Forest Fires",
+      "type": "wildfire",
+      "year": 2007,
+      "country": "Greece",
+      "region": "Peloponnese, Euboea, Western Greece",
+      "severity": "670,000 acres",
+      "deaths": 84,
+      "description": "Series of devastating fires across Greece in August 2007, the worst in Greek history at the time. The Peloponnese was hardest hit with entire villages destroyed.",
+      "source": "Greek Fire Service"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [21.7900, 37.5000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2003_canberra",
+      "name": "2003 Canberra Bushfires",
+      "type": "wildfire",
+      "year": 2003,
+      "country": "Australia",
+      "region": "Australian Capital Territory, Canberra",
+      "severity": "390,000 acres",
+      "deaths": 4,
+      "description": "Bushfires reached the western suburbs of Canberra on January 18, 2003, destroying nearly 500 homes. A rare fire-generated tornado was observed.",
+      "source": "ACT Emergency Services Agency"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [148.9700, -35.3500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_2000_montana",
+      "name": "2000 Montana Fire Season",
+      "type": "wildfire",
+      "year": 2000,
+      "country": "United States",
+      "region": "Montana, Idaho, Western US",
+      "severity": "8.4 million acres (US total)",
+      "deaths": 6,
+      "description": "One of the worst US fire seasons in 50 years. Over 8.4 million acres burned nationally, with Montana and neighboring states bearing the brunt.",
+      "source": "NIFC"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-114.0500, 46.8800]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_1998_borneo",
+      "name": "1997-98 Indonesian/Borneo Fires",
+      "type": "wildfire",
+      "year": 1997,
+      "country": "Indonesia",
+      "region": "Kalimantan and Sumatra",
+      "severity": "25 million acres",
+      "deaths": 240,
+      "description": "Catastrophic fires during the 1997–98 El Niño, burning massive areas of peatland and rainforest. Haze engulfed Southeast Asia, causing health and economic crises.",
+      "source": "UNEP / ADB"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [112.5000, -1.0000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_1991_oakland_hills",
+      "name": "Oakland Hills Firestorm",
+      "type": "wildfire",
+      "year": 1991,
+      "country": "United States",
+      "region": "Oakland Hills, California",
+      "severity": "1,600 acres",
+      "deaths": 25,
+      "description": "The Tunnel Fire killed 25 people and destroyed over 3,000 homes in the Oakland and Berkeley hills on October 20, 1991, making it one of the worst urban-wildland fires in US history.",
+      "source": "CAL FIRE / Oakland Fire Department"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.2300, 37.8500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_1988_yellowstone",
+      "name": "Yellowstone Fires",
+      "type": "wildfire",
+      "year": 1988,
+      "country": "United States",
+      "region": "Yellowstone National Park, Wyoming",
+      "severity": "793,880 acres",
+      "deaths": 0,
+      "description": "Largest fire complex in Yellowstone's history. Nearly 36% of the park burned in a series of fires from June through November 1988, transforming US fire management policy.",
+      "source": "National Park Service"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110.5885, 44.6000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_1983_ash_wednesday",
+      "name": "Ash Wednesday Bushfires",
+      "type": "wildfire",
+      "year": 1983,
+      "country": "Australia",
+      "region": "Victoria and South Australia",
+      "severity": "520,000 acres",
+      "deaths": 75,
+      "description": "Over 180 fires broke out across Victoria and South Australia on February 16, 1983 in extreme conditions. One of Australia's deadliest bushfire events before Black Saturday.",
+      "source": "CFA Victoria"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [144.3500, -37.7500]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_1987_china_heilongjiang",
+      "name": "Black Dragon Fire",
+      "type": "wildfire",
+      "year": 1987,
+      "country": "China",
+      "region": "Heilongjiang Province / Greater Khingan Mountains",
+      "severity": "18 million acres",
+      "deaths": 213,
+      "description": "Massive wildfire in northeastern China and into the Soviet Union in May 1987. One of the largest fires of the 20th century, burning 18 million acres of boreal forest.",
+      "source": "Chinese Ministry of Forestry"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [123.5000, 52.0000]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "wf_1977_santa_barbara",
+      "name": "Sycamore Fire",
+      "type": "wildfire",
+      "year": 1977,
+      "country": "United States",
+      "region": "Santa Barbara, California",
+      "severity": "805 acres",
+      "deaths": 0,
+      "description": "Fast-moving wildfire driven by Sundowner winds burned into the city of Santa Barbara in July 1977, destroying over 200 homes.",
+      "source": "Santa Barbara County Fire"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-119.7400, 34.4400]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2024_brazil_rio_grande",
+      "name": "Rio Grande do Sul Floods",
+      "type": "flooding",
+      "year": 2024,
+      "country": "Brazil",
+      "region": "Rio Grande do Sul",
+      "severity": "Catastrophic",
+      "deaths": 172,
+      "description": "Worst flooding disaster in the state's history. Persistent heavy rains from late April through May 2024 submerged Porto Alegre and surrounding areas, displacing over 600,000 people.",
+      "source": "Defesa Civil RS / G1"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-51.95, -29.50], [-51.60, -29.35], [-51.20, -29.45], [-50.85, -29.70], [-50.70, -30.05], [-50.65, -30.40], [-50.80, -30.75], [-51.10, -30.95], [-51.50, -31.00], [-51.85, -30.80], [-52.05, -30.45], [-52.10, -30.10], [-52.05, -29.75], [-51.95, -29.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2024_uae_dubai",
+      "name": "UAE / Dubai Floods",
+      "type": "flooding",
+      "year": 2024,
+      "country": "United Arab Emirates",
+      "region": "Dubai, Sharjah, Al Ain",
+      "severity": "Extreme",
+      "deaths": 4,
+      "description": "Record rainfall of 254mm in 24 hours hit the UAE on April 16, 2024 — the heaviest in 75 years. Dubai's airport was flooded and roads became rivers.",
+      "source": "NCM UAE"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[55.10, 25.35], [55.25, 25.42], [55.42, 25.38], [55.55, 25.30], [55.58, 25.18], [55.50, 25.05], [55.38, 24.95], [55.20, 24.92], [55.05, 24.98], [54.95, 25.10], [54.92, 25.22], [55.00, 25.30], [55.10, 25.35]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2023_libya_derna",
+      "name": "Libya Derna Floods (Storm Daniel)",
+      "type": "flooding",
+      "year": 2023,
+      "country": "Libya",
+      "region": "Derna, Eastern Libya",
+      "severity": "Catastrophic — two dams collapsed",
+      "deaths": 5900,
+      "description": "Storm Daniel brought extreme rainfall to eastern Libya on September 10, 2023. Two dams above Derna collapsed, sending a wall of water through the city and washing entire neighborhoods into the sea.",
+      "source": "OCHA / Libyan Red Crescent"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[22.55, 32.82], [22.62, 32.85], [22.72, 32.83], [22.78, 32.78], [22.80, 32.72], [22.75, 32.65], [22.68, 32.60], [22.58, 32.58], [22.48, 32.62], [22.42, 32.68], [22.40, 32.75], [22.45, 32.80], [22.55, 32.82]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2022_pakistan",
+      "name": "2022 Pakistan Floods",
+      "type": "flooding",
+      "year": 2022,
+      "country": "Pakistan",
+      "region": "Sindh, Balochistan, Punjab, Khyber Pakhtunkhwa",
+      "severity": "Catastrophic — one-third of country submerged",
+      "deaths": 1739,
+      "description": "Unprecedented monsoon rains and glacial melt flooded a third of Pakistan from June to October 2022, displacing 33 million people. Attributed partly to climate change.",
+      "source": "NDMA Pakistan / UN OCHA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[66.50, 24.80], [67.20, 25.50], [68.00, 26.30], [68.50, 27.40], [69.00, 28.50], [69.50, 29.80], [70.00, 30.60], [70.50, 31.20], [71.20, 31.00], [71.50, 30.20], [71.00, 28.80], [70.20, 27.50], [69.50, 26.50], [68.50, 25.40], [67.50, 24.60], [66.50, 24.80]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2021_germany_belgium",
+      "name": "Western European Floods",
+      "type": "flooding",
+      "year": 2021,
+      "country": "Germany / Belgium",
+      "region": "Ahr Valley, Rhineland-Palatinate, Liège Province",
+      "severity": "Severe — deadliest European flood in decades",
+      "deaths": 243,
+      "description": "Intense rainfall from storm Bernd caused catastrophic flooding in western Germany and eastern Belgium on July 14–15, 2021. The Ahr Valley was devastated with entire towns destroyed.",
+      "source": "DWD Germany / IRM Belgium"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[5.80, 50.10], [6.10, 50.30], [6.50, 50.45], [6.90, 50.55], [7.25, 50.50], [7.40, 50.35], [7.35, 50.15], [7.10, 50.00], [6.75, 49.90], [6.40, 49.85], [6.05, 49.88], [5.75, 49.95], [5.80, 50.10]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2021_henan_china",
+      "name": "Henan Province Floods",
+      "type": "flooding",
+      "year": 2021,
+      "country": "China",
+      "region": "Zhengzhou, Henan Province",
+      "severity": "Extreme — year's worth of rain in 3 days",
+      "deaths": 398,
+      "description": "Record-breaking rainfall hit Zhengzhou and Henan province in July 2021, with 201.9mm falling in a single hour. The Zhengzhou metro was flooded, trapping passengers.",
+      "source": "China Meteorological Administration"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[112.80, 34.00], [113.15, 34.25], [113.55, 34.45], [113.95, 34.50], [114.30, 34.38], [114.50, 34.10], [114.40, 33.80], [114.10, 33.55], [113.70, 33.42], [113.25, 33.38], [112.85, 33.50], [112.65, 33.75], [112.80, 34.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2020_china_yangtze",
+      "name": "2020 China Yangtze River Floods",
+      "type": "flooding",
+      "year": 2020,
+      "country": "China",
+      "region": "Yangtze River Basin, Hubei, Jiangxi, Anhui",
+      "severity": "Severe — worst since 1998",
+      "deaths": 278,
+      "description": "Prolonged heavy monsoon rains caused severe flooding along the Yangtze River from June to August 2020, affecting 63 million people and causing $25 billion in damage.",
+      "source": "China Ministry of Water Resources"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[111.00, 29.00], [111.80, 29.50], [112.60, 30.10], [113.50, 30.50], [114.40, 30.80], [115.30, 31.00], [116.20, 30.80], [116.80, 30.40], [116.50, 29.80], [115.60, 29.30], [114.50, 28.90], [113.30, 28.70], [112.20, 28.60], [111.20, 28.60], [111.00, 29.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2019_iran",
+      "name": "2019 Iran Floods",
+      "type": "flooding",
+      "year": 2019,
+      "country": "Iran",
+      "region": "Golestan, Fars, Lorestan, Khuzestan provinces",
+      "severity": "Severe — 25 of 31 provinces affected",
+      "deaths": 76,
+      "description": "Massive flooding across Iran from March to April 2019 after record rainfall. Flash floods devastated cities including Shiraz, and floodwaters persisted for weeks in Khuzestan.",
+      "source": "Iranian Red Crescent / IRIMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[48.50, 31.80], [49.00, 32.40], [49.80, 33.00], [50.60, 33.30], [51.50, 33.20], [52.00, 32.80], [52.20, 32.20], [51.80, 31.50], [51.00, 31.00], [50.10, 30.80], [49.20, 31.00], [48.60, 31.40], [48.50, 31.80]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2018_kerala",
+      "name": "Kerala Floods",
+      "type": "flooding",
+      "year": 2018,
+      "country": "India",
+      "region": "Kerala",
+      "severity": "Worst in a century — all 14 districts affected",
+      "deaths": 483,
+      "description": "Unusually heavy monsoon rainfall and dam releases caused catastrophic flooding across Kerala in August 2018, the worst in the state since 1924. Over 1.4 million people displaced.",
+      "source": "India Meteorological Department / NDRF"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[75.85, 12.00], [76.10, 12.30], [76.40, 11.80], [76.70, 11.20], [76.85, 10.60], [76.95, 10.00], [76.80, 9.40], [76.55, 8.90], [76.20, 8.50], [75.90, 8.80], [75.70, 9.30], [75.55, 9.90], [75.50, 10.60], [75.55, 11.20], [75.85, 12.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2017_bangladesh",
+      "name": "2017 South Asian Floods (Bangladesh)",
+      "type": "flooding",
+      "year": 2017,
+      "country": "Bangladesh",
+      "region": "Northern and Central Bangladesh",
+      "severity": "Severe — one-third of country flooded",
+      "deaths": 144,
+      "description": "Monsoon flooding in 2017 submerged roughly a third of Bangladesh, affecting over 8 million people. Simultaneous flooding hit Nepal and India's Bihar and Assam states.",
+      "source": "Bangladesh Flood Forecasting & Warning Centre"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[88.80, 24.50], [89.20, 25.00], [89.70, 25.50], [90.30, 25.70], [90.90, 25.60], [91.30, 25.20], [91.50, 24.70], [91.30, 24.10], [90.80, 23.60], [90.20, 23.40], [89.60, 23.50], [89.10, 23.80], [88.80, 24.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2016_louisiana",
+      "name": "2016 Louisiana Floods",
+      "type": "flooding",
+      "year": 2016,
+      "country": "United States",
+      "region": "Baton Rouge, Louisiana",
+      "severity": "Severe — unnamed storm, record rainfall",
+      "deaths": 13,
+      "description": "Slow-moving low-pressure system dropped up to 31 inches of rain over the Baton Rouge area in August 2016, flooding 146,000 homes. Called the worst US disaster since Hurricane Sandy.",
+      "source": "NWS / FEMA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-91.50, 30.10], [-91.20, 30.35], [-90.85, 30.55], [-90.50, 30.60], [-90.15, 30.50], [-89.95, 30.30], [-89.90, 30.05], [-90.05, 29.80], [-90.30, 29.65], [-90.70, 29.60], [-91.10, 29.70], [-91.40, 29.85], [-91.50, 30.10]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2015_tbilisi",
+      "name": "Tbilisi Flood",
+      "type": "flooding",
+      "year": 2015,
+      "country": "Georgia",
+      "region": "Tbilisi",
+      "severity": "Severe — flash flood and mudslide",
+      "deaths": 20,
+      "description": "Flash flooding and mudslides along the Vere River devastated parts of Tbilisi on June 13–14, 2015. The Tbilisi Zoo was destroyed and many animals escaped into the streets.",
+      "source": "National Environmental Agency of Georgia"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[44.70, 41.72], [44.75, 41.75], [44.82, 41.77], [44.88, 41.76], [44.92, 41.73], [44.90, 41.69], [44.85, 41.66], [44.78, 41.65], [44.72, 41.67], [44.68, 41.70], [44.70, 41.72]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2014_kashmir",
+      "name": "Kashmir Floods",
+      "type": "flooding",
+      "year": 2014,
+      "country": "India / Pakistan",
+      "region": "Jammu & Kashmir, Azad Kashmir",
+      "severity": "Severe — worst in 50 years",
+      "deaths": 277,
+      "description": "Heavy monsoon rains caused devastating floods across Jammu & Kashmir in September 2014. Srinagar was inundated, with the Jhelum River reaching record levels.",
+      "source": "India Meteorological Department"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[73.80, 33.70], [74.10, 34.00], [74.50, 34.25], [74.90, 34.30], [75.20, 34.15], [75.35, 33.90], [75.25, 33.60], [74.95, 33.35], [74.55, 33.20], [74.15, 33.25], [73.85, 33.40], [73.75, 33.55], [73.80, 33.70]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2013_uttarakhand",
+      "name": "Uttarakhand Flash Floods",
+      "type": "flooding",
+      "year": 2013,
+      "country": "India",
+      "region": "Uttarakhand (Kedarnath, Badrinath)",
+      "severity": "Catastrophic — Himalayan cloudburst",
+      "deaths": 5748,
+      "description": "Catastrophic flash floods and landslides struck the Uttarakhand region on June 16–17, 2013 during monsoon season. The Hindu pilgrimage site of Kedarnath was devastated.",
+      "source": "India NDMA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[78.80, 30.20], [79.10, 30.50], [79.45, 30.75], [79.80, 30.85], [80.10, 30.70], [80.20, 30.40], [80.05, 30.10], [79.75, 29.85], [79.35, 29.75], [79.00, 29.80], [78.75, 29.95], [78.80, 30.20]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2011_thailand",
+      "name": "2011 Thailand Floods",
+      "type": "flooding",
+      "year": 2011,
+      "country": "Thailand",
+      "region": "Central Thailand, Chao Phraya River Basin, Bangkok",
+      "severity": "Catastrophic — worst in 50 years",
+      "deaths": 815,
+      "description": "Worst flooding in Thailand since 1942. Monsoon rains flooded the Chao Phraya River basin from July to January 2012, inundating industrial estates and parts of Bangkok. Cost $46 billion.",
+      "source": "Thai Department of Disaster Prevention"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[99.80, 14.80], [100.10, 15.20], [100.50, 15.50], [100.90, 15.40], [101.20, 15.00], [101.30, 14.40], [101.10, 13.80], [100.80, 13.50], [100.40, 13.40], [100.00, 13.50], [99.70, 13.80], [99.55, 14.20], [99.80, 14.80]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2010_pakistan",
+      "name": "2010 Pakistan Floods",
+      "type": "flooding",
+      "year": 2010,
+      "country": "Pakistan",
+      "region": "Indus River Basin — KP, Punjab, Sindh, Balochistan",
+      "severity": "Catastrophic — one-fifth of country submerged",
+      "deaths": 1985,
+      "description": "Exceptional monsoon rains caused the Indus River to flood along almost its entire length. Approximately 20 million people were affected across 20% of Pakistan's land area.",
+      "source": "NDMA Pakistan / UN"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[68.00, 25.50], [68.50, 26.50], [69.20, 27.80], [69.80, 29.00], [70.30, 30.20], [70.80, 31.50], [71.50, 32.50], [72.20, 33.20], [73.00, 33.50], [73.50, 32.80], [73.00, 31.50], [72.20, 29.80], [71.20, 28.00], [70.00, 26.50], [69.00, 25.30], [68.00, 25.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2010_queensland",
+      "name": "2010-11 Queensland Floods",
+      "type": "flooding",
+      "year": 2010,
+      "country": "Australia",
+      "region": "Queensland (Brisbane, Toowoomba, Lockyer Valley)",
+      "severity": "Severe — 3/4 of Queensland declared disaster zone",
+      "deaths": 35,
+      "description": "Intense La Niña-driven rainfall caused widespread flooding across Queensland from December 2010 to January 2011. Flash floods devastated Toowoomba, and the Brisbane River flooded the CBD.",
+      "source": "BOM Australia / Queensland Floods Commission"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[151.50, -26.50], [152.00, -26.20], [152.50, -26.50], [153.00, -26.90], [153.20, -27.40], [153.10, -27.90], [152.70, -28.20], [152.20, -28.30], [151.70, -28.10], [151.30, -27.70], [151.10, -27.20], [151.20, -26.80], [151.50, -26.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2005_mumbai",
+      "name": "2005 Mumbai Floods",
+      "type": "flooding",
+      "year": 2005,
+      "country": "India",
+      "region": "Mumbai, Maharashtra",
+      "severity": "Extreme — 944mm rain in 24 hours",
+      "deaths": 1094,
+      "description": "Mumbai received 944mm of rainfall in 24 hours on July 26, 2005, one of the highest ever recorded in India. The city was paralyzed for days with massive loss of life and property.",
+      "source": "India Meteorological Department"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[72.78, 19.20], [72.88, 19.25], [72.95, 19.18], [72.98, 19.08], [72.96, 18.98], [72.90, 18.90], [72.82, 18.88], [72.75, 18.92], [72.70, 19.00], [72.68, 19.10], [72.72, 19.18], [72.78, 19.20]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1998_china_yangtze",
+      "name": "1998 China Yangtze River Floods",
+      "type": "flooding",
+      "year": 1998,
+      "country": "China",
+      "region": "Yangtze River Basin, Hubei, Hunan, Jiangxi",
+      "severity": "Catastrophic — worst since 1954",
+      "deaths": 4150,
+      "description": "Massive flooding along the Yangtze River during the 1998 monsoon season affected 223 million people. Attributed to heavy rains combined with deforestation and wetland loss.",
+      "source": "China Ministry of Water Resources"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[110.50, 29.50], [111.50, 30.00], [112.50, 30.50], [113.60, 30.80], [114.80, 31.00], [116.00, 30.80], [116.80, 30.30], [116.50, 29.60], [115.50, 29.00], [114.20, 28.60], [112.80, 28.40], [111.50, 28.50], [110.50, 29.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1993_mississippi",
+      "name": "Great Flood of 1993",
+      "type": "flooding",
+      "year": 1993,
+      "country": "United States",
+      "region": "Mississippi and Missouri River Basins, Midwest",
+      "severity": "Catastrophic — 500-year flood",
+      "deaths": 50,
+      "description": "Among the most costly and devastating floods in US history. The Mississippi and Missouri rivers flooded across nine states from April to October 1993, covering 30,000 square miles.",
+      "source": "USGS / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-91.50, 37.00], [-91.00, 38.00], [-90.50, 39.00], [-90.00, 39.80], [-89.50, 40.50], [-89.00, 41.00], [-88.80, 40.50], [-89.20, 39.50], [-89.80, 38.50], [-90.30, 37.50], [-90.80, 36.80], [-91.20, 36.50], [-91.50, 37.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1991_bangladesh_cyclone",
+      "name": "1991 Bangladesh Cyclone Flood",
+      "type": "flooding",
+      "year": 1991,
+      "country": "Bangladesh",
+      "region": "Chittagong, Cox's Bazar, southeastern coast",
+      "severity": "Catastrophic — 6-meter storm surge",
+      "deaths": 138000,
+      "description": "Cyclone 02B made landfall on April 29, 1991, generating a 6-meter storm surge that inundated Bangladesh's southeastern coast, killing approximately 138,000 people.",
+      "source": "Bangladesh Meteorological Department"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[91.20, 21.80], [91.50, 22.10], [91.85, 22.30], [92.15, 22.25], [92.30, 22.00], [92.25, 21.70], [92.00, 21.40], [91.70, 21.20], [91.35, 21.15], [91.05, 21.30], [90.90, 21.55], [91.00, 21.75], [91.20, 21.80]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2002_europe",
+      "name": "2002 European Floods",
+      "type": "flooding",
+      "year": 2002,
+      "country": "Germany / Czech Republic / Austria",
+      "region": "Elbe and Danube River Basins",
+      "severity": "Severe — 100-year flood event",
+      "deaths": 110,
+      "description": "Extreme rainfall caused catastrophic flooding along the Elbe and Danube rivers in August 2002, devastating Prague, Dresden, and other cities. Damage exceeded €20 billion.",
+      "source": "EEA / DWD"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[12.00, 50.50], [12.50, 51.00], [13.20, 51.30], [13.80, 51.20], [14.20, 50.80], [14.30, 50.30], [14.00, 49.80], [13.40, 49.50], [12.70, 49.40], [12.10, 49.60], [11.80, 50.00], [11.85, 50.30], [12.00, 50.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2000_mozambique",
+      "name": "2000 Mozambique Floods",
+      "type": "flooding",
+      "year": 2000,
+      "country": "Mozambique",
+      "region": "Limpopo and Zambezi River valleys",
+      "severity": "Catastrophic",
+      "deaths": 800,
+      "description": "Cyclone Eline and weeks of heavy rain caused massive flooding across southern Mozambique in February–March 2000, displacing hundreds of thousands. Images of helicopter rescues drew global attention.",
+      "source": "INGC Mozambique / UN"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[33.50, -22.50], [34.00, -22.00], [34.80, -21.50], [35.40, -21.80], [35.70, -22.40], [35.80, -23.20], [35.50, -24.00], [35.00, -24.50], [34.30, -24.60], [33.60, -24.20], [33.20, -23.50], [33.10, -23.00], [33.50, -22.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1988_bangladesh",
+      "name": "1988 Bangladesh Floods",
+      "type": "flooding",
+      "year": 1988,
+      "country": "Bangladesh",
+      "region": "Central and Eastern Bangladesh, Dhaka",
+      "severity": "Catastrophic — 60% of country submerged",
+      "deaths": 2379,
+      "description": "Monsoon flooding submerged roughly 60% of Bangladesh from August to September 1988, including much of the capital Dhaka. Over 30 million people were affected.",
+      "source": "Bangladesh Water Development Board"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[89.00, 23.50], [89.50, 24.00], [90.10, 24.50], [90.70, 24.80], [91.20, 24.60], [91.50, 24.10], [91.40, 23.50], [91.00, 23.00], [90.40, 22.70], [89.80, 22.60], [89.20, 22.80], [88.90, 23.20], [89.00, 23.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1976_china_banqiao",
+      "name": "Typhoon Nina / Banqiao Dam Failure",
+      "type": "flooding",
+      "year": 1975,
+      "country": "China",
+      "region": "Henan Province (Zhumadian)",
+      "severity": "Catastrophic — dam failure cascade",
+      "deaths": 85600,
+      "description": "Typhoon Nina stalled over Henan Province in August 1975, dropping a year's worth of rain in 24 hours. The Banqiao Dam and 62 other dams failed, releasing a massive flood wave.",
+      "source": "Ministry of Water Resources China"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[113.40, 32.60], [113.70, 32.90], [114.10, 33.05], [114.50, 33.00], [114.70, 32.75], [114.65, 32.40], [114.35, 32.10], [113.95, 31.95], [113.55, 32.00], [113.25, 32.20], [113.15, 32.45], [113.40, 32.60]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2017_houston_harvey",
+      "name": "Hurricane Harvey Floods",
+      "type": "flooding",
+      "year": 2017,
+      "country": "United States",
+      "region": "Houston, Texas",
+      "severity": "Catastrophic — 60+ inches of rain in some areas",
+      "deaths": 68,
+      "description": "Hurricane Harvey stalled over the Houston area from August 25–30, 2017, dumping over 60 inches of rain in some areas. One of the costliest US natural disasters at $125 billion.",
+      "source": "NWS / FEMA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-96.00, 29.50], [-95.70, 29.85], [-95.30, 30.10], [-94.90, 30.15], [-94.60, 29.95], [-94.50, 29.60], [-94.60, 29.25], [-94.90, 29.00], [-95.30, 28.90], [-95.70, 28.95], [-96.00, 29.10], [-96.10, 29.30], [-96.00, 29.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1998_hurricane_mitch",
+      "name": "Hurricane Mitch Floods",
+      "type": "flooding",
+      "year": 1998,
+      "country": "Honduras / Nicaragua",
+      "region": "Central America (Honduras, Nicaragua)",
+      "severity": "Catastrophic",
+      "deaths": 11000,
+      "description": "Hurricane Mitch stalled off Honduras in October 1998, dumping torrential rain that caused catastrophic flooding and mudslides. Deadliest Atlantic hurricane since 1780 at the time.",
+      "source": "NHC / COPECO Honduras"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-87.50, 14.00], [-87.00, 14.50], [-86.30, 15.00], [-85.60, 15.20], [-85.00, 14.90], [-84.60, 14.30], [-84.80, 13.60], [-85.30, 13.10], [-86.00, 12.80], [-86.80, 13.00], [-87.30, 13.30], [-87.60, 13.70], [-87.50, 14.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2024_amazon",
+      "name": "2024 Amazon Drought",
+      "type": "drought",
+      "year": 2024,
+      "country": "Brazil",
+      "region": "Amazon Basin, Amazonas state",
+      "severity": "Worst recorded — rivers at historic lows",
+      "deaths": 0,
+      "description": "Extreme drought dried up rivers across the Amazon basin in late 2024, stranding communities, killing river dolphins, and fueling record wildfires. The Rio Negro at Manaus fell to its lowest level ever recorded.",
+      "source": "INPE / ANA Brazil"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-65.00, -1.00], [-63.50, -0.50], [-61.50, -0.80], [-59.50, -1.50], [-58.00, -2.50], [-57.50, -3.80], [-58.50, -5.00], [-60.00, -5.50], [-62.00, -5.00], [-64.00, -4.20], [-65.50, -3.00], [-66.00, -2.00], [-65.00, -1.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2023_horn_of_africa",
+      "name": "Horn of Africa Drought (2020-2023)",
+      "type": "drought",
+      "year": 2023,
+      "country": "Somalia / Ethiopia / Kenya",
+      "region": "Horn of Africa",
+      "severity": "Worst in 40 years — 5 consecutive failed rainy seasons",
+      "deaths": 43000,
+      "description": "Five consecutive failed rainy seasons from 2020 to 2023 created the worst drought in 40 years across the Horn of Africa. An estimated 43,000 excess deaths in Somalia alone in 2022.",
+      "source": "FEWS NET / UN OCHA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[36.00, 4.50], [38.00, 6.00], [40.50, 7.50], [43.00, 8.00], [45.50, 7.00], [47.00, 5.00], [46.00, 2.50], [44.00, 0.50], [42.00, -1.00], [39.50, -2.50], [37.50, -1.00], [36.50, 1.00], [35.50, 3.00], [36.00, 4.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2022_europe",
+      "name": "2022 European Drought",
+      "type": "drought",
+      "year": 2022,
+      "country": "France / Spain / Italy / Germany",
+      "region": "Western and Southern Europe",
+      "severity": "Worst in 500 years",
+      "deaths": 0,
+      "description": "Europe experienced its worst drought in at least 500 years in the summer of 2022. Rivers dried up, crop yields fell sharply, and energy production was curtailed across the continent.",
+      "source": "European Drought Observatory / Copernicus"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-4.00, 43.00], [-1.00, 45.00], [2.00, 47.00], [5.00, 48.50], [8.50, 48.00], [11.00, 46.50], [13.00, 44.50], [12.00, 42.00], [9.00, 40.50], [5.00, 39.50], [1.00, 40.00], [-2.50, 39.50], [-5.00, 40.50], [-5.50, 42.00], [-4.00, 43.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2021_madagascar",
+      "name": "Madagascar Drought",
+      "type": "drought",
+      "year": 2021,
+      "country": "Madagascar",
+      "region": "Grand Sud (Southern Madagascar)",
+      "severity": "Worst in 40 years — famine conditions",
+      "deaths": 0,
+      "description": "Severe drought in southern Madagascar from 2020 to 2021 left over 1 million people food insecure, with some areas approaching famine. The first climate-change-driven famine according to some reports.",
+      "source": "WFP / IPC"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[44.00, -23.00], [44.80, -22.50], [45.80, -22.80], [46.60, -23.50], [47.00, -24.50], [46.80, -25.50], [46.00, -25.80], [45.00, -25.60], [44.20, -25.00], [43.80, -24.20], [43.70, -23.50], [44.00, -23.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2019_india",
+      "name": "2019 India Drought",
+      "type": "drought",
+      "year": 2019,
+      "country": "India",
+      "region": "Maharashtra, Tamil Nadu, Karnataka, Rajasthan",
+      "severity": "Severe — delayed monsoon, Chennai water crisis",
+      "deaths": 0,
+      "description": "Delayed monsoon and below-normal rainfall led to severe drought across much of India in 2019. Chennai nearly ran out of water, and reservoirs across Maharashtra hit critically low levels.",
+      "source": "India Meteorological Department"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[73.00, 19.00], [74.50, 20.50], [76.50, 21.00], [78.50, 20.00], [80.00, 18.00], [80.50, 15.50], [79.50, 13.00], [78.00, 11.50], [76.00, 12.00], [74.50, 13.50], [73.50, 15.50], [73.00, 17.50], [73.00, 19.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2017_cape_town",
+      "name": "Cape Town Water Crisis",
+      "type": "drought",
+      "year": 2017,
+      "country": "South Africa",
+      "region": "Western Cape, Cape Town",
+      "severity": "Extreme — Day Zero nearly reached",
+      "deaths": 0,
+      "description": "Three years of below-average rainfall brought Cape Town close to 'Day Zero' — when taps would run dry — in early 2018. Strict water rationing of 50 liters per person per day was imposed.",
+      "source": "City of Cape Town / SAWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[18.20, -33.60], [18.50, -33.40], [18.80, -33.50], [19.10, -33.70], [19.20, -34.00], [19.10, -34.30], [18.80, -34.40], [18.45, -34.35], [18.20, -34.15], [18.05, -33.90], [18.10, -33.70], [18.20, -33.60]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2016_southern_africa",
+      "name": "2015-16 Southern Africa Drought",
+      "type": "drought",
+      "year": 2016,
+      "country": "South Africa / Zimbabwe / Malawi / Zambia / Mozambique",
+      "region": "Southern Africa",
+      "severity": "Worst in 35 years — El Niño driven",
+      "deaths": 0,
+      "description": "Strong El Niño caused the worst drought in southern Africa since 1982-83. Over 40 million people faced food insecurity across the region. Maize production fell drastically.",
+      "source": "FEWS NET / SADC"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[25.00, -15.00], [27.00, -14.00], [30.00, -13.50], [33.00, -14.50], [35.00, -16.00], [35.50, -18.50], [34.00, -21.00], [31.00, -23.00], [28.00, -24.50], [25.50, -24.00], [24.00, -22.00], [23.50, -19.50], [24.00, -17.00], [25.00, -15.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2015_ethiopia",
+      "name": "2015-16 Ethiopian Drought",
+      "type": "drought",
+      "year": 2015,
+      "country": "Ethiopia",
+      "region": "Northern and Eastern Ethiopia (Tigray, Amhara, Oromia, Somali)",
+      "severity": "Worst in 50 years — 10+ million people food insecure",
+      "deaths": 0,
+      "description": "El Niño-driven drought caused crop failures across Ethiopia in 2015-16. Over 10 million people required emergency food assistance, the country's worst food crisis in decades.",
+      "source": "FEWS NET / WFP"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[37.00, 8.00], [39.00, 9.50], [41.00, 10.50], [43.00, 10.00], [44.50, 8.50], [44.00, 6.50], [42.50, 5.00], [40.00, 4.50], [38.00, 5.00], [36.50, 6.50], [36.00, 7.50], [37.00, 8.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2012_us",
+      "name": "2012 United States Drought",
+      "type": "drought",
+      "year": 2012,
+      "country": "United States",
+      "region": "Central US — Great Plains, Midwest, South",
+      "severity": "Worst since 1956 — 65% of contiguous US in drought",
+      "deaths": 0,
+      "description": "The most extensive drought in the US since the 1950s. By July 2012, 65% of the contiguous US was in drought. Massive crop losses led to $30 billion in agricultural damage.",
+      "source": "US Drought Monitor / NOAA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-104.00, 37.00], [-101.00, 39.00], [-97.00, 40.50], [-93.00, 41.00], [-90.00, 40.00], [-88.00, 38.00], [-89.00, 35.50], [-92.00, 33.50], [-95.00, 32.00], [-99.00, 32.50], [-102.00, 33.50], [-104.50, 35.00], [-104.00, 37.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2011_east_africa",
+      "name": "2011 East Africa Drought",
+      "type": "drought",
+      "year": 2011,
+      "country": "Somalia / Kenya / Ethiopia / Djibouti",
+      "region": "Horn of Africa",
+      "severity": "Worst in 60 years — famine declared in Somalia",
+      "deaths": 260000,
+      "description": "Severe drought caused a food crisis affecting over 13 million people. Famine was declared in parts of southern Somalia — the first famine declaration anywhere in the world since 1992.",
+      "source": "FEWS NET / UN"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[36.50, 3.00], [38.50, 5.00], [41.00, 6.50], [44.00, 7.00], [46.50, 5.50], [47.50, 3.00], [46.00, 0.50], [43.50, -1.50], [41.00, -2.50], [38.50, -1.50], [37.00, 0.00], [36.00, 1.50], [36.50, 3.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2010_amazon",
+      "name": "2010 Amazon Drought",
+      "type": "drought",
+      "year": 2010,
+      "country": "Brazil",
+      "region": "Western Amazon Basin",
+      "severity": "Worst on record at the time",
+      "deaths": 0,
+      "description": "The 2010 Amazon drought was more severe than the previous record in 2005. The Rio Negro at Manaus fell to its lowest level in over a century, and millions of fish died.",
+      "source": "INPE / Nature journal"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-66.00, -2.00], [-64.00, -1.00], [-61.50, -1.50], [-59.00, -2.50], [-57.50, -4.00], [-58.50, -5.50], [-60.50, -6.00], [-63.00, -5.50], [-65.50, -4.50], [-67.00, -3.50], [-67.00, -2.50], [-66.00, -2.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2006_australia",
+      "name": "Millennium Drought (Australia)",
+      "type": "drought",
+      "year": 2006,
+      "country": "Australia",
+      "region": "Murray-Darling Basin, Southeast Australia",
+      "severity": "Worst in 1,000+ years — lasted 1997–2009",
+      "deaths": 0,
+      "description": "The Millennium Drought (1997–2009) was the worst drought in Australia's recorded history. 2006 was the peak year, with the Murray-Darling Basin experiencing its lowest inflows on record.",
+      "source": "BOM Australia / CSIRO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[141.00, -30.00], [143.00, -29.00], [146.00, -29.50], [148.50, -30.50], [149.50, -32.00], [149.00, -34.00], [147.50, -35.50], [145.00, -36.50], [143.00, -36.00], [141.50, -35.00], [140.50, -33.50], [140.00, -31.50], [141.00, -30.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2002_india",
+      "name": "2002 India Drought",
+      "type": "drought",
+      "year": 2002,
+      "country": "India",
+      "region": "Rajasthan, Gujarat, Madhya Pradesh, Andhra Pradesh",
+      "severity": "Severe — monsoon failure, 300 million affected",
+      "deaths": 0,
+      "description": "India experienced its worst drought in 15 years due to a major monsoon failure in 2002. Over 300 million people were affected, with severe impacts on agriculture and water supply.",
+      "source": "India Meteorological Department"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[70.00, 23.00], [72.00, 25.00], [74.50, 26.50], [77.00, 26.00], [79.00, 24.00], [79.50, 21.50], [78.00, 19.00], [76.00, 18.00], [73.50, 19.00], [71.50, 20.50], [70.50, 22.00], [70.00, 23.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_1998_southern_us",
+      "name": "1998 Southern US Drought",
+      "type": "drought",
+      "year": 1998,
+      "country": "United States",
+      "region": "Texas, Oklahoma, Louisiana, Florida",
+      "severity": "Severe — $6-9 billion in losses",
+      "deaths": 200,
+      "description": "Severe drought and heatwave gripped the southern United States in 1998, causing massive agricultural losses and contributing to over 200 heat-related deaths in Texas alone.",
+      "source": "NOAA / US Drought Monitor"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-100.00, 32.00], [-98.00, 34.00], [-95.50, 34.50], [-93.00, 33.50], [-91.00, 32.00], [-91.50, 30.00], [-93.50, 29.00], [-96.00, 28.00], [-99.00, 28.50], [-100.50, 30.00], [-100.00, 32.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_1992_southern_africa",
+      "name": "1991-92 Southern Africa Drought",
+      "type": "drought",
+      "year": 1992,
+      "country": "Zimbabwe / Mozambique / Zambia / South Africa / Malawi",
+      "region": "Southern Africa",
+      "severity": "Worst in 20th century for the region",
+      "deaths": 0,
+      "description": "El Niño-driven drought devastated southern Africa in 1991–92. Maize production fell by 60% across the region, and over 20 million people faced severe food shortages.",
+      "source": "SADC / FAO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[25.50, -15.50], [28.00, -14.00], [31.00, -13.50], [34.00, -15.00], [35.50, -17.50], [35.00, -20.00], [33.00, -22.00], [30.00, -23.50], [27.50, -24.00], [25.00, -23.00], [24.00, -20.50], [24.50, -17.50], [25.50, -15.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_1983_ethiopia",
+      "name": "1983-85 Ethiopian Famine Drought",
+      "type": "drought",
+      "year": 1983,
+      "country": "Ethiopia",
+      "region": "Northern Ethiopia (Tigray, Wollo, Eritrea)",
+      "severity": "Catastrophic — triggered massive famine",
+      "deaths": 400000,
+      "description": "Prolonged drought from 1983 to 1985 caused one of the worst famines in modern history. An estimated 400,000 to 1 million people died. Prompted the Live Aid concert and global aid response.",
+      "source": "RRC Ethiopia / UN"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[36.50, 10.00], [38.00, 11.50], [39.50, 12.50], [41.00, 13.00], [42.50, 12.50], [43.00, 11.00], [42.00, 9.50], [40.50, 8.50], [38.50, 8.00], [37.00, 8.50], [36.00, 9.50], [36.50, 10.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_1988_us_midwest",
+      "name": "1988 US Drought",
+      "type": "drought",
+      "year": 1988,
+      "country": "United States",
+      "region": "Great Plains and Midwest",
+      "severity": "Worst since Dust Bowl — $40 billion damage",
+      "deaths": 5000,
+      "description": "Severe drought across the Great Plains and Midwest in 1988 caused massive crop failures and water shortages. Yellowstone fires burned during this drought. Damage estimated at $40 billion.",
+      "source": "NOAA"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-105.00, 38.00], [-102.00, 40.00], [-98.00, 42.00], [-94.00, 43.00], [-90.00, 42.00], [-88.00, 40.00], [-89.00, 37.50], [-92.00, 35.50], [-96.00, 35.00], [-100.00, 35.50], [-103.00, 36.50], [-105.00, 38.00]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_1976_uk_europe",
+      "name": "1976 European Drought",
+      "type": "drought",
+      "year": 1976,
+      "country": "United Kingdom / France / Germany",
+      "region": "Western Europe",
+      "severity": "Worst in UK in 250 years",
+      "deaths": 0,
+      "description": "The summer of 1976 brought an exceptional drought to Western Europe, particularly the UK and France. Rivers dried up, crops failed, and the UK appointed a Minister for Drought.",
+      "source": "UK Met Office / Météo-France"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-4.50, 50.50], [-2.00, 51.50], [0.50, 52.00], [2.50, 51.50], [4.00, 50.50], [3.50, 49.00], [2.00, 47.50], [-0.50, 47.00], [-3.00, 47.50], [-4.50, 48.50], [-5.00, 49.50], [-4.50, 50.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2000_afghanistan",
+      "name": "Afghanistan Drought",
+      "type": "drought",
+      "year": 2000,
+      "country": "Afghanistan",
+      "region": "Southern and Central Afghanistan",
+      "severity": "Worst in 30 years",
+      "deaths": 0,
+      "description": "Severe multi-year drought from 1998 to 2001 devastated Afghanistan's agriculture and water supply, displacing millions and compounding humanitarian crisis alongside conflict.",
+      "source": "UNEP / WFP"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[64.50, 33.50], [66.00, 34.50], [68.00, 35.00], [69.80, 34.50], [70.50, 33.50], [70.00, 32.00], [68.50, 31.00], [66.50, 30.50], [64.50, 31.00], [63.50, 32.00], [63.50, 33.00], [64.50, 33.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "dr_2014_brazil",
+      "name": "2014-15 Southeast Brazil Drought",
+      "type": "drought",
+      "year": 2014,
+      "country": "Brazil",
+      "region": "São Paulo, Minas Gerais, Rio de Janeiro",
+      "severity": "Worst in 80 years — São Paulo water crisis",
+      "deaths": 0,
+      "description": "Severe drought struck southeastern Brazil from 2014 to 2015, threatening São Paulo's water supply for its 20 million residents. The Cantareira reservoir system fell below 5% capacity.",
+      "source": "ANA Brazil / SABESP"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-47.50, -21.50], [-46.00, -21.00], [-44.50, -21.50], [-43.50, -22.50], [-43.00, -23.50], [-43.50, -24.00], [-45.00, -24.20], [-46.50, -23.80], [-48.00, -23.00], [-48.50, -22.00], [-48.00, -21.50], [-47.50, -21.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2023_greece_thessaly",
+      "name": "Storm Daniel Greece Floods",
+      "type": "flooding",
+      "year": 2023,
+      "country": "Greece",
+      "region": "Thessaly (Larissa, Volos, Trikala)",
+      "severity": "Worst in Greek history — year's rain in hours",
+      "deaths": 17,
+      "description": "Storm Daniel brought record rainfall to Thessaly in September 2023 before moving to Libya. Over 750mm fell in 18 hours, flooding the entire Thessaly plain and destroying crops.",
+      "source": "HNMS / Greek Civil Protection"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[21.80, 39.80], [22.20, 39.95], [22.60, 39.90], [23.00, 39.70], [23.10, 39.40], [22.95, 39.10], [22.60, 38.95], [22.20, 38.90], [21.85, 39.05], [21.65, 39.30], [21.60, 39.55], [21.80, 39.80]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_2007_uk",
+      "name": "2007 United Kingdom Floods",
+      "type": "flooding",
+      "year": 2007,
+      "country": "United Kingdom",
+      "region": "Yorkshire, Midlands, Gloucestershire",
+      "severity": "Worst UK flooding since 1947",
+      "deaths": 13,
+      "description": "Prolonged heavy rainfall in June and July 2007 caused widespread flooding across England, particularly in Yorkshire, the Midlands, and Gloucestershire. Over 55,000 properties were flooded.",
+      "source": "UK Environment Agency / Met Office"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-2.50, 51.50], [-2.00, 52.00], [-1.40, 52.50], [-1.00, 53.00], [-0.80, 53.50], [-1.00, 53.80], [-1.50, 53.60], [-2.00, 53.20], [-2.50, 52.80], [-2.80, 52.30], [-2.80, 51.80], [-2.50, 51.50]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "fl_1999_venezuela",
+      "name": "Vargas Tragedy Floods",
+      "type": "flooding",
+      "year": 1999,
+      "country": "Venezuela",
+      "region": "Vargas State, Caribbean coast",
+      "severity": "Catastrophic — worst natural disaster in Venezuelan history",
+      "deaths": 30000,
+      "description": "Torrential rains in December 1999 triggered massive landslides and flash floods along Venezuela's Caribbean coast, destroying entire towns. Up to 30,000 people may have died.",
+      "source": "Venezuelan Civil Defense"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[-67.20, 10.55], [-66.90, 10.65], [-66.55, 10.62], [-66.25, 10.55], [-66.00, 10.45], [-66.05, 10.30], [-66.25, 10.20], [-66.55, 10.15], [-66.85, 10.20], [-67.10, 10.30], [-67.25, 10.42], [-67.20, 10.55]]]
+    }
+  }
+]
