@@ -1,367 +1,385 @@
 /**
- * UI module — builds and manages all UI controls: filters, timeline, search, legend, toolbar.
+ * UI module — builds and manages all UI panels: filters, timeline, search, legend, toolbar.
  */
 
-import {
-  DISASTER_TYPES,
-  DEFAULT_ENABLED_TYPES,
-  setActiveTypes,
-  getActiveTypes,
-  setYearRange,
-  getYearRange,
-  getDataYearExtent,
-  searchFeatures,
-  exportFilteredJSON,
-  applyFilters,
-  getFilteredFeatures
-} from './data.js';
+const UIModule = (() => {
+  let _enabledTypes = [];
+  let _yearStart = 0;
+  let _yearEnd = 0;
+  let _dataRange = { min: 0, max: 0 };
+  let _onChange = null;        // callback when filters/timeline change
+  let _playbackInterval = null;
+  let _searchDebounce = null;
 
-import {
-  refreshLayers,
-  fitToVisible,
-  flyToFeature,
-  getVisibleCount,
-  switchBaseLayer,
-  getCurrentBase
-} from './map.js';
+  function init(onChange) {
+    _onChange = onChange;
+    _dataRange = DataModule.getYearRange();
 
-let _playbackInterval = null;
-let _onUpdate = null; // callback after every filter/timeline change
+    const currentYear = new Date().getFullYear();
+    _yearStart = currentYear - 50;
+    _yearEnd = currentYear;
+    _enabledTypes = [...DataModule.DEFAULT_ENABLED_TYPES];
 
-function initUI(onUpdate) {
-  _onUpdate = onUpdate;
-  buildFilterPanel();
-  buildTimeline();
-  buildLegend();
-  buildToolbar();
-  bindSearch();
-}
+    buildFilterPanel();
+    buildTimeline();
+    buildSearch();
+    buildLegend();
+    buildToolbar();
+    updateCounter();
+  }
 
-/* ==================== FILTER PANEL ==================== */
+  /* ──────────── Filter Panel ──────────── */
 
-function buildFilterPanel() {
-  const panel = document.getElementById('filter-panel');
-  const toggle = document.getElementById('filter-toggle');
+  function buildFilterPanel() {
+    const panel = document.getElementById('filter-panel');
+    const toggle = document.getElementById('filter-toggle');
 
-  let html = `
-    <div class="filter-header">
-      <h3>Disaster Types</h3>
-      <button class="filter-close" id="filter-close-btn" title="Close">&times;</button>
-    </div>
-  `;
+    let html = '<div class="filter-heading">Disaster Types</div><div class="filter-group" id="filter-checks">';
 
-  for (const [type, info] of Object.entries(DISASTER_TYPES)) {
+    for (const t of DataModule.DISASTER_TYPES) {
+      const checked = _enabledTypes.includes(t.key) ? 'checked' : '';
+      html += `
+        <label class="filter-item" data-type="${t.key}">
+          <input type="checkbox" value="${t.key}" ${checked}>
+          <span class="filter-dot" style="color:${t.color}"></span>
+          <span class="filter-label">${t.label}</span>
+          <span class="filter-count" id="count-${t.key}">0</span>
+        </label>`;
+    }
+
+    html += '</div>';
     html += `
-      <label class="filter-item" data-type="${type}">
-        <input type="checkbox" value="${type}" checked>
-        <span class="filter-swatch" style="background:${info.color}"></span>
-        <span class="filter-label">${info.label}</span>
-      </label>
-    `;
-  }
+      <div class="filter-actions">
+        <button class="filter-btn" id="btn-select-all">Select All</button>
+        <button class="filter-btn" id="btn-clear-all">Clear All</button>
+        <button class="filter-btn" id="btn-reset">Reset</button>
+      </div>`;
 
-  html += `
-    <div class="filter-actions">
-      <button class="filter-btn" id="filter-select-all">Select All</button>
-      <button class="filter-btn" id="filter-clear-all">Clear All</button>
-      <button class="filter-btn" id="filter-reset">Reset</button>
-    </div>
-  `;
+    panel.innerHTML = html;
 
-  panel.innerHTML = html;
-
-  panel.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-    cb.addEventListener('change', () => {
-      const checked = [...panel.querySelectorAll('input[type="checkbox"]:checked')].map(c => c.value);
-      setActiveTypes(checked);
-      triggerUpdate();
+    panel.addEventListener('change', (e) => {
+      if (e.target.type === 'checkbox') {
+        syncEnabledTypes();
+        fireChange();
+      }
     });
-  });
 
-  document.getElementById('filter-select-all').addEventListener('click', () => {
-    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
-    setActiveTypes(Object.keys(DISASTER_TYPES));
-    triggerUpdate();
-  });
-
-  document.getElementById('filter-clear-all').addEventListener('click', () => {
-    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
-    setActiveTypes([]);
-    triggerUpdate();
-  });
-
-  document.getElementById('filter-reset').addEventListener('click', () => {
-    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-      cb.checked = DEFAULT_ENABLED_TYPES.includes(cb.value);
+    document.getElementById('btn-select-all').addEventListener('click', () => {
+      panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
+      syncEnabledTypes();
+      fireChange();
     });
-    setActiveTypes(DEFAULT_ENABLED_TYPES);
-    triggerUpdate();
-  });
 
-  document.getElementById('filter-close-btn').addEventListener('click', () => {
-    panel.classList.add('collapsed');
-    toggle.style.display = 'flex';
-  });
+    document.getElementById('btn-clear-all').addEventListener('click', () => {
+      panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+      syncEnabledTypes();
+      fireChange();
+    });
 
-  toggle.addEventListener('click', () => {
-    panel.classList.remove('collapsed');
-    toggle.style.display = 'none';
-  });
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      const currentYear = new Date().getFullYear();
+      _yearStart = currentYear - 50;
+      _yearEnd = currentYear;
+      _enabledTypes = [...DataModule.DEFAULT_ENABLED_TYPES];
+      panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
+      document.getElementById('year-start').value = _yearStart;
+      document.getElementById('year-end').value = _yearEnd;
+      updateSlider();
+      fireChange();
+    });
 
-  toggle.style.display = 'none';
-}
+    // Toggle collapse
+    toggle.addEventListener('click', () => {
+      panel.classList.toggle('collapsed');
+      toggle.classList.toggle('shifted');
+      toggle.textContent = panel.classList.contains('collapsed') ? '☰ Filters' : '✕';
+    });
 
-/* ==================== TIMELINE ==================== */
-
-function buildTimeline() {
-  const extent = getDataYearExtent();
-  const range = getYearRange();
-
-  const startInput = document.getElementById('year-start');
-  const endInput = document.getElementById('year-end');
-  const slider = document.getElementById('timeline-slider');
-  const allBtn = document.getElementById('timeline-all-btn');
-  const last50Btn = document.getElementById('timeline-last50-btn');
-  const playBtn = document.getElementById('playback-btn');
-
-  startInput.min = extent.min;
-  startInput.max = extent.max;
-  startInput.value = range.start;
-
-  endInput.min = extent.min;
-  endInput.max = extent.max;
-  endInput.value = range.end;
-
-  slider.min = extent.min;
-  slider.max = extent.max;
-  slider.value = range.end;
-
-  const updateFromInputs = () => {
-    let s = parseInt(startInput.value) || extent.min;
-    let e = parseInt(endInput.value) || extent.max;
-    if (s > e) { const t = s; s = e; e = t; }
-    startInput.value = s;
-    endInput.value = e;
-    setYearRange(s, e);
-    triggerUpdate();
-  };
-
-  startInput.addEventListener('change', updateFromInputs);
-  endInput.addEventListener('change', updateFromInputs);
-
-  slider.addEventListener('input', () => {
-    const val = parseInt(slider.value);
-    endInput.value = val;
-    setYearRange(parseInt(startInput.value) || extent.min, val);
-    triggerUpdate();
-  });
-
-  allBtn.addEventListener('click', () => {
-    startInput.value = extent.min;
-    endInput.value = extent.max;
-    slider.value = extent.max;
-    setYearRange(extent.min, extent.max);
-    allBtn.classList.add('active');
-    last50Btn.classList.remove('active');
-    triggerUpdate();
-  });
-
-  last50Btn.addEventListener('click', () => {
-    const now = new Date().getFullYear();
-    startInput.value = now - 50;
-    endInput.value = now;
-    slider.value = now;
-    setYearRange(now - 50, now);
-    last50Btn.classList.add('active');
-    allBtn.classList.remove('active');
-    triggerUpdate();
-  });
-
-  last50Btn.classList.add('active');
-
-  playBtn.addEventListener('click', () => togglePlayback(startInput, endInput, slider, extent));
-}
-
-function togglePlayback(startInput, endInput, slider, extent) {
-  const playBtn = document.getElementById('playback-btn');
-
-  if (_playbackInterval) {
-    clearInterval(_playbackInterval);
-    _playbackInterval = null;
-    playBtn.textContent = '▶';
-    playBtn.classList.remove('active');
-    return;
+    toggle.textContent = '✕';
+    toggle.classList.add('shifted');
   }
 
-  playBtn.textContent = '⏸';
-  playBtn.classList.add('active');
-
-  let year = parseInt(startInput.value) || extent.min;
-  const endYear = parseInt(endInput.value) || extent.max;
-
-  _playbackInterval = setInterval(() => {
-    if (year > endYear) {
-      clearInterval(_playbackInterval);
-      _playbackInterval = null;
-      playBtn.textContent = '▶';
-      playBtn.classList.remove('active');
-      return;
-    }
-
-    endInput.value = year;
-    slider.value = year;
-    setYearRange(parseInt(startInput.value), year);
-    triggerUpdate();
-    year++;
-  }, 300);
-}
-
-/* ==================== LEGEND ==================== */
-
-function buildLegend() {
-  const panel = document.getElementById('legend-panel');
-  let html = '<h4>Legend</h4>';
-
-  const legendItems = [
-    { type: 'earthquake',        icon: 'dot',     label: 'Earthquake (epicenter)' },
-    { type: 'earthquake',        icon: 'polygon', label: 'Earthquake (area)' },
-    { type: 'hurricane',         icon: 'line',    label: 'Hurricane (path)' },
-    { type: 'wildfire',          icon: 'dot',     label: 'Wildfire (origin)' },
-    { type: 'wildfire',          icon: 'polygon', label: 'Wildfire (area)' },
-    { type: 'drought',           icon: 'polygon', label: 'Drought (region)' },
-    { type: 'flooding',          icon: 'polygon', label: 'Flooding (region)' },
-    { type: 'volcanic_eruption', icon: 'dot',     label: 'Volcanic Eruption' },
-    { type: 'tsunami',           icon: 'line',    label: 'Tsunami (path)' },
-    { type: 'tornado',           icon: 'line',    label: 'Tornado (path)' },
-    { type: 'ice_storm',         icon: 'polygon', label: 'Ice Storm' },
-    { type: 'blizzard',          icon: 'polygon', label: 'Blizzard' },
-    { type: 'cold_wave',         icon: 'polygon', label: 'Cold Wave' },
-    { type: 'heatwave',          icon: 'polygon', label: 'Heatwave' }
-  ];
-
-  for (const item of legendItems) {
-    const color = DISASTER_TYPES[item.type]?.color || '#888';
-    let iconClass = 'legend-icon';
-    let style = `background:${color}`;
-
-    if (item.icon === 'line') {
-      iconClass += ' line';
-    } else if (item.icon === 'polygon') {
-      iconClass += ' polygon';
-      style = `border-color:${color}`;
-    }
-
-    html += `<div class="legend-item"><span class="${iconClass}" style="${style}"></span><span class="legend-text">${item.label}</span></div>`;
+  function syncEnabledTypes() {
+    const checks = document.querySelectorAll('#filter-checks input[type="checkbox"]');
+    _enabledTypes = [];
+    checks.forEach(cb => {
+      if (cb.checked) _enabledTypes.push(cb.value);
+    });
   }
 
-  panel.innerHTML = html;
-}
+  function updateFilterCounts() {
+    const counts = DataModule.countByType(_yearStart, _yearEnd);
+    for (const [type, count] of Object.entries(counts)) {
+      const el = document.getElementById(`count-${type}`);
+      if (el) el.textContent = count;
+    }
+  }
 
-/* ==================== SEARCH ==================== */
+  /* ──────────── Timeline ──────────── */
 
-function bindSearch() {
-  const input = document.getElementById('search-input');
-  const resultsPanel = document.getElementById('search-results');
-  let debounceTimer = null;
+  function buildTimeline() {
+    const startInput = document.getElementById('year-start');
+    const endInput = document.getElementById('year-end');
+    const slider = document.getElementById('timeline-slider');
 
-  input.addEventListener('input', () => {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(() => {
-      const q = input.value.trim();
-      if (q.length < 2) {
-        resultsPanel.classList.remove('visible');
+    startInput.value = _yearStart;
+    endInput.value = _yearEnd;
+    slider.min = _dataRange.min;
+    slider.max = _dataRange.max;
+    slider.value = _yearEnd;
+
+    startInput.addEventListener('change', () => {
+      const val = parseInt(startInput.value, 10);
+      if (!isNaN(val)) {
+        _yearStart = Math.max(_dataRange.min, Math.min(val, _yearEnd));
+        startInput.value = _yearStart;
+        fireChange();
+      }
+    });
+
+    endInput.addEventListener('change', () => {
+      const val = parseInt(endInput.value, 10);
+      if (!isNaN(val)) {
+        _yearEnd = Math.min(_dataRange.max, Math.max(val, _yearStart));
+        endInput.value = _yearEnd;
+        slider.value = _yearEnd;
+        fireChange();
+      }
+    });
+
+    slider.addEventListener('input', () => {
+      _yearEnd = parseInt(slider.value, 10);
+      endInput.value = _yearEnd;
+      fireChange();
+    });
+
+    // Quick buttons
+    document.querySelectorAll('.timeline-quick-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const range = btn.dataset.range;
+        const currentYear = new Date().getFullYear();
+        document.querySelectorAll('.timeline-quick-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        if (range === 'all') {
+          _yearStart = _dataRange.min;
+          _yearEnd = _dataRange.max;
+        } else {
+          const years = parseInt(range, 10);
+          _yearStart = currentYear - years;
+          _yearEnd = currentYear;
+        }
+
+        document.getElementById('year-start').value = _yearStart;
+        document.getElementById('year-end').value = _yearEnd;
+        slider.value = _yearEnd;
+        fireChange();
+      });
+    });
+
+    // Playback
+    const playBtn = document.getElementById('btn-play');
+    playBtn.addEventListener('click', () => {
+      if (_playbackInterval) {
+        stopPlayback();
+      } else {
+        startPlayback();
+      }
+    });
+  }
+
+  function updateSlider() {
+    const slider = document.getElementById('timeline-slider');
+    if (slider) slider.value = _yearEnd;
+  }
+
+  function startPlayback() {
+    const btn = document.getElementById('btn-play');
+    btn.classList.add('active');
+    btn.textContent = '⏸';
+
+    _yearStart = _dataRange.min;
+    _yearEnd = _dataRange.min;
+    document.getElementById('year-start').value = _yearStart;
+
+    _playbackInterval = setInterval(() => {
+      _yearEnd += 1;
+      if (_yearEnd > _dataRange.max) {
+        stopPlayback();
         return;
       }
-      const results = searchFeatures(q);
-      renderSearchResults(results, resultsPanel);
+      document.getElementById('year-end').value = _yearEnd;
+      document.getElementById('timeline-slider').value = _yearEnd;
+      fireChange();
     }, 200);
-  });
-
-  input.addEventListener('focus', () => {
-    if (input.value.trim().length >= 2) {
-      const results = searchFeatures(input.value.trim());
-      renderSearchResults(results, resultsPanel);
-    }
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('#search-container')) {
-      resultsPanel.classList.remove('visible');
-    }
-  });
-}
-
-function renderSearchResults(features, container) {
-  if (features.length === 0) {
-    container.innerHTML = '<div class="search-result-item"><span class="result-name" style="color:var(--text-muted)">No results found</span></div>';
-    container.classList.add('visible');
-    return;
   }
 
-  container.innerHTML = features.slice(0, 20).map(f => {
-    const p = f.properties;
-    const typeLabel = DISASTER_TYPES[p.type]?.label || p.type;
-    return `
-      <div class="search-result-item" data-id="${p.id}">
-        <div class="result-name">${escapeHTML(p.name)}</div>
-        <div class="result-meta">${p.year} · ${typeLabel} · ${p.country}</div>
-      </div>
-    `;
-  }).join('');
+  function stopPlayback() {
+    if (_playbackInterval) {
+      clearInterval(_playbackInterval);
+      _playbackInterval = null;
+    }
+    const btn = document.getElementById('btn-play');
+    btn.classList.remove('active');
+    btn.textContent = '▶';
+  }
 
-  container.classList.add('visible');
+  /* ──────────── Search ──────────── */
 
-  container.querySelectorAll('.search-result-item').forEach(item => {
-    item.addEventListener('click', () => {
-      const id = item.dataset.id;
-      const feature = features.find(f => f.properties.id === id);
+  function buildSearch() {
+    const input = document.getElementById('search-input');
+    const results = document.getElementById('search-results');
+
+    input.addEventListener('input', () => {
+      clearTimeout(_searchDebounce);
+      _searchDebounce = setTimeout(() => {
+        const query = input.value;
+        if (!query.trim()) {
+          results.classList.remove('active');
+          results.innerHTML = '';
+          return;
+        }
+
+        const matches = DataModule.search(query);
+        const unique = DataModule.getUniqueEvents(matches);
+        if (!unique.length) {
+          results.innerHTML = '<div class="search-result-item"><span class="search-result-name" style="color:var(--text-muted)">No results found</span></div>';
+          results.classList.add('active');
+          return;
+        }
+
+        results.innerHTML = unique.slice(0, 20).map(f => {
+          const p = f.properties;
+          const color = DataModule.getColorForType(p.type);
+          return `<div class="search-result-item" data-id="${p.id}">
+            <div class="search-result-name"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${color};margin-right:6px;vertical-align:middle;"></span>${p.name}</div>
+            <div class="search-result-meta">${p.year} · ${p.country}</div>
+          </div>`;
+        }).join('');
+
+        results.classList.add('active');
+      }, 150);
+    });
+
+    results.addEventListener('click', (e) => {
+      const item = e.target.closest('.search-result-item');
+      if (!item || !item.dataset.id) return;
+
+      const feature = DataModule.getAllFeatures().find(f => f.properties.id === item.dataset.id);
       if (feature) {
-        flyToFeature(feature);
-        container.classList.remove('visible');
+        MapModule.flyToFeature(feature);
+      }
+      results.classList.remove('active');
+      input.value = '';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('#search-container')) {
+        results.classList.remove('active');
       }
     });
-  });
-}
+  }
 
-function escapeHTML(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
+  /* ──────────── Legend ──────────── */
 
-/* ==================== TOOLBAR ==================== */
+  function buildLegend() {
+    const container = document.getElementById('legend-items');
+    let html = '';
 
-function buildToolbar() {
-  const fitBtn = document.getElementById('tool-fit');
-  const exportBtn = document.getElementById('tool-export');
-  const themeBtn = document.getElementById('tool-theme');
+    const symbolMap = {
+      earthquake: 'circle',
+      hurricane: 'line',
+      wildfire: 'circle',
+      drought: 'polygon',
+      flooding: 'polygon',
+      volcanic_eruption: 'circle',
+      tsunami: 'line',
+      tornado: 'line',
+      ice_storm: 'polygon',
+      blizzard: 'polygon',
+      cold_wave: 'polygon',
+      heatwave: 'polygon'
+    };
 
-  fitBtn.addEventListener('click', fitToVisible);
+    for (const t of DataModule.DISASTER_TYPES) {
+      const sym = symbolMap[t.key] || 'circle';
+      let symbolClass = 'legend-symbol';
+      let style = '';
 
-  exportBtn.addEventListener('click', exportFilteredJSON);
+      if (sym === 'line') {
+        symbolClass += ' line';
+        style = `background:${t.color}`;
+      } else if (sym === 'polygon') {
+        symbolClass += ' polygon';
+        style = `border-color:${t.color}`;
+      } else {
+        style = `background:${t.color}`;
+      }
 
-  themeBtn.addEventListener('click', () => {
-    const bases = ['dark', 'light', 'satellite'];
-    const current = getCurrentBase();
-    const idx = bases.indexOf(current);
-    const next = bases[(idx + 1) % bases.length];
-    switchBaseLayer(next);
-    themeBtn.title = `Theme: ${next}`;
-  });
-}
+      html += `<div class="legend-item"><span class="${symbolClass}" style="${style}"></span>${t.label}</div>`;
+    }
 
-/* ==================== UPDATE CYCLE ==================== */
+    container.innerHTML = html;
+  }
 
-function triggerUpdate() {
-  refreshLayers();
-  updateCounter();
-  if (_onUpdate) _onUpdate();
-}
+  /* ──────────── Toolbar ──────────── */
 
-function updateCounter() {
-  const el = document.getElementById('event-counter');
-  const count = getVisibleCount();
-  el.textContent = `${count} event${count !== 1 ? 's' : ''} visible`;
-}
+  function buildToolbar() {
+    const btnFit = document.getElementById('btn-fit');
+    const btnExport = document.getElementById('btn-export');
+    const btnTheme = document.getElementById('btn-theme');
 
-export { initUI, triggerUpdate, updateCounter };
+    btnFit.addEventListener('click', () => MapModule.fitToVisible());
+    btnExport.addEventListener('click', () => DataModule.exportFiltered());
+
+    btnTheme.addEventListener('click', () => {
+      const bases = ['dark', 'light', 'satellite'];
+      const current = MapModule.getCurrentBase();
+      const idx = bases.indexOf(current);
+      const next = bases[(idx + 1) % bases.length];
+      MapModule.switchBase(next);
+      btnTheme.title = `Theme: ${next}`;
+    });
+  }
+
+  /* ──────────── Counter ──────────── */
+
+  function updateCounter() {
+    const el = document.getElementById('event-counter');
+    const filtered = DataModule.getFilteredFeatures();
+    const unique = DataModule.getUniqueEvents(filtered);
+    el.textContent = `${unique.length} events visible`;
+  }
+
+  /* ──────────── Helpers ──────────── */
+
+  function getState() {
+    return {
+      enabledTypes: _enabledTypes,
+      yearStart: _yearStart,
+      yearEnd: _yearEnd
+    };
+  }
+
+  function fireChange() {
+    updateFilterCounts();
+    if (_onChange) _onChange(getState());
+    updateCounter();
+  }
+
+  /**
+   * Called after initial data load to set counts and trigger first render.
+   */
+  function initialRender() {
+    updateFilterCounts();
+    updateCounter();
+  }
+
+  return {
+    init,
+    getState,
+    updateCounter,
+    updateFilterCounts,
+    initialRender
+  };
+})();

@@ -1,33 +1,38 @@
 /**
- * App entry point — bootstraps data loading, map, and UI.
+ * App module — bootstraps the application, wires modules together.
  */
 
-import { loadData } from './data.js';
-import { initMap, refreshLayers } from './map.js';
-import { initUI, triggerUpdate, updateCounter } from './ui.js';
+(async function App() {
+  const loadingOverlay = document.getElementById('loading-overlay');
 
-(async function main() {
   try {
-    initMap('map');
-    await loadData('data/disasters.geojson');
-    initUI();
-    triggerUpdate();
+    await DataModule.load('data/disasters.geojson');
 
-    const overlay = document.getElementById('loading-overlay');
-    if (overlay) {
-      overlay.classList.add('fade-out');
-      setTimeout(() => overlay.remove(), 500);
+    MapModule.init('map');
+
+    UIModule.init((state) => {
+      const features = DataModule.filter(state);
+      MapModule.renderFeatures(features);
+      UIModule.updateCounter();
+    });
+
+    // Trigger initial filter + render
+    const initialState = UIModule.getState();
+    const features = DataModule.filter(initialState);
+    MapModule.renderFeatures(features);
+    UIModule.initialRender();
+
+    // Hide loading overlay
+    if (loadingOverlay) {
+      loadingOverlay.classList.add('hidden');
+      setTimeout(() => loadingOverlay.remove(), 500);
     }
   } catch (err) {
     console.error('Failed to initialize application:', err);
-    const overlay = document.getElementById('loading-overlay');
-    if (overlay) {
-      overlay.innerHTML = `
-        <div style="color:#ef5350;font-size:16px;text-align:center;padding:20px;">
-          Failed to load disaster data.<br>
-          <small style="color:#9aa0a6;">${err.message}</small>
-        </div>
-      `;
+    if (loadingOverlay) {
+      loadingOverlay.querySelector('.loading-text').textContent =
+        'Failed to load data. Make sure you are serving via HTTP (not file://).';
+      loadingOverlay.querySelector('.loading-spinner').style.display = 'none';
     }
   }
 })();
