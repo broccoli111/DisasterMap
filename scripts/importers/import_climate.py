@@ -169,7 +169,7 @@ def load(min_year=1976):
     hw_features = load_heatwaves(min_year)
     cw_features = load_cold_waves(min_year)
 
-    raw_hw_names = {f['properties'].get('name') for f in features if f['properties'].get('type') == 'heat_wave'}
+    raw_hw_names = {f['properties'].get('name') for f in features if f['properties'].get('type') == 'heatwave'}
     raw_cw_names = {f['properties'].get('name') for f in features if f['properties'].get('type') == 'cold_wave'}
 
     for f in hw_features:
@@ -196,7 +196,7 @@ def load_heatwaves(min_year=1976):
 
         props = {
             'name': name,
-            'type': 'heat_wave',
+            'type': 'heatwave',
             'year': year,
             'start_date': f"{year}-06-01",
             'end_date': f"{year}-08-31",

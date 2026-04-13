@@ -261,7 +261,7 @@ def load(min_year=1976):
             properties = {
                 'id': event_id,
                 'name': display_name,
-                'type': 'tropical_cyclone',
+                'type': 'hurricane',
                 'subtype': cat_str,
                 'year': season,
                 'start_date': start_date,
