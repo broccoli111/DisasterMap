@@ -42,6 +42,11 @@ const MapModule = (() => {
       _layerGroups[t.key] = L.layerGroup().addTo(_map);
     }
 
+    window.addEventListener('resize', () => _map.invalidateSize());
+    window.addEventListener('orientationchange', () => {
+      setTimeout(() => _map.invalidateSize(), 200);
+    });
+
     return _map;
   }
 
