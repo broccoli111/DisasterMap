@@ -1,0 +1,6614 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1980_st_helens",
+      "name": "1980 Mount St. Helens Eruption",
+      "type": "volcanic_eruption",
+      "year": 1980,
+      "country": "United States",
+      "region": "Washington State",
+      "severity": "VEI 5",
+      "deaths": 57,
+      "description": "Catastrophic lateral blast and eruption triggered by a massive landslide, devastating 600 km² of forest and sending an ash column 24 km into the atmosphere.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.1944,
+        46.1912
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1982_el_chichon",
+      "name": "1982 El Chichón Eruption",
+      "type": "volcanic_eruption",
+      "year": 1982,
+      "country": "Mexico",
+      "region": "Chiapas",
+      "severity": "VEI 5",
+      "deaths": 1900,
+      "description": "Three major explosive eruptions destroyed the summit dome, generating pyroclastic flows that devastated nearby villages and injected massive sulfur aerosols into the stratosphere.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -93.228,
+        17.36
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1985_nevado_del_ruiz",
+      "name": "1985 Nevado del Ruiz Eruption",
+      "type": "volcanic_eruption",
+      "year": 1985,
+      "country": "Colombia",
+      "region": "Tolima/Caldas",
+      "severity": "VEI 3",
+      "deaths": 23000,
+      "description": "Moderate eruption melted summit glaciers, generating massive lahars that buried the town of Armero, killing over 23,000 people in one of the deadliest volcanic disasters.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -75.322,
+        4.895
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1986_lake_nyos",
+      "name": "1986 Lake Nyos Gas Disaster",
+      "type": "volcanic_eruption",
+      "year": 1986,
+      "country": "Cameroon",
+      "region": "Northwest Region",
+      "severity": "Limnic eruption",
+      "deaths": 1746,
+      "description": "Limnic eruption released a massive cloud of CO2 from the volcanic crater lake, silently suffocating people and livestock in surrounding valleys up to 25 km away.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10.298,
+        6.438
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1991_pinatubo",
+      "name": "1991 Mount Pinatubo Eruption",
+      "type": "volcanic_eruption",
+      "year": 1991,
+      "country": "Philippines",
+      "region": "Zambales/Tarlac/Pampanga, Luzon",
+      "severity": "VEI 6",
+      "deaths": 847,
+      "description": "Second-largest eruption of the 20th century ejected 10 km³ of material, generating massive pyroclastic flows and causing global cooling of 0.5°C for two years.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        120.35,
+        15.13
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1993_galeras",
+      "name": "1993 Galeras Eruption",
+      "type": "volcanic_eruption",
+      "year": 1993,
+      "country": "Colombia",
+      "region": "Nariño",
+      "severity": "VEI 1",
+      "deaths": 9,
+      "description": "Unexpected explosive eruption during a scientific conference field trip inside the crater killed six scientists and three tourists, highlighting volcanic hazard assessment challenges.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.359,
+        1.222
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1994_rabaul",
+      "name": "1994 Rabaul Caldera Eruption",
+      "type": "volcanic_eruption",
+      "year": 1994,
+      "country": "Papua New Guinea",
+      "region": "East New Britain",
+      "severity": "VEI 4",
+      "deaths": 5,
+      "description": "Simultaneous eruptions of Tavurvur and Vulcan volcanoes within Rabaul caldera buried much of the town in ash and forced the evacuation of 30,000 residents.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        152.2,
+        -4.27
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1995_montserrat",
+      "name": "1995-1997 Soufrière Hills Eruption",
+      "type": "volcanic_eruption",
+      "year": 1995,
+      "country": "United Kingdom (Montserrat)",
+      "region": "Montserrat, Caribbean",
+      "severity": "VEI 3",
+      "deaths": 19,
+      "description": "Prolonged dome-building eruption destroyed the capital Plymouth with pyroclastic flows, rendering the southern two-thirds of the island uninhabitable and displacing most of the population.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -62.18,
+        16.72
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1997_hekla",
+      "name": "2000 Hekla Eruption",
+      "type": "volcanic_eruption",
+      "year": 2000,
+      "country": "Iceland",
+      "region": "South Iceland",
+      "severity": "VEI 3",
+      "deaths": 0,
+      "description": "Brief but intense eruption from a fissure on Hekla's summit ridge produced lava flows and an ash plume that disrupted air traffic, continuing Iceland's most active volcano's pattern.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -19.67,
+        63.98
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2002_nyiragongo",
+      "name": "2002 Mount Nyiragongo Eruption",
+      "type": "volcanic_eruption",
+      "year": 2002,
+      "country": "Democratic Republic of Congo",
+      "region": "North Kivu",
+      "severity": "VEI 1",
+      "deaths": 147,
+      "description": "Fast-moving lava flows from flank fissures reached Goma city within hours, destroying 40% of the town, displacing 400,000 people, and draining the famous lava lake.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        29.25,
+        -1.52
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2006_merapi",
+      "name": "2006 Mount Merapi Eruption",
+      "type": "volcanic_eruption",
+      "year": 2006,
+      "country": "Indonesia",
+      "region": "Central Java",
+      "severity": "VEI 2",
+      "deaths": 5,
+      "description": "Dome collapse generated pyroclastic flows on the southern flanks, occurring just days after the devastating 2006 Yogyakarta earthquake, compounding the regional disaster response.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        110.446,
+        -7.54
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2008_chaiten",
+      "name": "2008 Chaitén Eruption",
+      "type": "volcanic_eruption",
+      "year": 2008,
+      "country": "Chile",
+      "region": "Los Lagos",
+      "severity": "VEI 4",
+      "deaths": 2,
+      "description": "Unexpected explosive eruption from a volcano dormant for 9,000 years forced complete evacuation of the town of Chaitén, which was subsequently destroyed by lahars and flooding.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.646,
+        -42.833
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2010_eyjafjallajokull",
+      "name": "2010 Eyjafjallajökull Eruption",
+      "type": "volcanic_eruption",
+      "year": 2010,
+      "country": "Iceland",
+      "region": "South Iceland",
+      "severity": "VEI 4",
+      "deaths": 0,
+      "description": "Sub-glacial eruption produced fine ash clouds that caused unprecedented airspace closures across Europe for six days, stranding 10 million passengers and costing $5 billion.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -19.613,
+        63.633
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2010_merapi",
+      "name": "2010 Mount Merapi Eruption",
+      "type": "volcanic_eruption",
+      "year": 2010,
+      "country": "Indonesia",
+      "region": "Central Java/Yogyakarta",
+      "severity": "VEI 4",
+      "deaths": 353,
+      "description": "Merapi's largest eruption in over a century generated massive pyroclastic flows reaching 15 km from the summit, forcing evacuation of 350,000 people including the volcano's spiritual guardian.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        110.446,
+        -7.54
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2011_puyehue",
+      "name": "2011 Puyehue-Cordón Caulle Eruption",
+      "type": "volcanic_eruption",
+      "year": 2011,
+      "country": "Chile",
+      "region": "Los Ríos",
+      "severity": "VEI 5",
+      "deaths": 0,
+      "description": "Major rhyolitic eruption from a volcanic fissure sent ash clouds circling the Southern Hemisphere, disrupting flights to Australia and New Zealand for months.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.117,
+        -40.59
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2014_ontake",
+      "name": "2014 Mount Ontake Eruption",
+      "type": "volcanic_eruption",
+      "year": 2014,
+      "country": "Japan",
+      "region": "Nagano/Gifu",
+      "severity": "VEI 2",
+      "deaths": 63,
+      "description": "Sudden phreatic eruption struck without seismic warning while 250+ hikers were near the summit on a holiday weekend, making it Japan's deadliest volcanic disaster since 1926.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        137.48,
+        35.893
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2014_bardarbunga",
+      "name": "2014-2015 Bárðarbunga Eruption",
+      "type": "volcanic_eruption",
+      "year": 2014,
+      "country": "Iceland",
+      "region": "Vatnajökull, Highlands",
+      "severity": "VEI 0 (effusive)",
+      "deaths": 0,
+      "description": "Six-month fissure eruption at Holuhraun produced Iceland's largest lava field in 230 years, covering 85 km² while releasing record amounts of SO2 that affected European air quality.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.83,
+        64.87
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2015_calbuco",
+      "name": "2015 Calbuco Eruption",
+      "type": "volcanic_eruption",
+      "year": 2015,
+      "country": "Chile",
+      "region": "Los Lagos",
+      "severity": "VEI 4",
+      "deaths": 0,
+      "description": "Unexpected explosive eruption after 43 years of dormancy sent ash columns 15 km high, forcing evacuation of 6,500 people and causing ash fall across Patagonia and Argentina.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.614,
+        -41.326
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2017_agung",
+      "name": "2017 Mount Agung Eruption",
+      "type": "volcanic_eruption",
+      "year": 2017,
+      "country": "Indonesia",
+      "region": "Bali",
+      "severity": "VEI 2",
+      "deaths": 0,
+      "description": "Renewed activity at Bali's highest volcano prompted evacuation of 140,000 people and closure of the island's airport, causing massive tourism disruption amid fears of a repeat of the deadly 1963 eruption.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        115.508,
+        -8.343
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2018_kilauea",
+      "name": "2018 Kilauea Lower East Rift Zone Eruption",
+      "type": "volcanic_eruption",
+      "year": 2018,
+      "country": "United States",
+      "region": "Hawaii (Big Island)",
+      "severity": "VEI 4 (caldera collapse)",
+      "deaths": 0,
+      "description": "Prolific fissure eruption in Leilani Estates produced fast-moving lava flows that destroyed 716 homes, created new coastline, and caused the summit caldera to collapse dramatically.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -154.886,
+        19.462
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2018_anak_krakatau",
+      "name": "2018 Anak Krakatau Eruption and Tsunami",
+      "type": "volcanic_eruption",
+      "year": 2018,
+      "country": "Indonesia",
+      "region": "Sunda Strait",
+      "severity": "VEI 3",
+      "deaths": 437,
+      "description": "Flank collapse during eruption triggered a deadly tsunami that struck the coasts of Java and Sumatra without warning, destroying coastal communities during a holiday weekend.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        105.423,
+        -6.102
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2018_fuego",
+      "name": "2018 Volcán de Fuego Eruption",
+      "type": "volcanic_eruption",
+      "year": 2018,
+      "country": "Guatemala",
+      "region": "Sacatepéquez/Escuintla",
+      "severity": "VEI 4",
+      "deaths": 431,
+      "description": "Devastating pyroclastic flows swept down ravines at over 100 km/h, burying the village of San Miguel Los Lotes and causing Guatemala's deadliest volcanic disaster in over a century.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -90.88,
+        14.473
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2021_la_palma",
+      "name": "2021 Cumbre Vieja Eruption (La Palma)",
+      "type": "volcanic_eruption",
+      "year": 2021,
+      "country": "Spain",
+      "region": "La Palma, Canary Islands",
+      "severity": "VEI 3",
+      "deaths": 0,
+      "description": "85-day eruption from a new fissure vent produced lava flows that destroyed over 2,900 buildings, displaced 7,000 people, and extended the island's coastline by 48 hectares.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.871,
+        28.614
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2022_hunga_tonga",
+      "name": "2022 Hunga Tonga–Hunga Ha'apai Eruption",
+      "type": "volcanic_eruption",
+      "year": 2022,
+      "country": "Tonga",
+      "region": "Tonga, South Pacific",
+      "severity": "VEI 5-6",
+      "deaths": 6,
+      "description": "Colossal submarine eruption produced the highest-ever recorded volcanic plume (57 km), generated tsunamis across the Pacific, and created a shockwave that circled the globe multiple times.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -175.385,
+        -20.546
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2022_mauna_loa",
+      "name": "2022 Mauna Loa Eruption",
+      "type": "volcanic_eruption",
+      "year": 2022,
+      "country": "United States",
+      "region": "Hawaii (Big Island)",
+      "severity": "VEI 0 (effusive)",
+      "deaths": 0,
+      "description": "First eruption since 1984 of Earth's largest active volcano produced lava flows from the Northeast Rift Zone that came within 3 km of the Saddle Road before the eruption ended after two weeks.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -155.608,
+        19.475
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2023_grindavik_iceland",
+      "name": "2023-2024 Grindavík/Sundhnúkur Eruptions",
+      "type": "volcanic_eruption",
+      "year": 2023,
+      "country": "Iceland",
+      "region": "Reykjanes Peninsula",
+      "severity": "VEI 1",
+      "deaths": 0,
+      "description": "Series of fissure eruptions on the Reykjanes Peninsula forced complete evacuation of the town of Grindavík after magma intrusion cracked buildings, with lava flows threatening the Blue Lagoon area.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -22.434,
+        63.862
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2002_etna",
+      "name": "2002-2003 Mount Etna Eruption",
+      "type": "volcanic_eruption",
+      "year": 2002,
+      "country": "Italy",
+      "region": "Sicily",
+      "severity": "VEI 3",
+      "deaths": 0,
+      "description": "Major flank eruption from multiple fissures destroyed tourist facilities, generated ash clouds that closed Catania airport repeatedly, and produced lava flows threatening Piano Provenzana ski resort.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.004,
+        37.748
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2019_stromboli",
+      "name": "2019 Stromboli Paroxysmal Eruptions",
+      "type": "volcanic_eruption",
+      "year": 2019,
+      "country": "Italy",
+      "region": "Aeolian Islands, Sicily",
+      "severity": "VEI 3",
+      "deaths": 1,
+      "description": "Two powerful paroxysmal eruptions in July and August generated pyroclastic flows that reached the sea, killed a hiker, triggered a small tsunami, and forced tourist evacuations from the island.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.213,
+        38.789
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2014_sinabung",
+      "name": "2014 Mount Sinabung Eruption",
+      "type": "volcanic_eruption",
+      "year": 2014,
+      "country": "Indonesia",
+      "region": "North Sumatra",
+      "severity": "VEI 2",
+      "deaths": 23,
+      "description": "Continued dome-growth eruptions produced deadly pyroclastic flows that killed farmers who had returned to the exclusion zone, after the volcano reawakened in 2010 following 400 years of dormancy.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        98.392,
+        3.17
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_2013_sakurajima",
+      "name": "2013 Sakurajima Record Eruptions",
+      "type": "volcanic_eruption",
+      "year": 2013,
+      "country": "Japan",
+      "region": "Kagoshima, Kyushu",
+      "severity": "VEI 2-3",
+      "deaths": 0,
+      "description": "Record year with over 1,000 explosive eruptions from Showa crater, producing frequent ash plumes up to 5 km high that regularly dusted Kagoshima city and disrupted regional aviation.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.657,
+        31.585
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "vol_1999_tungurahua",
+      "name": "1999-2016 Tungurahua Eruptions",
+      "type": "volcanic_eruption",
+      "year": 1999,
+      "country": "Ecuador",
+      "region": "Tungurahua Province",
+      "severity": "VEI 3",
+      "deaths": 6,
+      "description": "Intermittent explosive eruptions over 17 years forced repeated evacuations of Baños, with major paroxysms in 2006 producing deadly pyroclastic flows that destroyed several villages on the flanks.",
+      "source": "Smithsonian GVP"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -78.442,
+        -1.467
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1976_moro_gulf",
+      "name": "1976 Moro Gulf Tsunami",
+      "type": "tsunami",
+      "year": 1976,
+      "country": "Philippines",
+      "region": "Moro Gulf, Mindanao",
+      "severity": "8.0 Mw trigger",
+      "deaths": 5000,
+      "description": "Massive tsunami generated by an undersea earthquake devastated coastal communities around Moro Gulf, destroying Cotabato City and coastal villages with waves up to 9 meters.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          124.0,
+          6.3
+        ],
+        [
+          123.8,
+          6.5
+        ],
+        [
+          123.5,
+          6.8
+        ],
+        [
+          123.1,
+          7.1
+        ],
+        [
+          122.6,
+          7.3
+        ],
+        [
+          122.0,
+          7.5
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1979_colombia",
+      "name": "1979 Tumaco Tsunami",
+      "type": "tsunami",
+      "year": 1979,
+      "country": "Colombia",
+      "region": "Pacific Coast, Nariño",
+      "severity": "8.2 Mw trigger",
+      "deaths": 259,
+      "description": "Destructive tsunami triggered by a subduction zone earthquake off the Colombia-Ecuador coast, devastating the fishing town of Tumaco with 5-meter waves.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4,
+          1.6
+        ],
+        [
+          -79.0,
+          1.7
+        ],
+        [
+          -78.6,
+          1.8
+        ],
+        [
+          -78.3,
+          1.9
+        ],
+        [
+          -78.0,
+          1.6
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1983_sea_of_japan",
+      "name": "1983 Sea of Japan Tsunami",
+      "type": "tsunami",
+      "year": 1983,
+      "country": "Japan",
+      "region": "Akita Prefecture, Sea of Japan",
+      "severity": "7.7 Mw trigger",
+      "deaths": 104,
+      "description": "Tsunami generated by an earthquake in the Sea of Japan struck the Akita and Aomori coastlines within minutes, with waves reaching 14 meters and killing 100 people including school children on a field trip.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          139.1,
+          40.5
+        ],
+        [
+          139.5,
+          40.2
+        ],
+        [
+          139.8,
+          39.8
+        ],
+        [
+          139.9,
+          39.4
+        ],
+        [
+          139.95,
+          39.0
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1992_nicaragua",
+      "name": "1992 Nicaragua Tsunami",
+      "type": "tsunami",
+      "year": 1992,
+      "country": "Nicaragua",
+      "region": "Pacific Coast",
+      "severity": "7.7 Mw trigger (tsunami earthquake)",
+      "deaths": 170,
+      "description": "Classic 'tsunami earthquake' that produced disproportionately large waves (up to 10 m) despite weak ground shaking, catching coastal residents off guard along 300 km of coastline.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -87.3,
+          11.7
+        ],
+        [
+          -87.0,
+          11.9
+        ],
+        [
+          -86.6,
+          12.1
+        ],
+        [
+          -86.2,
+          12.3
+        ],
+        [
+          -85.8,
+          12.4
+        ],
+        [
+          -85.4,
+          12.3
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1993_okushiri",
+      "name": "1993 Okushiri Tsunami",
+      "type": "tsunami",
+      "year": 1993,
+      "country": "Japan",
+      "region": "Okushiri Island, Hokkaido",
+      "severity": "7.8 Mw trigger",
+      "deaths": 230,
+      "description": "Devastating tsunami struck Okushiri Island within 2-5 minutes of the offshore earthquake, with run-up heights reaching 31 meters at Monai, the highest recorded in Japan until 2011.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          139.2,
+          42.2
+        ],
+        [
+          139.3,
+          42.5
+        ],
+        [
+          139.4,
+          42.1
+        ],
+        [
+          139.5,
+          41.8
+        ],
+        [
+          139.45,
+          41.5
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1994_java",
+      "name": "1994 East Java Tsunami",
+      "type": "tsunami",
+      "year": 1994,
+      "country": "Indonesia",
+      "region": "East Java",
+      "severity": "7.8 Mw trigger",
+      "deaths": 238,
+      "description": "Tsunami struck the south coast of Java with waves up to 14 meters, devastating the fishing village of Rajekwesi where most deaths occurred, demonstrating risk of tsunami earthquakes in Java Trench.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          112.8,
+          -10.5
+        ],
+        [
+          113.0,
+          -9.8
+        ],
+        [
+          113.2,
+          -9.2
+        ],
+        [
+          113.5,
+          -8.7
+        ],
+        [
+          113.8,
+          -8.3
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_1998_png",
+      "name": "1998 Papua New Guinea Tsunami",
+      "type": "tsunami",
+      "year": 1998,
+      "country": "Papua New Guinea",
+      "region": "Aitape, Sandaun Province",
+      "severity": "7.0 Mw trigger + submarine landslide",
+      "deaths": 2183,
+      "description": "Catastrophic tsunami with 15-meter waves generated by an earthquake-triggered submarine landslide destroyed villages along the Sissano Lagoon coast, killing over 2,000 people.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          142.0,
+          -3.2
+        ],
+        [
+          142.2,
+          -3.0
+        ],
+        [
+          142.5,
+          -2.9
+        ],
+        [
+          142.7,
+          -2.85
+        ],
+        [
+          142.9,
+          -2.8
+        ],
+        [
+          143.1,
+          -2.75
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2004_indian_ocean",
+      "name": "2004 Indian Ocean Tsunami",
+      "type": "tsunami",
+      "year": 2004,
+      "country": "Multi-country",
+      "region": "Indian Ocean (14 countries)",
+      "severity": "9.1 Mw trigger",
+      "deaths": 227898,
+      "description": "Catastrophic megathrust earthquake off Sumatra generated the deadliest tsunami in recorded history, devastating coastlines across the Indian Ocean from Indonesia to East Africa.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          95.85,
+          3.3
+        ],
+        [
+          94.5,
+          5.5
+        ],
+        [
+          92.0,
+          7.5
+        ],
+        [
+          88.0,
+          8.5
+        ],
+        [
+          82.0,
+          7.0
+        ],
+        [
+          80.2,
+          6.5
+        ],
+        [
+          76.0,
+          8.5
+        ],
+        [
+          73.0,
+          4.0
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2006_java",
+      "name": "2006 South Java Tsunami",
+      "type": "tsunami",
+      "year": 2006,
+      "country": "Indonesia",
+      "region": "South Java Coast",
+      "severity": "7.7 Mw trigger",
+      "deaths": 668,
+      "description": "Tsunami earthquake produced unexpectedly large waves (up to 7 m) along the south coast of Java, devastating Pangandaran beach resort and nearby fishing villages.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          107.3,
+          -9.5
+        ],
+        [
+          107.6,
+          -8.8
+        ],
+        [
+          108.0,
+          -8.2
+        ],
+        [
+          108.3,
+          -7.8
+        ],
+        [
+          108.6,
+          -7.7
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2009_samoa",
+      "name": "2009 Samoa Tsunami",
+      "type": "tsunami",
+      "year": 2009,
+      "country": "Samoa/American Samoa/Tonga",
+      "region": "South Pacific",
+      "severity": "8.1 Mw trigger",
+      "deaths": 192,
+      "description": "Powerful outer-rise earthquake generated destructive tsunami waves up to 14 meters that struck Samoa, American Samoa, and Tonga within minutes, devastating coastal villages.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -172.1,
+          -15.5
+        ],
+        [
+          -172.0,
+          -15.0
+        ],
+        [
+          -171.8,
+          -14.5
+        ],
+        [
+          -171.5,
+          -14.0
+        ],
+        [
+          -171.2,
+          -13.8
+        ],
+        [
+          -171.0,
+          -13.5
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2010_chile",
+      "name": "2010 Chile Tsunami",
+      "type": "tsunami",
+      "year": 2010,
+      "country": "Chile",
+      "region": "Maule/Bío-Bío Coast",
+      "severity": "8.8 Mw trigger",
+      "deaths": 156,
+      "description": "Powerful megathrust earthquake generated destructive tsunami with waves up to 29 meters that devastated coastal towns in the Maule region and propagated across the entire Pacific basin.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -73.2,
+          -36.1
+        ],
+        [
+          -73.5,
+          -35.5
+        ],
+        [
+          -73.8,
+          -34.8
+        ],
+        [
+          -74.0,
+          -34.2
+        ],
+        [
+          -74.5,
+          -33.5
+        ],
+        [
+          -75.0,
+          -33.0
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2011_japan",
+      "name": "2011 Tōhoku Tsunami",
+      "type": "tsunami",
+      "year": 2011,
+      "country": "Japan",
+      "region": "Tōhoku Coast, Pacific",
+      "severity": "9.1 Mw trigger",
+      "deaths": 19747,
+      "description": "Massive megathrust earthquake generated a catastrophic tsunami with run-up heights exceeding 40 meters, devastating the Tōhoku coast, triggering the Fukushima nuclear disaster, and crossing the Pacific.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          142.37,
+          38.3
+        ],
+        [
+          141.8,
+          38.5
+        ],
+        [
+          141.4,
+          38.8
+        ],
+        [
+          141.2,
+          39.0
+        ],
+        [
+          141.1,
+          39.5
+        ],
+        [
+          141.0,
+          39.8
+        ],
+        [
+          140.9,
+          40.2
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2018_sulawesi",
+      "name": "2018 Sulawesi Tsunami",
+      "type": "tsunami",
+      "year": 2018,
+      "country": "Indonesia",
+      "region": "Palu Bay, Central Sulawesi",
+      "severity": "7.5 Mw trigger + submarine landslide",
+      "deaths": 4340,
+      "description": "Strike-slip earthquake triggered submarine landslides in the narrow Palu Bay, funneling destructive tsunami waves up to 11 meters into the city of Palu within minutes.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          119.84,
+          -0.2
+        ],
+        [
+          119.85,
+          -0.4
+        ],
+        [
+          119.86,
+          -0.6
+        ],
+        [
+          119.87,
+          -0.8
+        ],
+        [
+          119.88,
+          -1.0
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2018_sunda_strait",
+      "name": "2018 Sunda Strait Tsunami",
+      "type": "tsunami",
+      "year": 2018,
+      "country": "Indonesia",
+      "region": "Sunda Strait (Java/Sumatra)",
+      "severity": "Volcanic flank collapse trigger",
+      "deaths": 437,
+      "description": "Volcanic collapse of Anak Krakatau generated a tsunami without seismic warning that struck coastal areas of western Java and southern Sumatra during a holiday weekend.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          105.42,
+          -6.1
+        ],
+        [
+          105.3,
+          -6.3
+        ],
+        [
+          105.1,
+          -6.5
+        ],
+        [
+          105.0,
+          -6.6
+        ],
+        [
+          104.8,
+          -6.5
+        ],
+        [
+          105.5,
+          -6.4
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tsu_2011_chile_aftershock",
+      "name": "1985 Chile Tsunami",
+      "type": "tsunami",
+      "year": 1985,
+      "country": "Chile",
+      "region": "Valparaíso Coast",
+      "severity": "8.0 Mw trigger",
+      "deaths": 177,
+      "description": "Major earthquake off the coast of central Chile triggered a local tsunami that struck Valparaíso and surrounding coastal communities, contributing to the disaster's death toll.",
+      "source": "NOAA NGDC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -71.9,
+          -33.1
+        ],
+        [
+          -72.2,
+          -33.4
+        ],
+        [
+          -72.5,
+          -33.8
+        ],
+        [
+          -72.8,
+          -34.2
+        ],
+        [
+          -73.0,
+          -34.5
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1977_birmingham",
+      "name": "1977 Birmingham Tornado",
+      "type": "tornado",
+      "year": 1977,
+      "country": "United States",
+      "region": "Birmingham, Alabama",
+      "severity": "F5",
+      "deaths": 22,
+      "description": "Deadly F5 tornado struck Smithfield neighborhood in Birmingham, devastating the predominantly African-American community and killing 22 people.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -86.87,
+          33.47
+        ],
+        [
+          -86.84,
+          33.49
+        ],
+        [
+          -86.81,
+          33.51
+        ],
+        [
+          -86.78,
+          33.53
+        ],
+        [
+          -86.74,
+          33.55
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1979_wichita_falls",
+      "name": "1979 Wichita Falls Tornado",
+      "type": "tornado",
+      "year": 1979,
+      "country": "United States",
+      "region": "Wichita Falls, Texas",
+      "severity": "F4",
+      "deaths": 42,
+      "description": "Massive tornado up to 1.5 miles wide devastated the city of Wichita Falls, injuring 1,740 people and destroying 3,000 homes in one of the costliest tornadoes of the era.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -98.56,
+          33.87
+        ],
+        [
+          -98.52,
+          33.89
+        ],
+        [
+          -98.49,
+          33.91
+        ],
+        [
+          -98.45,
+          33.93
+        ],
+        [
+          -98.41,
+          33.95
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1985_barrie",
+      "name": "1985 Barrie Tornado Outbreak",
+      "type": "tornado",
+      "year": 1985,
+      "country": "Canada",
+      "region": "Ontario",
+      "severity": "F4",
+      "deaths": 12,
+      "description": "Worst tornado outbreak in Canadian history spawned 14 tornadoes across southern Ontario, including a devastating F4 that struck the city of Barrie.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.75,
+          44.35
+        ],
+        [
+          -79.7,
+          44.38
+        ],
+        [
+          -79.66,
+          44.4
+        ],
+        [
+          -79.62,
+          44.42
+        ],
+        [
+          -79.58,
+          44.45
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1990_plainfield",
+      "name": "1990 Plainfield Tornado",
+      "type": "tornado",
+      "year": 1990,
+      "country": "United States",
+      "region": "Plainfield, Illinois",
+      "severity": "F5",
+      "deaths": 29,
+      "description": "Rare F5 tornado struck without warning during the middle of the day, destroying Plainfield High School and devastating the small community southwest of Chicago.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -88.28,
+          41.58
+        ],
+        [
+          -88.24,
+          41.6
+        ],
+        [
+          -88.2,
+          41.62
+        ],
+        [
+          -88.16,
+          41.64
+        ],
+        [
+          -88.12,
+          41.66
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1992_chandler",
+      "name": "1992 Chandler-Lake Wilson Tornado",
+      "type": "tornado",
+      "year": 1992,
+      "country": "United States",
+      "region": "Chandler, Minnesota",
+      "severity": "F5",
+      "deaths": 1,
+      "description": "Powerful F5 tornado obliterated the small town of Chandler, Minnesota, destroying 50 homes and most businesses but miraculously killing only one person.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -95.98,
+          43.9
+        ],
+        [
+          -95.94,
+          43.92
+        ],
+        [
+          -95.9,
+          43.94
+        ],
+        [
+          -95.86,
+          43.96
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1995_pampa",
+      "name": "1995 Pampa Tornado",
+      "type": "tornado",
+      "year": 1995,
+      "country": "United States",
+      "region": "Pampa, Texas",
+      "severity": "F3",
+      "deaths": 6,
+      "description": "Strong tornado struck the city of Pampa, Texas, causing extensive damage and killing 6 people in the Texas Panhandle during an active severe weather outbreak.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -100.99,
+          35.52
+        ],
+        [
+          -100.96,
+          35.54
+        ],
+        [
+          -100.93,
+          35.56
+        ],
+        [
+          -100.9,
+          35.58
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1996_bangladesh",
+      "name": "1996 Tangail Tornado",
+      "type": "tornado",
+      "year": 1996,
+      "country": "Bangladesh",
+      "region": "Tangail District",
+      "severity": "F4",
+      "deaths": 700,
+      "description": "Devastating tornado struck densely populated areas of Tangail district, killing approximately 700 people and injuring 33,000, one of the deadliest tornadoes in world history.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          89.9,
+          24.25
+        ],
+        [
+          89.93,
+          24.28
+        ],
+        [
+          89.96,
+          24.31
+        ],
+        [
+          89.99,
+          24.34
+        ],
+        [
+          90.02,
+          24.37
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1997_jarrell",
+      "name": "1997 Jarrell Tornado",
+      "type": "tornado",
+      "year": 1997,
+      "country": "United States",
+      "region": "Jarrell, Texas",
+      "severity": "F5",
+      "deaths": 27,
+      "description": "Unusual slow-moving F5 tornado obliterated homes in the Double Creek subdivision, scouring foundations clean and killing 27 people with unsurvivable destruction.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.62,
+          30.8
+        ],
+        [
+          -97.6,
+          30.82
+        ],
+        [
+          -97.58,
+          30.84
+        ],
+        [
+          -97.56,
+          30.86
+        ],
+        [
+          -97.54,
+          30.88
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1998_birmingham",
+      "name": "1998 Birmingham Tornado",
+      "type": "tornado",
+      "year": 1998,
+      "country": "United States",
+      "region": "Birmingham, Alabama",
+      "severity": "F5",
+      "deaths": 32,
+      "description": "Deadly F5 tornado carved a 20-mile path through Jefferson County suburbs during a major outbreak that spawned dozens of tornadoes across the Southeast.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -86.95,
+          33.44
+        ],
+        [
+          -86.9,
+          33.47
+        ],
+        [
+          -86.85,
+          33.5
+        ],
+        [
+          -86.8,
+          33.53
+        ],
+        [
+          -86.75,
+          33.56
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_1999_bridge_creek_moore",
+      "name": "1999 Bridge Creek-Moore F5 Tornado",
+      "type": "tornado",
+      "year": 1999,
+      "country": "United States",
+      "region": "Bridge Creek to Moore, Oklahoma",
+      "severity": "F5 (302 mph winds recorded)",
+      "deaths": 36,
+      "description": "One of the most powerful tornadoes ever recorded, with Doppler-measured winds of 302 mph, devastated communities from Bridge Creek through Moore in the May 3rd outbreak.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.76,
+          35.24
+        ],
+        [
+          -97.68,
+          35.28
+        ],
+        [
+          -97.6,
+          35.32
+        ],
+        [
+          -97.52,
+          35.35
+        ],
+        [
+          -97.44,
+          35.38
+        ],
+        [
+          -97.36,
+          35.4
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2003_okc_metro",
+      "name": "2003 Oklahoma City Metro Tornado",
+      "type": "tornado",
+      "year": 2003,
+      "country": "United States",
+      "region": "Moore/Oklahoma City, Oklahoma",
+      "severity": "F4",
+      "deaths": 1,
+      "description": "Large tornado struck the southern Oklahoma City metro area including Moore, four years after the devastating 1999 tornado, causing $370 million in damage.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.52,
+          35.3
+        ],
+        [
+          -97.48,
+          35.33
+        ],
+        [
+          -97.44,
+          35.36
+        ],
+        [
+          -97.4,
+          35.39
+        ],
+        [
+          -97.36,
+          35.42
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2004_hallam",
+      "name": "2004 Hallam Tornado",
+      "type": "tornado",
+      "year": 2004,
+      "country": "United States",
+      "region": "Hallam, Nebraska",
+      "severity": "F4",
+      "deaths": 1,
+      "description": "Record-breaking 2.5-mile-wide tornado, the widest ever measured at the time, devastated the small town of Hallam, destroying 95% of its structures.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -96.86,
+          40.5
+        ],
+        [
+          -96.82,
+          40.52
+        ],
+        [
+          -96.78,
+          40.54
+        ],
+        [
+          -96.74,
+          40.56
+        ],
+        [
+          -96.7,
+          40.58
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2005_evansville",
+      "name": "2005 Evansville Tornado",
+      "type": "tornado",
+      "year": 2005,
+      "country": "United States",
+      "region": "Evansville, Indiana",
+      "severity": "F3",
+      "deaths": 25,
+      "description": "Deadly early-morning tornado struck while residents slept, devastating the Eastbrook Mobile Home Park and nearby areas on the east side of Evansville.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -87.52,
+          37.97
+        ],
+        [
+          -87.49,
+          37.99
+        ],
+        [
+          -87.46,
+          38.01
+        ],
+        [
+          -87.43,
+          38.03
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2007_greensburg",
+      "name": "2007 Greensburg Tornado",
+      "type": "tornado",
+      "year": 2007,
+      "country": "United States",
+      "region": "Greensburg, Kansas",
+      "severity": "EF5",
+      "deaths": 11,
+      "description": "Massive 1.7-mile-wide EF5 tornado destroyed 95% of the city of Greensburg, which later rebuilt as a model green community with LEED-certified buildings.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -99.34,
+          37.58
+        ],
+        [
+          -99.3,
+          37.6
+        ],
+        [
+          -99.26,
+          37.62
+        ],
+        [
+          -99.22,
+          37.64
+        ],
+        [
+          -99.18,
+          37.66
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2008_super_tuesday",
+      "name": "2008 Super Tuesday Tornado Outbreak",
+      "type": "tornado",
+      "year": 2008,
+      "country": "United States",
+      "region": "Tennessee/Arkansas/Kentucky",
+      "severity": "EF4",
+      "deaths": 57,
+      "description": "Devastating multi-state tornado outbreak on presidential primary day killed 57 people, with the deadliest tornado striking Union University in Jackson, Tennessee.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -88.85,
+          35.6
+        ],
+        [
+          -88.78,
+          35.64
+        ],
+        [
+          -88.71,
+          35.68
+        ],
+        [
+          -88.64,
+          35.72
+        ],
+        [
+          -88.57,
+          35.76
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2011_tuscaloosa",
+      "name": "2011 Tuscaloosa-Birmingham EF4",
+      "type": "tornado",
+      "year": 2011,
+      "country": "United States",
+      "region": "Tuscaloosa to Birmingham, Alabama",
+      "severity": "EF4",
+      "deaths": 65,
+      "description": "Massive long-track EF4 tornado devastated the University of Alabama area and carved an 80-mile path through Tuscaloosa and Birmingham during the April 27 Super Outbreak.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -87.62,
+          33.17
+        ],
+        [
+          -87.54,
+          33.21
+        ],
+        [
+          -87.4,
+          33.28
+        ],
+        [
+          -87.2,
+          33.36
+        ],
+        [
+          -86.95,
+          33.45
+        ],
+        [
+          -86.8,
+          33.52
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2011_joplin",
+      "name": "2011 Joplin EF5 Tornado",
+      "type": "tornado",
+      "year": 2011,
+      "country": "United States",
+      "region": "Joplin, Missouri",
+      "severity": "EF5",
+      "deaths": 158,
+      "description": "Deadliest single US tornado since 1947, the massive EF5 cut a mile-wide swath through the heart of Joplin, destroying St. John's Medical Center and thousands of structures.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -94.56,
+          37.06
+        ],
+        [
+          -94.52,
+          37.07
+        ],
+        [
+          -94.48,
+          37.08
+        ],
+        [
+          -94.44,
+          37.09
+        ],
+        [
+          -94.4,
+          37.1
+        ],
+        [
+          -94.36,
+          37.11
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2011_super_outbreak",
+      "name": "2011 April 27 Super Outbreak (Hackleburg-Phil Campbell)",
+      "type": "tornado",
+      "year": 2011,
+      "country": "United States",
+      "region": "Hackleburg to Phil Campbell, Alabama",
+      "severity": "EF5",
+      "deaths": 72,
+      "description": "Part of the largest tornado outbreak in recorded history (362 tornadoes), this violent EF5 destroyed the towns of Hackleburg and Phil Campbell in northwest Alabama.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -87.85,
+          34.27
+        ],
+        [
+          -87.78,
+          34.3
+        ],
+        [
+          -87.71,
+          34.33
+        ],
+        [
+          -87.64,
+          34.36
+        ],
+        [
+          -87.57,
+          34.39
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2012_henryville",
+      "name": "2012 Henryville Tornado",
+      "type": "tornado",
+      "year": 2012,
+      "country": "United States",
+      "region": "Henryville, Indiana",
+      "severity": "EF4",
+      "deaths": 3,
+      "description": "Powerful EF4 tornado destroyed much of the town of Henryville during a deadly March outbreak, striking the school while students sheltered inside.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -85.82,
+          38.55
+        ],
+        [
+          -85.78,
+          38.58
+        ],
+        [
+          -85.75,
+          38.61
+        ],
+        [
+          -85.72,
+          38.64
+        ],
+        [
+          -85.69,
+          38.67
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2013_moore",
+      "name": "2013 Moore EF5 Tornado",
+      "type": "tornado",
+      "year": 2013,
+      "country": "United States",
+      "region": "Moore, Oklahoma",
+      "severity": "EF5",
+      "deaths": 24,
+      "description": "Devastating EF5 tornado struck Moore for the third time in 14 years, destroying Plaza Towers Elementary School where 7 children died, and leveling entire neighborhoods.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.55,
+          35.28
+        ],
+        [
+          -97.51,
+          35.3
+        ],
+        [
+          -97.47,
+          35.32
+        ],
+        [
+          -97.43,
+          35.34
+        ],
+        [
+          -97.39,
+          35.36
+        ],
+        [
+          -97.35,
+          35.38
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2013_el_reno",
+      "name": "2013 El Reno Tornado",
+      "type": "tornado",
+      "year": 2013,
+      "country": "United States",
+      "region": "El Reno, Oklahoma",
+      "severity": "EF3 (widest ever: 2.6 miles)",
+      "deaths": 8,
+      "description": "Widest tornado ever recorded at 2.6 miles across with multiple sub-vortices, killing several storm chasers including Tim Samaras and his crew near El Reno.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -98.05,
+          35.46
+        ],
+        [
+          -98.0,
+          35.48
+        ],
+        [
+          -97.95,
+          35.49
+        ],
+        [
+          -97.9,
+          35.5
+        ],
+        [
+          -97.85,
+          35.51
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2014_vilonia",
+      "name": "2014 Vilonia-Mayflower Tornado",
+      "type": "tornado",
+      "year": 2014,
+      "country": "United States",
+      "region": "Vilonia/Mayflower, Arkansas",
+      "severity": "EF4",
+      "deaths": 16,
+      "description": "Deadly EF4 tornado struck the towns of Vilonia and Mayflower for the second time in three years, killing 16 and destroying hundreds of homes.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -92.48,
+          34.95
+        ],
+        [
+          -92.43,
+          34.98
+        ],
+        [
+          -92.38,
+          35.01
+        ],
+        [
+          -92.33,
+          35.04
+        ],
+        [
+          -92.28,
+          35.07
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2014_pilger",
+      "name": "2014 Pilger Twin Tornadoes",
+      "type": "tornado",
+      "year": 2014,
+      "country": "United States",
+      "region": "Pilger, Nebraska",
+      "severity": "EF4",
+      "deaths": 2,
+      "description": "Extremely rare twin EF4 tornadoes tracked side by side, devastating the small town of Pilger where half the buildings were destroyed.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.1,
+          41.98
+        ],
+        [
+          -97.06,
+          42.0
+        ],
+        [
+          -97.02,
+          42.02
+        ],
+        [
+          -96.98,
+          42.04
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2015_rochelle",
+      "name": "2015 Rochelle-Fairdale Tornado",
+      "type": "tornado",
+      "year": 2015,
+      "country": "United States",
+      "region": "Rochelle/Fairdale, Illinois",
+      "severity": "EF4",
+      "deaths": 2,
+      "description": "Violent EF4 tornado destroyed the small town of Fairdale and damaged Rochelle during an intense spring outbreak across northern Illinois.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -89.12,
+          41.88
+        ],
+        [
+          -89.08,
+          41.9
+        ],
+        [
+          -89.04,
+          41.92
+        ],
+        [
+          -89.0,
+          41.94
+        ],
+        [
+          -88.96,
+          41.96
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2016_rough_creek",
+      "name": "2016 Rough Creek/Katie Tornado",
+      "type": "tornado",
+      "year": 2016,
+      "country": "United States",
+      "region": "Garvin County, Oklahoma",
+      "severity": "EF4",
+      "deaths": 0,
+      "description": "Powerful EF4 tornado tracked through rural areas near Katie, Oklahoma, producing extreme damage to homes and outbuildings during a significant spring outbreak.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.1,
+          34.7
+        ],
+        [
+          -97.06,
+          34.73
+        ],
+        [
+          -97.02,
+          34.76
+        ],
+        [
+          -96.98,
+          34.79
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2017_canton",
+      "name": "2017 Canton Tornado",
+      "type": "tornado",
+      "year": 2017,
+      "country": "United States",
+      "region": "Canton, Texas",
+      "severity": "EF4",
+      "deaths": 5,
+      "description": "Violent EF4 tornado struck Canton during the famous First Monday Trade Days weekend, killing 5 and destroying numerous structures.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -95.92,
+          32.53
+        ],
+        [
+          -95.88,
+          32.55
+        ],
+        [
+          -95.84,
+          32.57
+        ],
+        [
+          -95.8,
+          32.59
+        ],
+        [
+          -95.76,
+          32.61
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2018_greensboro",
+      "name": "2018 Greensboro Tornado",
+      "type": "tornado",
+      "year": 2018,
+      "country": "United States",
+      "region": "Greensboro, North Carolina",
+      "severity": "EF2",
+      "deaths": 1,
+      "description": "Unusual EF2 tornado struck a densely populated area of Greensboro during a severe weather outbreak, damaging over 200 structures including businesses and homes.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.88,
+          36.04
+        ],
+        [
+          -79.84,
+          36.06
+        ],
+        [
+          -79.8,
+          36.08
+        ],
+        [
+          -79.76,
+          36.1
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2019_beauregard",
+      "name": "2019 Beauregard Tornado",
+      "type": "tornado",
+      "year": 2019,
+      "country": "United States",
+      "region": "Beauregard, Lee County, Alabama",
+      "severity": "EF4",
+      "deaths": 23,
+      "description": "Devastating EF4 tornado with winds over 170 mph destroyed the rural community of Beauregard, killing 23 people including 10 members of two extended families.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -85.42,
+          32.47
+        ],
+        [
+          -85.38,
+          32.49
+        ],
+        [
+          -85.34,
+          32.51
+        ],
+        [
+          -85.3,
+          32.53
+        ],
+        [
+          -85.26,
+          32.55
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2019_dayton",
+      "name": "2019 Dayton Tornado Outbreak",
+      "type": "tornado",
+      "year": 2019,
+      "country": "United States",
+      "region": "Dayton, Ohio",
+      "severity": "EF4",
+      "deaths": 3,
+      "description": "Powerful late-night EF4 tornado struck the Dayton metro area during a record outbreak of 19 tornadoes across western Ohio, causing catastrophic damage in Trotwood and Harrison Township.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -84.35,
+          39.72
+        ],
+        [
+          -84.3,
+          39.74
+        ],
+        [
+          -84.25,
+          39.76
+        ],
+        [
+          -84.2,
+          39.78
+        ],
+        [
+          -84.15,
+          39.8
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2020_nashville",
+      "name": "2020 Nashville Tornado",
+      "type": "tornado",
+      "year": 2020,
+      "country": "United States",
+      "region": "Nashville to Cookeville, Tennessee",
+      "severity": "EF3",
+      "deaths": 25,
+      "description": "Deadly early-morning tornado carved through downtown Nashville's Germantown and East Nashville neighborhoods before intensifying and devastating Cookeville 80 miles east.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -86.85,
+          36.16
+        ],
+        [
+          -86.78,
+          36.18
+        ],
+        [
+          -86.68,
+          36.2
+        ],
+        [
+          -85.7,
+          36.15
+        ],
+        [
+          -85.55,
+          36.14
+        ],
+        [
+          -85.5,
+          36.13
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2020_easter",
+      "name": "2020 Easter Sunday Outbreak (Hampton Cove)",
+      "type": "tornado",
+      "year": 2020,
+      "country": "United States",
+      "region": "Southeast US (MS/AL/GA/SC)",
+      "severity": "EF4",
+      "deaths": 36,
+      "description": "Major Easter Sunday tornado outbreak spawned over 140 tornadoes across the Southeast, with the deadliest EF4 striking Hampton Cove and Sylvania, Alabama.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -86.6,
+          34.7
+        ],
+        [
+          -86.54,
+          34.73
+        ],
+        [
+          -86.48,
+          34.76
+        ],
+        [
+          -86.42,
+          34.79
+        ],
+        [
+          -86.36,
+          34.82
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2021_mayfield",
+      "name": "2021 Mayfield Quad-State Tornado",
+      "type": "tornado",
+      "year": 2021,
+      "country": "United States",
+      "region": "AR/MO/TN/KY (Quad-State)",
+      "severity": "EF4",
+      "deaths": 90,
+      "description": "Exceptionally long-track tornado traveled over 165 miles across four states during the December outbreak, devastating downtown Mayfield, Kentucky and the candle factory where workers were trapped.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -90.15,
+          35.98
+        ],
+        [
+          -89.8,
+          36.15
+        ],
+        [
+          -89.2,
+          36.4
+        ],
+        [
+          -88.7,
+          36.6
+        ],
+        [
+          -88.65,
+          36.73
+        ],
+        [
+          -88.6,
+          36.85
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2022_december_multistate",
+      "name": "2022 December Multi-State Outbreak (Rolling Fork Precursor)",
+      "type": "tornado",
+      "year": 2022,
+      "country": "United States",
+      "region": "Texas/Louisiana/Mississippi",
+      "severity": "EF3",
+      "deaths": 2,
+      "description": "Pre-Christmas tornado outbreak across the southern states produced multiple significant tornadoes, continuing the pattern of devastating December tornado events.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -91.5,
+          31.2
+        ],
+        [
+          -91.44,
+          31.24
+        ],
+        [
+          -91.38,
+          31.28
+        ],
+        [
+          -91.32,
+          31.32
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2023_rolling_fork",
+      "name": "2023 Rolling Fork EF4 Tornado",
+      "type": "tornado",
+      "year": 2023,
+      "country": "United States",
+      "region": "Rolling Fork, Mississippi",
+      "severity": "EF4",
+      "deaths": 14,
+      "description": "Deadly nighttime EF4 tornado destroyed much of the small town of Rolling Fork in the Mississippi Delta, killing 14 and leveling homes and businesses.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -90.92,
+          32.88
+        ],
+        [
+          -90.88,
+          32.9
+        ],
+        [
+          -90.84,
+          32.92
+        ],
+        [
+          -90.8,
+          32.94
+        ],
+        [
+          -90.76,
+          32.96
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2024_greenfield",
+      "name": "2024 Greenfield Tornado",
+      "type": "tornado",
+      "year": 2024,
+      "country": "United States",
+      "region": "Greenfield, Iowa",
+      "severity": "EF4",
+      "deaths": 5,
+      "description": "Powerful EF4 tornado devastated the small town of Greenfield in southwest Iowa, killing 5 people and destroying large portions of the community.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -94.5,
+          41.3
+        ],
+        [
+          -94.46,
+          41.32
+        ],
+        [
+          -94.42,
+          41.34
+        ],
+        [
+          -94.38,
+          41.36
+        ],
+        [
+          -94.34,
+          41.38
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "tor_2025_kentucky",
+      "name": "2025 Kentucky Tornado Outbreak",
+      "type": "tornado",
+      "year": 2025,
+      "country": "United States",
+      "region": "Western Kentucky",
+      "severity": "EF3",
+      "deaths": 9,
+      "description": "Early-season tornado outbreak impacted western Kentucky communities still recovering from the 2021 December outbreak, producing multiple significant tornadoes.",
+      "source": "NOAA SPC"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -88.8,
+          36.8
+        ],
+        [
+          -88.74,
+          36.83
+        ],
+        [
+          -88.68,
+          36.86
+        ],
+        [
+          -88.62,
+          36.89
+        ],
+        [
+          -88.56,
+          36.92
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_1980_us",
+      "name": "1980 United States Heat Wave",
+      "type": "heatwave",
+      "year": 1980,
+      "country": "United States",
+      "region": "Central and Southern US",
+      "severity": "Extreme (up to 48°C)",
+      "deaths": 1700,
+      "description": "Devastating heat wave and drought across the central US with temperatures exceeding 100°F for weeks, killing over 1,700 people and causing $20 billion in agricultural losses.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -100.0,
+            40.5
+          ],
+          [
+            -95.5,
+            41.2
+          ],
+          [
+            -90.0,
+            40.8
+          ],
+          [
+            -85.5,
+            39.5
+          ],
+          [
+            -83.0,
+            37.0
+          ],
+          [
+            -84.5,
+            34.5
+          ],
+          [
+            -88.0,
+            32.0
+          ],
+          [
+            -93.5,
+            31.5
+          ],
+          [
+            -98.0,
+            33.0
+          ],
+          [
+            -101.5,
+            35.5
+          ],
+          [
+            -103.0,
+            38.0
+          ],
+          [
+            -100.0,
+            40.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_1987_greece",
+      "name": "1987 Greek Heat Wave",
+      "type": "heatwave",
+      "year": 1987,
+      "country": "Greece",
+      "region": "Athens and mainland Greece",
+      "severity": "Extreme (up to 45°C)",
+      "deaths": 1000,
+      "description": "Severe heat wave struck Greece with temperatures exceeding 44°C in Athens, overwhelming hospitals and killing over 1,000 people in what was then the country's worst heat disaster.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            21.5,
+            39.8
+          ],
+          [
+            23.0,
+            40.2
+          ],
+          [
+            24.5,
+            40.0
+          ],
+          [
+            25.5,
+            39.2
+          ],
+          [
+            25.0,
+            38.0
+          ],
+          [
+            24.0,
+            37.5
+          ],
+          [
+            23.2,
+            37.0
+          ],
+          [
+            22.0,
+            36.8
+          ],
+          [
+            21.0,
+            37.5
+          ],
+          [
+            20.5,
+            38.2
+          ],
+          [
+            20.8,
+            39.0
+          ],
+          [
+            21.5,
+            39.8
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_1988_us",
+      "name": "1988 North American Heat Wave and Drought",
+      "type": "heatwave",
+      "year": 1988,
+      "country": "United States",
+      "region": "Great Plains and Midwest",
+      "severity": "Extreme (up to 46°C)",
+      "deaths": 5000,
+      "description": "Catastrophic heat wave and drought killed 5,000-10,000 people and devastated agriculture across the US, triggering the first major congressional hearings on climate change.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -104.0,
+            48.0
+          ],
+          [
+            -97.0,
+            48.5
+          ],
+          [
+            -90.0,
+            47.0
+          ],
+          [
+            -85.0,
+            44.5
+          ],
+          [
+            -83.0,
+            41.0
+          ],
+          [
+            -84.0,
+            38.0
+          ],
+          [
+            -88.0,
+            35.5
+          ],
+          [
+            -95.0,
+            35.0
+          ],
+          [
+            -101.0,
+            37.5
+          ],
+          [
+            -104.5,
+            40.0
+          ],
+          [
+            -105.5,
+            44.0
+          ],
+          [
+            -104.0,
+            48.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_1995_chicago",
+      "name": "1995 Chicago Heat Wave",
+      "type": "heatwave",
+      "year": 1995,
+      "country": "United States",
+      "region": "Chicago, Illinois",
+      "severity": "Extreme (41°C heat index 48°C)",
+      "deaths": 739,
+      "description": "Five-day heat wave in Chicago killed 739 people, disproportionately affecting elderly, poor, and isolated residents, exposing systemic failures in urban heat response.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -88.2,
+            42.1
+          ],
+          [
+            -87.8,
+            42.15
+          ],
+          [
+            -87.5,
+            42.0
+          ],
+          [
+            -87.4,
+            41.8
+          ],
+          [
+            -87.45,
+            41.6
+          ],
+          [
+            -87.55,
+            41.45
+          ],
+          [
+            -87.7,
+            41.4
+          ],
+          [
+            -88.0,
+            41.5
+          ],
+          [
+            -88.3,
+            41.65
+          ],
+          [
+            -88.4,
+            41.85
+          ],
+          [
+            -88.35,
+            42.0
+          ],
+          [
+            -88.2,
+            42.1
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_1998_india",
+      "name": "1998 India Heat Wave",
+      "type": "heatwave",
+      "year": 1998,
+      "country": "India",
+      "region": "Odisha and Eastern India",
+      "severity": "Extreme (up to 50°C)",
+      "deaths": 2541,
+      "description": "Severe pre-monsoon heat wave with temperatures reaching 50°C in Odisha killed over 2,500 people, primarily outdoor workers and the elderly in rural areas.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            83.0,
+            22.5
+          ],
+          [
+            84.5,
+            22.8
+          ],
+          [
+            86.0,
+            22.2
+          ],
+          [
+            87.0,
+            21.5
+          ],
+          [
+            87.5,
+            20.5
+          ],
+          [
+            86.5,
+            19.5
+          ],
+          [
+            85.0,
+            19.2
+          ],
+          [
+            83.5,
+            19.5
+          ],
+          [
+            82.5,
+            20.0
+          ],
+          [
+            82.0,
+            20.8
+          ],
+          [
+            82.2,
+            21.5
+          ],
+          [
+            83.0,
+            22.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2003_europe",
+      "name": "2003 European Heat Wave",
+      "type": "heatwave",
+      "year": 2003,
+      "country": "Multi-country",
+      "region": "Western and Central Europe",
+      "severity": "Extreme (up to 47.4°C)",
+      "deaths": 70000,
+      "description": "Deadliest European heat wave in recorded history killed an estimated 70,000 people across the continent, with France hardest hit by 14,800 excess deaths, transforming European heat response policies.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -4.0,
+            48.5
+          ],
+          [
+            2.0,
+            50.5
+          ],
+          [
+            7.0,
+            50.0
+          ],
+          [
+            12.0,
+            48.5
+          ],
+          [
+            15.0,
+            47.0
+          ],
+          [
+            13.5,
+            44.0
+          ],
+          [
+            10.0,
+            42.5
+          ],
+          [
+            5.0,
+            41.5
+          ],
+          [
+            1.0,
+            42.0
+          ],
+          [
+            -2.0,
+            43.5
+          ],
+          [
+            -4.5,
+            45.5
+          ],
+          [
+            -4.0,
+            48.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2006_europe",
+      "name": "2006 European Heat Wave",
+      "type": "heatwave",
+      "year": 2006,
+      "country": "Multi-country",
+      "region": "Western Europe (UK, France, Netherlands)",
+      "severity": "Extreme (up to 46°C)",
+      "deaths": 2000,
+      "description": "Prolonged July heat wave across western Europe caused over 2,000 excess deaths, with the UK recording its hottest July and the Netherlands declaring a national heat emergency.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -3.5,
+            51.5
+          ],
+          [
+            0.5,
+            52.0
+          ],
+          [
+            4.0,
+            52.5
+          ],
+          [
+            6.5,
+            51.5
+          ],
+          [
+            6.0,
+            49.0
+          ],
+          [
+            4.5,
+            47.0
+          ],
+          [
+            2.0,
+            45.5
+          ],
+          [
+            -1.0,
+            46.0
+          ],
+          [
+            -3.0,
+            47.5
+          ],
+          [
+            -4.5,
+            49.0
+          ],
+          [
+            -4.0,
+            50.5
+          ],
+          [
+            -3.5,
+            51.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2007_se_europe",
+      "name": "2007 Southeastern European Heat Wave",
+      "type": "heatwave",
+      "year": 2007,
+      "country": "Multi-country",
+      "region": "Greece, Turkey, Balkans",
+      "severity": "Extreme (up to 46°C)",
+      "deaths": 500,
+      "description": "Extreme heat wave across southeastern Europe fueled devastating wildfires in Greece that killed 84 people, while temperatures shattered records across the Balkans and Turkey.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            20.0,
+            42.0
+          ],
+          [
+            23.0,
+            42.5
+          ],
+          [
+            26.0,
+            42.0
+          ],
+          [
+            28.5,
+            41.0
+          ],
+          [
+            28.0,
+            39.0
+          ],
+          [
+            26.0,
+            37.5
+          ],
+          [
+            24.0,
+            36.5
+          ],
+          [
+            22.0,
+            36.8
+          ],
+          [
+            20.5,
+            37.5
+          ],
+          [
+            19.5,
+            39.0
+          ],
+          [
+            19.8,
+            40.5
+          ],
+          [
+            20.0,
+            42.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2009_australia",
+      "name": "2009 Southeastern Australia Heat Wave (Black Saturday)",
+      "type": "heatwave",
+      "year": 2009,
+      "country": "Australia",
+      "region": "Victoria/South Australia",
+      "severity": "Extreme (up to 46.4°C)",
+      "deaths": 374,
+      "description": "Record-breaking heat wave with Melbourne reaching 46.4°C directly triggered the Black Saturday bushfires that killed 173 people, while heat-related deaths totaled 374.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            141.0,
+            -35.5
+          ],
+          [
+            143.0,
+            -35.0
+          ],
+          [
+            145.5,
+            -36.0
+          ],
+          [
+            147.0,
+            -37.0
+          ],
+          [
+            146.5,
+            -38.5
+          ],
+          [
+            145.0,
+            -39.0
+          ],
+          [
+            143.5,
+            -38.8
+          ],
+          [
+            141.5,
+            -38.0
+          ],
+          [
+            140.0,
+            -37.0
+          ],
+          [
+            139.5,
+            -36.0
+          ],
+          [
+            140.0,
+            -35.5
+          ],
+          [
+            141.0,
+            -35.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2010_russia",
+      "name": "2010 Russian Heat Wave",
+      "type": "heatwave",
+      "year": 2010,
+      "country": "Russia",
+      "region": "Western Russia/Moscow",
+      "severity": "Extreme (up to 44°C)",
+      "deaths": 55000,
+      "description": "Unprecedented two-month heat wave broke all-time temperature records, caused devastating wildfires engulfing Moscow in smoke, killed 55,000 people, and destroyed a third of Russia's grain harvest.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            33.0,
+            57.0
+          ],
+          [
+            38.0,
+            58.0
+          ],
+          [
+            43.0,
+            57.5
+          ],
+          [
+            47.0,
+            56.0
+          ],
+          [
+            48.0,
+            53.5
+          ],
+          [
+            46.0,
+            51.0
+          ],
+          [
+            42.0,
+            50.0
+          ],
+          [
+            38.0,
+            50.5
+          ],
+          [
+            35.0,
+            51.5
+          ],
+          [
+            32.0,
+            53.0
+          ],
+          [
+            31.5,
+            55.0
+          ],
+          [
+            33.0,
+            57.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2012_north_america",
+      "name": "2012 North American Heat Wave",
+      "type": "heatwave",
+      "year": 2012,
+      "country": "United States",
+      "region": "Eastern and Central US",
+      "severity": "Extreme (heat index 48°C+)",
+      "deaths": 82,
+      "description": "Widespread extreme heat across the US broke over 7,000 temperature records, combined with severe drought conditions that devastated corn and soybean crops across the Midwest.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -97.0,
+            43.0
+          ],
+          [
+            -92.0,
+            44.0
+          ],
+          [
+            -86.0,
+            42.5
+          ],
+          [
+            -80.0,
+            40.0
+          ],
+          [
+            -78.0,
+            38.0
+          ],
+          [
+            -80.0,
+            35.0
+          ],
+          [
+            -85.0,
+            33.5
+          ],
+          [
+            -91.0,
+            33.0
+          ],
+          [
+            -96.0,
+            34.5
+          ],
+          [
+            -99.0,
+            37.0
+          ],
+          [
+            -100.0,
+            40.0
+          ],
+          [
+            -97.0,
+            43.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2013_australia",
+      "name": "2013 Australian 'Angry Summer' Heat Wave",
+      "type": "heatwave",
+      "year": 2013,
+      "country": "Australia",
+      "region": "Southeastern Australia",
+      "severity": "Extreme (national avg record 40.3°C)",
+      "deaths": 150,
+      "description": "Australia's hottest month on record featured the highest-ever nationally averaged temperature (40.3°C), triggering massive bushfires in Tasmania and New South Wales.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            138.0,
+            -30.0
+          ],
+          [
+            141.0,
+            -29.5
+          ],
+          [
+            145.0,
+            -30.5
+          ],
+          [
+            148.0,
+            -31.5
+          ],
+          [
+            150.0,
+            -33.5
+          ],
+          [
+            151.0,
+            -35.5
+          ],
+          [
+            149.0,
+            -37.5
+          ],
+          [
+            146.0,
+            -38.5
+          ],
+          [
+            142.0,
+            -37.5
+          ],
+          [
+            139.0,
+            -35.5
+          ],
+          [
+            137.0,
+            -33.0
+          ],
+          [
+            138.0,
+            -30.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2014_australia",
+      "name": "2014 Australian Heat Wave",
+      "type": "heatwave",
+      "year": 2014,
+      "country": "Australia",
+      "region": "Southern and Eastern Australia",
+      "severity": "Extreme (up to 48.5°C)",
+      "deaths": 167,
+      "description": "Prolonged January heat wave with temperatures exceeding 48°C in South Australia, leading to mass bat die-offs, power outages, and hundreds of heat-related deaths across southern states.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            135.0,
+            -31.0
+          ],
+          [
+            138.0,
+            -30.5
+          ],
+          [
+            141.0,
+            -31.5
+          ],
+          [
+            143.5,
+            -33.0
+          ],
+          [
+            145.0,
+            -35.0
+          ],
+          [
+            144.0,
+            -37.0
+          ],
+          [
+            141.5,
+            -37.5
+          ],
+          [
+            139.0,
+            -36.5
+          ],
+          [
+            136.5,
+            -35.0
+          ],
+          [
+            134.5,
+            -33.5
+          ],
+          [
+            134.0,
+            -32.0
+          ],
+          [
+            135.0,
+            -31.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2015_india_pakistan",
+      "name": "2015 India-Pakistan Heat Wave",
+      "type": "heatwave",
+      "year": 2015,
+      "country": "India/Pakistan",
+      "region": "Southern India and Sindh/Punjab Pakistan",
+      "severity": "Extreme (up to 48°C)",
+      "deaths": 4620,
+      "description": "Deadly pre-monsoon heat wave killed 2,500 in India and 2,000+ in Pakistan's Karachi, where temperatures reached 48°C during Ramadan fasting, overwhelming morgues and hospitals.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            67.0,
+            28.0
+          ],
+          [
+            70.0,
+            28.5
+          ],
+          [
+            74.0,
+            27.0
+          ],
+          [
+            78.0,
+            25.5
+          ],
+          [
+            80.5,
+            22.0
+          ],
+          [
+            80.0,
+            18.0
+          ],
+          [
+            77.0,
+            15.5
+          ],
+          [
+            73.5,
+            17.0
+          ],
+          [
+            70.0,
+            20.0
+          ],
+          [
+            67.5,
+            23.0
+          ],
+          [
+            66.5,
+            25.5
+          ],
+          [
+            67.0,
+            28.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2016_india",
+      "name": "2016 India Heat Wave",
+      "type": "heatwave",
+      "year": 2016,
+      "country": "India",
+      "region": "Rajasthan, Telangana, Andhra Pradesh",
+      "severity": "Extreme (51.0°C in Phalodi - national record)",
+      "deaths": 1600,
+      "description": "India's hottest temperature ever recorded (51.0°C in Phalodi, Rajasthan) during an intense pre-monsoon heat wave that killed over 1,600 people across northern and central India.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            71.0,
+            28.5
+          ],
+          [
+            74.0,
+            28.0
+          ],
+          [
+            77.0,
+            27.5
+          ],
+          [
+            79.5,
+            25.0
+          ],
+          [
+            80.0,
+            21.0
+          ],
+          [
+            79.0,
+            17.5
+          ],
+          [
+            77.0,
+            16.0
+          ],
+          [
+            74.5,
+            17.5
+          ],
+          [
+            72.0,
+            20.0
+          ],
+          [
+            70.0,
+            23.5
+          ],
+          [
+            70.5,
+            26.5
+          ],
+          [
+            71.0,
+            28.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2017_lucifer",
+      "name": "2017 Heat Wave 'Lucifer'",
+      "type": "heatwave",
+      "year": 2017,
+      "country": "Multi-country",
+      "region": "Southern Europe (Italy, Spain, Balkans)",
+      "severity": "Extreme (up to 46°C)",
+      "deaths": 200,
+      "description": "Named 'Lucifer' by Italian media, the extreme heat wave sent temperatures above 45°C across southern Europe, triggering deadly wildfires in Portugal and causing crop failures across the Mediterranean.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -8.0,
+            41.0
+          ],
+          [
+            -3.0,
+            42.5
+          ],
+          [
+            3.0,
+            43.0
+          ],
+          [
+            8.0,
+            44.0
+          ],
+          [
+            14.0,
+            42.0
+          ],
+          [
+            18.0,
+            40.5
+          ],
+          [
+            16.0,
+            38.0
+          ],
+          [
+            12.0,
+            37.0
+          ],
+          [
+            5.0,
+            37.5
+          ],
+          [
+            0.0,
+            38.0
+          ],
+          [
+            -5.0,
+            38.5
+          ],
+          [
+            -8.0,
+            41.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2018_japan",
+      "name": "2018 Japan Heat Wave",
+      "type": "heatwave",
+      "year": 2018,
+      "country": "Japan",
+      "region": "Central and Western Honshu",
+      "severity": "Extreme (41.1°C national record)",
+      "deaths": 1032,
+      "description": "Japan's highest-ever recorded temperature (41.1°C in Kumagaya) during a prolonged heat wave that killed over 1,000 people and hospitalized 50,000, declared a natural disaster by the government.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            133.0,
+            35.5
+          ],
+          [
+            135.0,
+            36.0
+          ],
+          [
+            137.0,
+            36.5
+          ],
+          [
+            139.5,
+            36.0
+          ],
+          [
+            140.0,
+            35.0
+          ],
+          [
+            139.5,
+            34.0
+          ],
+          [
+            137.5,
+            33.5
+          ],
+          [
+            135.5,
+            33.0
+          ],
+          [
+            133.5,
+            33.5
+          ],
+          [
+            132.0,
+            34.0
+          ],
+          [
+            131.5,
+            34.8
+          ],
+          [
+            133.0,
+            35.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2018_europe",
+      "name": "2018 Northern European Heat Wave",
+      "type": "heatwave",
+      "year": 2018,
+      "country": "Multi-country",
+      "region": "Northern Europe (Scandinavia, UK, Germany)",
+      "severity": "Extreme (record temps in Scandinavia)",
+      "deaths": 1600,
+      "description": "Unprecedented heat wave in northern Europe caused Arctic Circle wildfires in Sweden, record temperatures across Scandinavia, and drought conditions affecting agriculture across the continent.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            5.0,
+            58.0
+          ],
+          [
+            10.0,
+            60.0
+          ],
+          [
+            16.0,
+            60.5
+          ],
+          [
+            20.0,
+            59.0
+          ],
+          [
+            19.0,
+            55.0
+          ],
+          [
+            15.0,
+            52.5
+          ],
+          [
+            10.0,
+            52.0
+          ],
+          [
+            5.0,
+            52.5
+          ],
+          [
+            1.0,
+            53.0
+          ],
+          [
+            -2.0,
+            54.5
+          ],
+          [
+            0.0,
+            56.5
+          ],
+          [
+            5.0,
+            58.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2019_europe_june",
+      "name": "2019 European Heat Wave (June)",
+      "type": "heatwave",
+      "year": 2019,
+      "country": "Multi-country",
+      "region": "Western Europe (France, Germany, Spain)",
+      "severity": "Extreme (46.0°C France record)",
+      "deaths": 1500,
+      "description": "France recorded its highest-ever temperature (46.0°C in Vérargues) during an extreme June heat wave that shattered records across Western Europe and caused 1,500 excess deaths in France alone.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -3.0,
+            47.5
+          ],
+          [
+            1.0,
+            49.0
+          ],
+          [
+            5.0,
+            49.5
+          ],
+          [
+            8.5,
+            49.0
+          ],
+          [
+            9.0,
+            46.5
+          ],
+          [
+            7.0,
+            44.0
+          ],
+          [
+            3.5,
+            42.5
+          ],
+          [
+            0.0,
+            43.0
+          ],
+          [
+            -2.5,
+            44.0
+          ],
+          [
+            -4.0,
+            45.5
+          ],
+          [
+            -3.5,
+            47.0
+          ],
+          [
+            -3.0,
+            47.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2020_siberia",
+      "name": "2020 Siberian Heat Wave",
+      "type": "heatwave",
+      "year": 2020,
+      "country": "Russia",
+      "region": "Siberia/Arctic Russia",
+      "severity": "Extreme (38°C in Verkhoyansk - Arctic record)",
+      "deaths": 0,
+      "description": "Unprecedented Arctic heat wave produced a record 38°C in Verkhoyansk, accelerated permafrost thaw causing a massive fuel spill near Norilsk, and triggered record Siberian wildfires.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.0,
+            68.0
+          ],
+          [
+            120.0,
+            70.0
+          ],
+          [
+            130.0,
+            70.5
+          ],
+          [
+            140.0,
+            69.0
+          ],
+          [
+            142.0,
+            66.0
+          ],
+          [
+            138.0,
+            62.0
+          ],
+          [
+            130.0,
+            60.0
+          ],
+          [
+            120.0,
+            58.5
+          ],
+          [
+            112.0,
+            60.0
+          ],
+          [
+            106.0,
+            62.5
+          ],
+          [
+            105.0,
+            65.0
+          ],
+          [
+            110.0,
+            68.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2021_pnw_heat_dome",
+      "name": "2021 Pacific Northwest Heat Dome",
+      "type": "heatwave",
+      "year": 2021,
+      "country": "United States/Canada",
+      "region": "Pacific Northwest (BC, WA, OR)",
+      "severity": "Extreme (49.6°C Canada record)",
+      "deaths": 1400,
+      "description": "Unprecedented omega-block heat dome shattered all-time records: Lytton, BC reached 49.6°C before being destroyed by wildfire. Over 1,400 excess deaths across BC, Washington, and Oregon.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -124.0,
+            50.0
+          ],
+          [
+            -121.0,
+            50.5
+          ],
+          [
+            -118.5,
+            49.5
+          ],
+          [
+            -117.0,
+            47.5
+          ],
+          [
+            -118.0,
+            45.5
+          ],
+          [
+            -119.5,
+            43.5
+          ],
+          [
+            -121.0,
+            43.0
+          ],
+          [
+            -123.0,
+            44.0
+          ],
+          [
+            -124.5,
+            46.0
+          ],
+          [
+            -125.0,
+            48.0
+          ],
+          [
+            -124.5,
+            49.5
+          ],
+          [
+            -124.0,
+            50.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2022_europe_uk",
+      "name": "2022 European/UK Heat Wave (Record)",
+      "type": "heatwave",
+      "year": 2022,
+      "country": "Multi-country",
+      "region": "UK, France, Spain, Portugal",
+      "severity": "Extreme (40.3°C UK record)",
+      "deaths": 62000,
+      "description": "UK exceeded 40°C for the first time (40.3°C at Coningsby), while Europe-wide the heat wave caused over 62,000 excess deaths across the continent in the deadliest European summer since 2003.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -8.0,
+            43.0
+          ],
+          [
+            -2.0,
+            44.5
+          ],
+          [
+            2.5,
+            49.0
+          ],
+          [
+            1.5,
+            52.0
+          ],
+          [
+            -1.0,
+            53.5
+          ],
+          [
+            -3.0,
+            52.5
+          ],
+          [
+            -5.5,
+            51.0
+          ],
+          [
+            -7.0,
+            49.0
+          ],
+          [
+            -9.0,
+            42.0
+          ],
+          [
+            -7.0,
+            38.5
+          ],
+          [
+            -4.0,
+            37.5
+          ],
+          [
+            -8.0,
+            43.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2023_southern_europe",
+      "name": "2023 Southern European Heat Wave",
+      "type": "heatwave",
+      "year": 2023,
+      "country": "Multi-country",
+      "region": "Italy, Greece, Spain, North Africa",
+      "severity": "Extreme (48.2°C in Sardinia)",
+      "deaths": 47000,
+      "description": "Prolonged extreme heat wave named Cerberus and Charon baked southern Europe with temperatures near 48°C in Sardinia, triggering wildfires across Greece and causing over 47,000 excess deaths.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -5.0,
+            40.0
+          ],
+          [
+            0.0,
+            42.0
+          ],
+          [
+            6.0,
+            44.0
+          ],
+          [
+            12.0,
+            43.0
+          ],
+          [
+            18.0,
+            41.5
+          ],
+          [
+            23.0,
+            39.0
+          ],
+          [
+            22.0,
+            36.5
+          ],
+          [
+            16.0,
+            37.0
+          ],
+          [
+            10.0,
+            37.5
+          ],
+          [
+            3.0,
+            37.0
+          ],
+          [
+            -3.0,
+            37.5
+          ],
+          [
+            -5.0,
+            40.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "hw_2024_south_asia",
+      "name": "2024 South Asia Heat Wave",
+      "type": "heatwave",
+      "year": 2024,
+      "country": "India/Pakistan/Bangladesh",
+      "region": "South Asia",
+      "severity": "Extreme (up to 52°C)",
+      "deaths": 600,
+      "description": "Extreme pre-monsoon heat wave sent temperatures above 50°C across northern India and Pakistan, causing mass casualties among outdoor workers and sparking a severe water crisis.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            68.0,
+            30.0
+          ],
+          [
+            72.0,
+            31.0
+          ],
+          [
+            77.0,
+            30.5
+          ],
+          [
+            82.0,
+            28.0
+          ],
+          [
+            86.0,
+            26.0
+          ],
+          [
+            88.0,
+            23.0
+          ],
+          [
+            85.0,
+            20.0
+          ],
+          [
+            80.0,
+            18.5
+          ],
+          [
+            75.0,
+            20.0
+          ],
+          [
+            70.0,
+            22.5
+          ],
+          [
+            67.0,
+            25.0
+          ],
+          [
+            68.0,
+            30.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_1985_us",
+      "name": "1985 US Cold Wave",
+      "type": "cold_wave",
+      "year": 1985,
+      "country": "United States",
+      "region": "Eastern and Central US",
+      "severity": "Extreme (down to -40°C)",
+      "deaths": 126,
+      "description": "Arctic cold wave sent temperatures plummeting across the eastern US with wind chills below -60°F, freezing citrus crops in Florida and causing widespread infrastructure damage.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.0,
+            47.0
+          ],
+          [
+            -88.0,
+            47.5
+          ],
+          [
+            -82.0,
+            45.0
+          ],
+          [
+            -78.0,
+            42.0
+          ],
+          [
+            -76.0,
+            39.0
+          ],
+          [
+            -78.0,
+            35.5
+          ],
+          [
+            -82.0,
+            32.0
+          ],
+          [
+            -87.0,
+            31.0
+          ],
+          [
+            -92.0,
+            33.0
+          ],
+          [
+            -96.0,
+            36.0
+          ],
+          [
+            -97.0,
+            40.5
+          ],
+          [
+            -95.0,
+            47.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2001_mongolia",
+      "name": "2001 Mongolia Dzud",
+      "type": "cold_wave",
+      "year": 2001,
+      "country": "Mongolia",
+      "region": "Central and Western Mongolia",
+      "severity": "Extreme (down to -50°C)",
+      "deaths": 50,
+      "description": "Devastating dzud (harsh winter) killed over 2.4 million livestock following the 2000 dzud, threatening the livelihood of Mongolia's nomadic herders and causing a humanitarian crisis.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            92.0,
+            49.0
+          ],
+          [
+            97.0,
+            50.0
+          ],
+          [
+            103.0,
+            50.5
+          ],
+          [
+            108.0,
+            49.5
+          ],
+          [
+            111.0,
+            47.5
+          ],
+          [
+            110.0,
+            45.0
+          ],
+          [
+            106.0,
+            43.5
+          ],
+          [
+            100.0,
+            43.0
+          ],
+          [
+            95.0,
+            44.5
+          ],
+          [
+            91.0,
+            46.0
+          ],
+          [
+            90.5,
+            47.5
+          ],
+          [
+            92.0,
+            49.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2008_central_asia",
+      "name": "2008 Central Asian Cold Wave",
+      "type": "cold_wave",
+      "year": 2008,
+      "country": "Afghanistan/Tajikistan/Kyrgyzstan",
+      "region": "Central Asia",
+      "severity": "Extreme (down to -30°C with heavy snow)",
+      "deaths": 1317,
+      "description": "Brutal cold wave with heavy snow killed over 1,300 people across Central Asia, with Afghanistan hardest hit as temperatures plunged below -30°C in remote mountain communities.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            64.0,
+            38.5
+          ],
+          [
+            67.5,
+            39.5
+          ],
+          [
+            71.0,
+            40.0
+          ],
+          [
+            73.5,
+            39.0
+          ],
+          [
+            73.0,
+            37.0
+          ],
+          [
+            71.5,
+            35.0
+          ],
+          [
+            69.0,
+            33.5
+          ],
+          [
+            66.0,
+            34.0
+          ],
+          [
+            63.5,
+            35.5
+          ],
+          [
+            62.0,
+            36.5
+          ],
+          [
+            63.0,
+            37.5
+          ],
+          [
+            64.0,
+            38.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2010_europe",
+      "name": "2010 European Cold Wave",
+      "type": "cold_wave",
+      "year": 2010,
+      "country": "Multi-country",
+      "region": "Eastern and Central Europe",
+      "severity": "Extreme (down to -33°C)",
+      "deaths": 480,
+      "description": "Prolonged cold wave gripped Europe with heavy snowfall, disrupting transportation and causing hundreds of deaths, particularly among homeless populations in Eastern Europe.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            14.0,
+            54.0
+          ],
+          [
+            19.0,
+            54.5
+          ],
+          [
+            24.0,
+            53.5
+          ],
+          [
+            27.0,
+            51.5
+          ],
+          [
+            26.0,
+            48.0
+          ],
+          [
+            23.0,
+            45.5
+          ],
+          [
+            19.0,
+            44.5
+          ],
+          [
+            15.0,
+            45.5
+          ],
+          [
+            12.0,
+            47.0
+          ],
+          [
+            11.5,
+            49.5
+          ],
+          [
+            12.0,
+            52.0
+          ],
+          [
+            14.0,
+            54.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2012_europe",
+      "name": "2012 European Cold Wave",
+      "type": "cold_wave",
+      "year": 2012,
+      "country": "Multi-country",
+      "region": "Eastern Europe and Russia",
+      "severity": "Extreme (down to -39°C in Ukraine)",
+      "deaths": 650,
+      "description": "Severe cold wave killed over 650 people across Europe, with temperatures plunging to -39°C in Ukraine. The Danube River froze over and heavy snow paralyzed cities from Rome to Moscow.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            15.0,
+            52.0
+          ],
+          [
+            20.0,
+            53.0
+          ],
+          [
+            26.0,
+            52.5
+          ],
+          [
+            30.0,
+            51.0
+          ],
+          [
+            32.0,
+            48.0
+          ],
+          [
+            30.0,
+            45.0
+          ],
+          [
+            25.0,
+            43.5
+          ],
+          [
+            20.0,
+            44.0
+          ],
+          [
+            16.0,
+            45.5
+          ],
+          [
+            13.0,
+            47.5
+          ],
+          [
+            12.5,
+            50.0
+          ],
+          [
+            15.0,
+            52.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2014_polar_vortex",
+      "name": "2014 North American Polar Vortex",
+      "type": "cold_wave",
+      "year": 2014,
+      "country": "United States/Canada",
+      "region": "Eastern North America",
+      "severity": "Extreme (wind chill -50°C+)",
+      "deaths": 21,
+      "description": "Dramatic polar vortex displacement sent Arctic air deep into the US, shattering cold records across the Midwest and East, with wind chills below -50°C and widespread school and business closures.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.0,
+            49.0
+          ],
+          [
+            -88.0,
+            49.5
+          ],
+          [
+            -80.0,
+            47.0
+          ],
+          [
+            -75.0,
+            44.0
+          ],
+          [
+            -73.0,
+            41.0
+          ],
+          [
+            -76.0,
+            38.0
+          ],
+          [
+            -82.0,
+            35.5
+          ],
+          [
+            -88.0,
+            34.0
+          ],
+          [
+            -93.0,
+            36.5
+          ],
+          [
+            -97.0,
+            40.0
+          ],
+          [
+            -97.5,
+            45.0
+          ],
+          [
+            -95.0,
+            49.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2017_europe",
+      "name": "2017 European Cold Wave",
+      "type": "cold_wave",
+      "year": 2017,
+      "country": "Multi-country",
+      "region": "Southern and Eastern Europe",
+      "severity": "Extreme (down to -30°C)",
+      "deaths": 60,
+      "description": "Harsh cold wave swept across southern and eastern Europe in January, bringing rare heavy snow to Italy, Greece, and Turkey, killing dozens and disrupting infrastructure.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.0,
+            46.0
+          ],
+          [
+            17.0,
+            46.5
+          ],
+          [
+            23.0,
+            45.0
+          ],
+          [
+            28.0,
+            43.5
+          ],
+          [
+            29.0,
+            41.0
+          ],
+          [
+            26.0,
+            38.0
+          ],
+          [
+            22.0,
+            37.0
+          ],
+          [
+            16.0,
+            38.0
+          ],
+          [
+            12.5,
+            40.0
+          ],
+          [
+            10.5,
+            42.5
+          ],
+          [
+            10.0,
+            44.5
+          ],
+          [
+            12.0,
+            46.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2018_beast_from_east",
+      "name": "2018 'Beast from the East'",
+      "type": "cold_wave",
+      "year": 2018,
+      "country": "Multi-country",
+      "region": "UK, Ireland, Western Europe",
+      "severity": "Extreme (down to -14°C in UK, rare snow in Rome)",
+      "deaths": 95,
+      "description": "Sudden stratospheric warming event drove frigid Siberian air westward, bringing record snow and ice to the UK, Ireland, and western Europe, paralyzing transport and killing 95 people.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10.0,
+            53.5
+          ],
+          [
+            -5.0,
+            55.0
+          ],
+          [
+            0.0,
+            54.5
+          ],
+          [
+            4.0,
+            53.0
+          ],
+          [
+            6.0,
+            51.0
+          ],
+          [
+            4.5,
+            48.5
+          ],
+          [
+            1.0,
+            47.0
+          ],
+          [
+            -3.0,
+            48.0
+          ],
+          [
+            -6.5,
+            49.5
+          ],
+          [
+            -9.5,
+            51.0
+          ],
+          [
+            -10.5,
+            52.5
+          ],
+          [
+            -10.0,
+            53.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2019_polar_vortex",
+      "name": "2019 North American Polar Vortex",
+      "type": "cold_wave",
+      "year": 2019,
+      "country": "United States",
+      "region": "Upper Midwest US",
+      "severity": "Extreme (wind chill -56°C in Minnesota)",
+      "deaths": 22,
+      "description": "Polar vortex brought the coldest air in a generation to the Upper Midwest, with wind chills reaching -56°C in Minnesota. Chicago recorded -31°C, colder than Antarctica, halting the city for days.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -97.0,
+            48.5
+          ],
+          [
+            -91.0,
+            48.0
+          ],
+          [
+            -86.0,
+            46.5
+          ],
+          [
+            -83.0,
+            44.0
+          ],
+          [
+            -84.0,
+            41.5
+          ],
+          [
+            -87.0,
+            39.5
+          ],
+          [
+            -91.0,
+            39.0
+          ],
+          [
+            -95.0,
+            41.0
+          ],
+          [
+            -97.5,
+            43.5
+          ],
+          [
+            -98.0,
+            46.0
+          ],
+          [
+            -97.5,
+            47.5
+          ],
+          [
+            -97.0,
+            48.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "cw_2021_uri",
+      "name": "2021 Winter Storm Uri (Texas Cold Wave)",
+      "type": "cold_wave",
+      "year": 2021,
+      "country": "United States",
+      "region": "Texas and Southern US",
+      "severity": "Extreme (down to -19°C in Dallas)",
+      "deaths": 246,
+      "description": "Historic Arctic outbreak brought unprecedented cold to Texas, collapsing the power grid and leaving 4.5 million without electricity for days in freezing temperatures, causing 246 deaths and $196 billion in damage.",
+      "source": "EM-DAT / WMO"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -103.0,
+            36.5
+          ],
+          [
+            -99.0,
+            36.0
+          ],
+          [
+            -94.5,
+            35.5
+          ],
+          [
+            -93.0,
+            33.5
+          ],
+          [
+            -94.0,
+            31.0
+          ],
+          [
+            -96.0,
+            28.5
+          ],
+          [
+            -99.0,
+            27.0
+          ],
+          [
+            -102.0,
+            29.5
+          ],
+          [
+            -104.5,
+            31.5
+          ],
+          [
+            -106.0,
+            33.0
+          ],
+          [
+            -105.0,
+            35.0
+          ],
+          [
+            -103.0,
+            36.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_1977_buffalo",
+      "name": "1977 Buffalo Blizzard",
+      "type": "blizzard",
+      "year": 1977,
+      "country": "United States",
+      "region": "Buffalo, New York",
+      "severity": "Extreme (wind gusts 111 km/h, -28°C wind chill)",
+      "deaths": 29,
+      "description": "Catastrophic blizzard trapped residents in cars and homes for days as wind-driven snow from Lake Erie created drifts up to 30 feet, paralyzing Buffalo for over a week.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -79.2,
+            43.1
+          ],
+          [
+            -78.7,
+            43.2
+          ],
+          [
+            -78.4,
+            43.0
+          ],
+          [
+            -78.2,
+            42.8
+          ],
+          [
+            -78.3,
+            42.6
+          ],
+          [
+            -78.5,
+            42.4
+          ],
+          [
+            -78.8,
+            42.35
+          ],
+          [
+            -79.1,
+            42.5
+          ],
+          [
+            -79.4,
+            42.7
+          ],
+          [
+            -79.5,
+            42.85
+          ],
+          [
+            -79.4,
+            43.0
+          ],
+          [
+            -79.2,
+            43.1
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_1978_northeast",
+      "name": "1978 Northeastern Blizzard",
+      "type": "blizzard",
+      "year": 1978,
+      "country": "United States",
+      "region": "New England",
+      "severity": "Extreme (up to 69 cm snow, 177 km/h gusts)",
+      "deaths": 100,
+      "description": "Historic nor'easter buried New England under 27+ inches of snow with hurricane-force winds, stranding thousands on highways and prompting a week-long state of emergency in Massachusetts.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -73.5,
+            42.5
+          ],
+          [
+            -71.5,
+            43.0
+          ],
+          [
+            -70.0,
+            42.8
+          ],
+          [
+            -69.5,
+            42.0
+          ],
+          [
+            -70.0,
+            41.2
+          ],
+          [
+            -71.0,
+            40.8
+          ],
+          [
+            -72.5,
+            41.0
+          ],
+          [
+            -73.0,
+            41.5
+          ],
+          [
+            -73.8,
+            41.2
+          ],
+          [
+            -74.0,
+            41.8
+          ],
+          [
+            -73.8,
+            42.3
+          ],
+          [
+            -73.5,
+            42.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_1993_storm_of_century",
+      "name": "1993 Storm of the Century",
+      "type": "blizzard",
+      "year": 1993,
+      "country": "United States",
+      "region": "Eastern US (Florida to Maine)",
+      "severity": "Extreme (record low pressures, 142 cm snow)",
+      "deaths": 318,
+      "description": "Unprecedented superstorm combined blizzard conditions, record snowfall, and tornadoes across the entire eastern US, affecting 100 million people from Cuba to Canada and shutting down every major East Coast airport.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -84.0,
+            40.0
+          ],
+          [
+            -79.0,
+            41.5
+          ],
+          [
+            -74.0,
+            42.0
+          ],
+          [
+            -71.0,
+            41.5
+          ],
+          [
+            -72.5,
+            39.0
+          ],
+          [
+            -76.0,
+            37.0
+          ],
+          [
+            -80.0,
+            34.0
+          ],
+          [
+            -82.5,
+            30.0
+          ],
+          [
+            -84.0,
+            28.5
+          ],
+          [
+            -85.5,
+            30.0
+          ],
+          [
+            -85.0,
+            33.0
+          ],
+          [
+            -84.0,
+            40.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_1996_blizzard",
+      "name": "1996 North American Blizzard",
+      "type": "blizzard",
+      "year": 1996,
+      "country": "United States",
+      "region": "Mid-Atlantic and Northeast US",
+      "severity": "Extreme (up to 122 cm snow)",
+      "deaths": 154,
+      "description": "Massive blizzard buried the mid-Atlantic and Northeast under record snowfall, followed by rapid warming and rain that caused catastrophic flooding across Appalachia.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -80.0,
+            42.0
+          ],
+          [
+            -76.0,
+            42.5
+          ],
+          [
+            -73.0,
+            41.5
+          ],
+          [
+            -71.5,
+            41.0
+          ],
+          [
+            -73.0,
+            39.5
+          ],
+          [
+            -75.0,
+            38.0
+          ],
+          [
+            -78.0,
+            37.0
+          ],
+          [
+            -80.5,
+            37.5
+          ],
+          [
+            -81.5,
+            39.0
+          ],
+          [
+            -81.0,
+            40.5
+          ],
+          [
+            -80.5,
+            41.5
+          ],
+          [
+            -80.0,
+            42.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2006_north_american",
+      "name": "2006 North American Blizzard",
+      "type": "blizzard",
+      "year": 2006,
+      "country": "United States",
+      "region": "Great Plains to Northeast",
+      "severity": "Extreme (up to 60 cm snow)",
+      "deaths": 11,
+      "description": "Powerful late-season blizzard swept from Colorado to New England, dumping up to 60 cm of heavy wet snow, downing trees and power lines and stranding travelers across multiple states.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -105.0,
+            41.0
+          ],
+          [
+            -100.0,
+            42.0
+          ],
+          [
+            -95.0,
+            41.5
+          ],
+          [
+            -88.0,
+            42.0
+          ],
+          [
+            -82.0,
+            41.5
+          ],
+          [
+            -80.0,
+            40.0
+          ],
+          [
+            -82.0,
+            38.0
+          ],
+          [
+            -88.0,
+            37.5
+          ],
+          [
+            -95.0,
+            38.0
+          ],
+          [
+            -100.0,
+            38.5
+          ],
+          [
+            -104.0,
+            39.0
+          ],
+          [
+            -105.0,
+            41.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2008_afghanistan",
+      "name": "2008 Afghanistan Blizzard",
+      "type": "blizzard",
+      "year": 2008,
+      "country": "Afghanistan",
+      "region": "Central and Northern Afghanistan",
+      "severity": "Extreme (down to -30°C with heavy snow)",
+      "deaths": 926,
+      "description": "Devastating winter storms buried remote Afghan villages under meters of snow, killing over 900 people and 100,000 livestock, with rescue efforts hampered by inaccessible mountain terrain.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            66.0,
+            37.0
+          ],
+          [
+            68.5,
+            37.5
+          ],
+          [
+            70.5,
+            37.0
+          ],
+          [
+            71.5,
+            36.0
+          ],
+          [
+            71.0,
+            34.5
+          ],
+          [
+            69.5,
+            33.5
+          ],
+          [
+            67.5,
+            33.0
+          ],
+          [
+            65.5,
+            34.0
+          ],
+          [
+            64.5,
+            35.0
+          ],
+          [
+            64.0,
+            36.0
+          ],
+          [
+            65.0,
+            36.8
+          ],
+          [
+            66.0,
+            37.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2010_snowmageddon",
+      "name": "2010 Snowmageddon",
+      "type": "blizzard",
+      "year": 2010,
+      "country": "United States",
+      "region": "Mid-Atlantic US",
+      "severity": "Extreme (up to 99 cm snow)",
+      "deaths": 41,
+      "description": "Back-to-back record blizzards buried Washington DC under nearly a meter of snow, shutting down the federal government for a week and collapsing roofs including the Dallas Cowboys practice facility.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -79.0,
+            40.5
+          ],
+          [
+            -76.5,
+            40.8
+          ],
+          [
+            -74.5,
+            40.0
+          ],
+          [
+            -75.0,
+            38.5
+          ],
+          [
+            -76.0,
+            37.5
+          ],
+          [
+            -78.0,
+            37.0
+          ],
+          [
+            -79.5,
+            37.5
+          ],
+          [
+            -80.5,
+            38.5
+          ],
+          [
+            -80.0,
+            39.5
+          ],
+          [
+            -79.5,
+            40.0
+          ],
+          [
+            -79.2,
+            40.3
+          ],
+          [
+            -79.0,
+            40.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2013_nemo",
+      "name": "2013 Winter Storm Nemo",
+      "type": "blizzard",
+      "year": 2013,
+      "country": "United States",
+      "region": "Northeast US (New England)",
+      "severity": "Extreme (up to 102 cm snow)",
+      "deaths": 18,
+      "description": "Powerful nor'easter dumped over a meter of snow across New England, breaking records in multiple cities, knocking out power to 650,000 customers, and prompting travel bans in several states.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -73.5,
+            42.8
+          ],
+          [
+            -71.5,
+            43.2
+          ],
+          [
+            -70.0,
+            43.0
+          ],
+          [
+            -69.5,
+            42.0
+          ],
+          [
+            -70.0,
+            41.0
+          ],
+          [
+            -71.5,
+            40.5
+          ],
+          [
+            -73.0,
+            41.0
+          ],
+          [
+            -74.0,
+            41.2
+          ],
+          [
+            -74.5,
+            41.8
+          ],
+          [
+            -74.0,
+            42.3
+          ],
+          [
+            -73.8,
+            42.6
+          ],
+          [
+            -73.5,
+            42.8
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2014_atlanta",
+      "name": "2014 Atlanta Ice/Snow Storm",
+      "type": "blizzard",
+      "year": 2014,
+      "country": "United States",
+      "region": "Atlanta, Georgia",
+      "severity": "Moderate (5 cm snow/ice on unprepared city)",
+      "deaths": 6,
+      "description": "Just 2 inches of snow and ice paralyzed Atlanta as simultaneous mass evacuations gridlocked highways, stranding thousands of motorists overnight and children at schools for up to 24 hours.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -84.6,
+            34.0
+          ],
+          [
+            -84.2,
+            34.1
+          ],
+          [
+            -83.9,
+            33.9
+          ],
+          [
+            -83.8,
+            33.7
+          ],
+          [
+            -84.0,
+            33.5
+          ],
+          [
+            -84.3,
+            33.4
+          ],
+          [
+            -84.6,
+            33.5
+          ],
+          [
+            -84.8,
+            33.65
+          ],
+          [
+            -84.85,
+            33.8
+          ],
+          [
+            -84.8,
+            33.9
+          ],
+          [
+            -84.7,
+            33.95
+          ],
+          [
+            -84.6,
+            34.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2015_juno",
+      "name": "2015 Winter Storm Juno",
+      "type": "blizzard",
+      "year": 2015,
+      "country": "United States",
+      "region": "Northeast US",
+      "severity": "Extreme (up to 92 cm snow)",
+      "deaths": 10,
+      "description": "Major nor'easter brought near-record snowfall to New England, with Framingham, MA receiving 92 cm. New York City issued its first-ever weather-related subway shutdown and travel ban.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -73.0,
+            42.5
+          ],
+          [
+            -71.0,
+            43.0
+          ],
+          [
+            -69.5,
+            42.5
+          ],
+          [
+            -69.0,
+            41.5
+          ],
+          [
+            -70.0,
+            40.8
+          ],
+          [
+            -71.5,
+            40.5
+          ],
+          [
+            -73.0,
+            41.0
+          ],
+          [
+            -74.0,
+            40.6
+          ],
+          [
+            -74.5,
+            41.0
+          ],
+          [
+            -74.0,
+            41.8
+          ],
+          [
+            -73.5,
+            42.2
+          ],
+          [
+            -73.0,
+            42.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2016_jonas",
+      "name": "2016 Winter Storm Jonas (Snowzilla)",
+      "type": "blizzard",
+      "year": 2016,
+      "country": "United States",
+      "region": "Mid-Atlantic and Northeast US",
+      "severity": "Extreme (up to 107 cm snow)",
+      "deaths": 55,
+      "description": "Monster blizzard dropped over a meter of snow from Virginia to New York, breaking records in multiple cities, causing 55 deaths, and producing destructive coastal flooding along the Jersey Shore.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -79.0,
+            41.0
+          ],
+          [
+            -76.0,
+            41.5
+          ],
+          [
+            -73.5,
+            41.0
+          ],
+          [
+            -74.0,
+            39.5
+          ],
+          [
+            -75.0,
+            38.5
+          ],
+          [
+            -77.0,
+            37.5
+          ],
+          [
+            -79.0,
+            37.0
+          ],
+          [
+            -80.5,
+            38.0
+          ],
+          [
+            -80.0,
+            39.0
+          ],
+          [
+            -80.0,
+            40.0
+          ],
+          [
+            -79.5,
+            40.5
+          ],
+          [
+            -79.0,
+            41.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2019_bomb_cyclone",
+      "name": "2019 March Bomb Cyclone",
+      "type": "blizzard",
+      "year": 2019,
+      "country": "United States",
+      "region": "Great Plains and Midwest US",
+      "severity": "Extreme (record low pressure 970 mb)",
+      "deaths": 8,
+      "description": "Historically powerful bomb cyclone set record low pressures across the Great Plains, generating blizzard conditions with 80 mph winds and catastrophic flooding across Nebraska, Iowa, and South Dakota.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -104.0,
+            44.0
+          ],
+          [
+            -99.0,
+            44.5
+          ],
+          [
+            -94.0,
+            43.5
+          ],
+          [
+            -91.0,
+            42.0
+          ],
+          [
+            -93.0,
+            40.0
+          ],
+          [
+            -96.0,
+            39.0
+          ],
+          [
+            -100.0,
+            39.5
+          ],
+          [
+            -103.0,
+            40.5
+          ],
+          [
+            -104.5,
+            41.5
+          ],
+          [
+            -105.0,
+            42.5
+          ],
+          [
+            -104.5,
+            43.5
+          ],
+          [
+            -104.0,
+            44.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "blz_2022_buffalo",
+      "name": "2022 Buffalo Christmas Blizzard",
+      "type": "blizzard",
+      "year": 2022,
+      "country": "United States",
+      "region": "Buffalo, New York",
+      "severity": "Extreme (hurricane-force gusts, -30°C wind chill)",
+      "deaths": 47,
+      "description": "Historic bomb cyclone and lake-effect blizzard trapped Buffalo residents for days over Christmas with zero visibility, hurricane-force winds, and drifts burying cars and homes, killing 47 people.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -79.3,
+            43.15
+          ],
+          [
+            -78.8,
+            43.2
+          ],
+          [
+            -78.5,
+            43.05
+          ],
+          [
+            -78.3,
+            42.85
+          ],
+          [
+            -78.4,
+            42.65
+          ],
+          [
+            -78.6,
+            42.5
+          ],
+          [
+            -78.9,
+            42.45
+          ],
+          [
+            -79.2,
+            42.55
+          ],
+          [
+            -79.5,
+            42.7
+          ],
+          [
+            -79.55,
+            42.9
+          ],
+          [
+            -79.45,
+            43.05
+          ],
+          [
+            -79.3,
+            43.15
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_1991_rochester",
+      "name": "1991 Rochester Ice Storm",
+      "type": "ice_storm",
+      "year": 1991,
+      "country": "United States",
+      "region": "Rochester, New York",
+      "severity": "Extreme (up to 7.5 cm ice)",
+      "deaths": 4,
+      "description": "Devastating ice storm coated Rochester and the Finger Lakes region in up to 3 inches of ice, toppling trees and power lines and leaving 160,000 without electricity for up to two weeks.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -77.8,
+            43.3
+          ],
+          [
+            -77.3,
+            43.35
+          ],
+          [
+            -76.9,
+            43.2
+          ],
+          [
+            -76.7,
+            43.0
+          ],
+          [
+            -76.8,
+            42.8
+          ],
+          [
+            -77.1,
+            42.65
+          ],
+          [
+            -77.5,
+            42.6
+          ],
+          [
+            -77.8,
+            42.7
+          ],
+          [
+            -78.0,
+            42.85
+          ],
+          [
+            -78.05,
+            43.0
+          ],
+          [
+            -77.95,
+            43.2
+          ],
+          [
+            -77.8,
+            43.3
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_1994_se_us",
+      "name": "1994 Southeastern US Ice Storm",
+      "type": "ice_storm",
+      "year": 1994,
+      "country": "United States",
+      "region": "Mississippi to Virginia",
+      "severity": "Extreme (up to 5 cm ice)",
+      "deaths": 9,
+      "description": "Massive ice storm coated a wide swath from Mississippi to Virginia in destructive ice, toppling power lines and trees, leaving millions without power during bitter cold temperatures.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -89.0,
+            35.0
+          ],
+          [
+            -86.5,
+            35.5
+          ],
+          [
+            -83.0,
+            36.0
+          ],
+          [
+            -79.5,
+            37.5
+          ],
+          [
+            -78.0,
+            37.0
+          ],
+          [
+            -79.0,
+            35.5
+          ],
+          [
+            -81.0,
+            34.0
+          ],
+          [
+            -84.0,
+            33.0
+          ],
+          [
+            -87.0,
+            33.0
+          ],
+          [
+            -89.5,
+            33.5
+          ],
+          [
+            -90.0,
+            34.5
+          ],
+          [
+            -89.0,
+            35.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_1998_north_america",
+      "name": "1998 North American Ice Storm",
+      "type": "ice_storm",
+      "year": 1998,
+      "country": "Canada/United States",
+      "region": "Quebec/Ontario/New England",
+      "severity": "Extreme (up to 10 cm ice)",
+      "deaths": 35,
+      "description": "Catastrophic ice storm coated eastern Ontario, Quebec, and New England in up to 10 cm of ice over five days, toppling 30,000 utility poles, leaving 4 million without power, and causing $5 billion in damage.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -76.0,
+            45.5
+          ],
+          [
+            -74.0,
+            46.0
+          ],
+          [
+            -71.5,
+            45.5
+          ],
+          [
+            -70.0,
+            44.5
+          ],
+          [
+            -71.0,
+            43.5
+          ],
+          [
+            -73.0,
+            43.0
+          ],
+          [
+            -74.5,
+            43.5
+          ],
+          [
+            -75.5,
+            44.0
+          ],
+          [
+            -76.5,
+            44.5
+          ],
+          [
+            -77.0,
+            45.0
+          ],
+          [
+            -76.5,
+            45.5
+          ],
+          [
+            -76.0,
+            45.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_2005_multiple",
+      "name": "2005 Central US Ice Storm",
+      "type": "ice_storm",
+      "year": 2005,
+      "country": "United States",
+      "region": "Oklahoma/Arkansas/Missouri",
+      "severity": "Extreme (up to 8 cm ice)",
+      "deaths": 7,
+      "description": "Major ice storm paralyzed the southern Great Plains with up to 8 cm of ice accumulation, downing thousands of power lines and leaving hundreds of thousands without electricity for up to two weeks.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -97.5,
+            37.0
+          ],
+          [
+            -95.0,
+            37.5
+          ],
+          [
+            -92.5,
+            37.0
+          ],
+          [
+            -91.0,
+            36.0
+          ],
+          [
+            -91.5,
+            34.5
+          ],
+          [
+            -93.0,
+            34.0
+          ],
+          [
+            -95.5,
+            34.5
+          ],
+          [
+            -97.0,
+            35.0
+          ],
+          [
+            -98.0,
+            35.5
+          ],
+          [
+            -98.5,
+            36.0
+          ],
+          [
+            -98.0,
+            36.5
+          ],
+          [
+            -97.5,
+            37.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_2009_kentucky",
+      "name": "2009 Kentucky Ice Storm",
+      "type": "ice_storm",
+      "year": 2009,
+      "country": "United States",
+      "region": "Kentucky/Arkansas/Missouri",
+      "severity": "Extreme (up to 5 cm ice)",
+      "deaths": 36,
+      "description": "Devastating ice storm knocked out power to 770,000 customers in Kentucky alone, requiring the largest domestic deployment of the National Guard since Hurricane Katrina to assist recovery efforts.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -89.0,
+            38.0
+          ],
+          [
+            -86.5,
+            38.5
+          ],
+          [
+            -84.0,
+            38.0
+          ],
+          [
+            -83.0,
+            37.5
+          ],
+          [
+            -83.5,
+            36.5
+          ],
+          [
+            -85.0,
+            36.0
+          ],
+          [
+            -87.0,
+            36.0
+          ],
+          [
+            -89.0,
+            36.5
+          ],
+          [
+            -89.5,
+            37.0
+          ],
+          [
+            -89.5,
+            37.5
+          ],
+          [
+            -89.2,
+            37.8
+          ],
+          [
+            -89.0,
+            38.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_2013_central_us",
+      "name": "2013 Central US Ice Storm",
+      "type": "ice_storm",
+      "year": 2013,
+      "country": "United States",
+      "region": "Oklahoma/Kansas/Missouri",
+      "severity": "Severe (up to 3 cm ice)",
+      "deaths": 3,
+      "description": "Pre-winter ice storm coated the southern Plains in destructive ice, snapping tree limbs and power lines, leaving 250,000 without electricity across Oklahoma, Kansas, and northern Texas.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -98.5,
+            37.5
+          ],
+          [
+            -96.0,
+            38.0
+          ],
+          [
+            -93.5,
+            37.5
+          ],
+          [
+            -92.0,
+            36.5
+          ],
+          [
+            -93.0,
+            35.5
+          ],
+          [
+            -95.0,
+            34.5
+          ],
+          [
+            -97.0,
+            35.0
+          ],
+          [
+            -98.5,
+            35.5
+          ],
+          [
+            -99.5,
+            36.0
+          ],
+          [
+            -99.5,
+            36.8
+          ],
+          [
+            -99.0,
+            37.2
+          ],
+          [
+            -98.5,
+            37.5
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_2021_texas",
+      "name": "2021 Texas Ice Storm (Winter Storm Uri)",
+      "type": "ice_storm",
+      "year": 2021,
+      "country": "United States",
+      "region": "Texas",
+      "severity": "Extreme (ice + unprecedented cold)",
+      "deaths": 246,
+      "description": "Unprecedented ice storm and freezing rain combined with extreme cold collapsed the Texas power grid, creating a cascading infrastructure failure that left millions without heat, water, and electricity.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -100.0,
+            34.0
+          ],
+          [
+            -97.0,
+            34.5
+          ],
+          [
+            -94.5,
+            33.5
+          ],
+          [
+            -94.0,
+            31.5
+          ],
+          [
+            -95.5,
+            29.5
+          ],
+          [
+            -97.5,
+            28.0
+          ],
+          [
+            -100.5,
+            29.0
+          ],
+          [
+            -102.0,
+            31.0
+          ],
+          [
+            -103.0,
+            32.0
+          ],
+          [
+            -102.5,
+            33.0
+          ],
+          [
+            -101.0,
+            33.5
+          ],
+          [
+            -100.0,
+            34.0
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ice_2023_tennessee",
+      "name": "2023 Tennessee Ice Storm",
+      "type": "ice_storm",
+      "year": 2023,
+      "country": "United States",
+      "region": "Tennessee/Kentucky/Virginia",
+      "severity": "Severe (up to 2.5 cm ice)",
+      "deaths": 5,
+      "description": "Major ice storm coated Middle Tennessee and the Cumberland Plateau in destructive ice, downing trees and power lines across the region and leaving 150,000 customers without power for days.",
+      "source": "NOAA / NWS"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -87.5,
+            36.8
+          ],
+          [
+            -85.5,
+            37.0
+          ],
+          [
+            -83.5,
+            36.5
+          ],
+          [
+            -82.5,
+            36.0
+          ],
+          [
+            -83.0,
+            35.0
+          ],
+          [
+            -85.0,
+            35.0
+          ],
+          [
+            -87.0,
+            35.5
+          ],
+          [
+            -88.0,
+            35.8
+          ],
+          [
+            -88.5,
+            36.2
+          ],
+          [
+            -88.2,
+            36.5
+          ],
+          [
+            -87.8,
+            36.7
+          ],
+          [
+            -87.5,
+            36.8
+          ]
+        ]
+      ]
+    }
+  }
+]
