@@ -359,31 +359,17 @@ html, body {
   white-space: nowrap;
 }
 
-.timeline-inputs {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.year-input {
-  width: 65px;
-  padding: 5px 8px;
-  border: 1px solid var(--border-glass);
-  border-radius: 6px;
-  background: rgba(0, 0, 0, 0.3);
-  color: var(--text-primary);
-  font-size: 13px;
-  text-align: center;
-  outline: none;
-  transition: border-color var(--transition);
-}
-
-.year-input:focus {
-  border-color: var(--accent);
-}
-
 .timeline-dash {
   color: var(--text-muted);
+  font-size: 12px;
+}
+
+.timeline-range-display {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
 }
 
 #timeline-slider {
@@ -418,29 +404,6 @@ html, body {
   cursor: pointer;
 }
 
-.timeline-quick-btns {
-  display: flex;
-  gap: 4px;
-}
-
-.timeline-quick-btn {
-  padding: 4px 8px;
-  border: 1px solid var(--border-glass);
-  border-radius: 6px;
-  background: transparent;
-  color: var(--text-secondary);
-  font-size: 11px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all var(--transition);
-}
-
-.timeline-quick-btn:hover,
-.timeline-quick-btn.active {
-  background: rgba(79, 195, 247, 0.15);
-  color: var(--accent);
-  border-color: rgba(79, 195, 247, 0.3);
-}
 
 /* ===== Legend ===== */
 #legend-panel {
@@ -745,11 +708,6 @@ html, body {
     padding: 10px 14px;
     flex-wrap: wrap;
     gap: 8px;
-  }
-
-  .timeline-quick-btns {
-    width: 100%;
-    justify-content: center;
   }
 
   #legend-panel {

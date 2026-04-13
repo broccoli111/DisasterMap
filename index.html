@@ -44,19 +44,11 @@
     <div id="playback-controls">
       <button class="playback-btn" id="btn-play" title="Play timeline">▶</button>
     </div>
-    <span class="timeline-label">Year Range</span>
-    <div class="timeline-inputs">
-      <input type="number" class="year-input" id="year-start" min="79" max="2030">
-      <span class="timeline-dash">–</span>
-      <input type="number" class="year-input" id="year-end" min="79" max="2030">
-    </div>
-    <input type="range" id="timeline-slider">
-    <div class="timeline-quick-btns">
-      <button class="timeline-quick-btn active" data-range="50">50y</button>
-      <button class="timeline-quick-btn" data-range="100">100y</button>
-      <button class="timeline-quick-btn" data-range="200">200y</button>
-      <button class="timeline-quick-btn" data-range="all">All</button>
-    </div>
+    <span class="timeline-label">Past</span>
+    <input type="range" id="timeline-slider" min="1" max="50" value="50" step="1">
+    <span class="timeline-label" id="slider-years-label">50 years</span>
+    <span class="timeline-dash">|</span>
+    <span class="timeline-range-display" id="timeline-range-display"></span>
   </div>
 
   <!-- Legend -->

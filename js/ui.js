@@ -11,13 +11,14 @@ const UIModule = (() => {
   let _playbackInterval = null;
   let _searchDebounce = null;
 
+  const _currentYear = new Date().getFullYear();
+
   function init(onChange) {
     _onChange = onChange;
     _dataRange = DataModule.getYearRange();
 
-    const currentYear = new Date().getFullYear();
-    _yearStart = currentYear - 50;
-    _yearEnd = currentYear;
+    _yearStart = _currentYear - 50;
+    _yearEnd = _currentYear;
     _enabledTypes = [...DataModule.DEFAULT_ENABLED_TYPES];
 
     buildFilterPanel();
@@ -77,13 +78,10 @@ const UIModule = (() => {
     });
 
     document.getElementById('btn-reset').addEventListener('click', () => {
-      const currentYear = new Date().getFullYear();
-      _yearStart = currentYear - 50;
-      _yearEnd = currentYear;
+      _yearStart = _currentYear - 50;
+      _yearEnd = _currentYear;
       _enabledTypes = [...DataModule.DEFAULT_ENABLED_TYPES];
       panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
-      document.getElementById('year-start').value = _yearStart;
-      document.getElementById('year-end').value = _yearEnd;
       updateSlider();
       fireChange();
     });
@@ -118,66 +116,21 @@ const UIModule = (() => {
   /* ──────────── Timeline ──────────── */
 
   function buildTimeline() {
-    const startInput = document.getElementById('year-start');
-    const endInput = document.getElementById('year-end');
     const slider = document.getElementById('timeline-slider');
+    const yearsLabel = document.getElementById('slider-years-label');
+    const rangeDisplay = document.getElementById('timeline-range-display');
 
-    startInput.value = _yearStart;
-    endInput.value = _yearEnd;
-    slider.min = _dataRange.min;
-    slider.max = _dataRange.max;
-    slider.value = _yearEnd;
-
-    startInput.addEventListener('change', () => {
-      const val = parseInt(startInput.value, 10);
-      if (!isNaN(val)) {
-        _yearStart = Math.max(_dataRange.min, Math.min(val, _yearEnd));
-        startInput.value = _yearStart;
-        fireChange();
-      }
-    });
-
-    endInput.addEventListener('change', () => {
-      const val = parseInt(endInput.value, 10);
-      if (!isNaN(val)) {
-        _yearEnd = Math.min(_dataRange.max, Math.max(val, _yearStart));
-        endInput.value = _yearEnd;
-        slider.value = _yearEnd;
-        fireChange();
-      }
-    });
+    updateRangeDisplay();
 
     slider.addEventListener('input', () => {
-      _yearEnd = parseInt(slider.value, 10);
-      endInput.value = _yearEnd;
+      const yearsBack = parseInt(slider.value, 10);
+      _yearStart = _currentYear - yearsBack;
+      _yearEnd = _currentYear;
+      yearsLabel.textContent = yearsBack === 1 ? '1 year' : yearsBack + ' years';
+      updateRangeDisplay();
       fireChange();
     });
 
-    // Quick buttons
-    document.querySelectorAll('.timeline-quick-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const range = btn.dataset.range;
-        const currentYear = new Date().getFullYear();
-        document.querySelectorAll('.timeline-quick-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        if (range === 'all') {
-          _yearStart = _dataRange.min;
-          _yearEnd = _dataRange.max;
-        } else {
-          const years = parseInt(range, 10);
-          _yearStart = currentYear - years;
-          _yearEnd = currentYear;
-        }
-
-        document.getElementById('year-start').value = _yearStart;
-        document.getElementById('year-end').value = _yearEnd;
-        slider.value = _yearEnd;
-        fireChange();
-      });
-    });
-
-    // Playback
     const playBtn = document.getElementById('btn-play');
     playBtn.addEventListener('click', () => {
       if (_playbackInterval) {
@@ -188,30 +141,46 @@ const UIModule = (() => {
     });
   }
 
+  function updateRangeDisplay() {
+    const el = document.getElementById('timeline-range-display');
+    if (el) el.textContent = _yearStart + ' – ' + _yearEnd;
+  }
+
   function updateSlider() {
     const slider = document.getElementById('timeline-slider');
-    if (slider) slider.value = _yearEnd;
+    const yearsBack = _currentYear - _yearStart;
+    if (slider) slider.value = Math.max(1, Math.min(50, yearsBack));
+    const yearsLabel = document.getElementById('slider-years-label');
+    if (yearsLabel) yearsLabel.textContent = yearsBack === 1 ? '1 year' : yearsBack + ' years';
+    updateRangeDisplay();
   }
 
   function startPlayback() {
     const btn = document.getElementById('btn-play');
+    const slider = document.getElementById('timeline-slider');
     btn.classList.add('active');
     btn.textContent = '⏸';
 
-    _yearStart = _dataRange.min;
-    _yearEnd = _dataRange.min;
-    document.getElementById('year-start').value = _yearStart;
+    // Start from 1 year back, animate outward to 50
+    slider.value = 1;
+    _yearStart = _currentYear - 1;
+    _yearEnd = _currentYear;
 
     _playbackInterval = setInterval(() => {
-      _yearEnd += 1;
-      if (_yearEnd > _dataRange.max) {
+      const current = parseInt(slider.value, 10);
+      if (current >= 50) {
         stopPlayback();
         return;
       }
-      document.getElementById('year-end').value = _yearEnd;
-      document.getElementById('timeline-slider').value = _yearEnd;
+      const next = current + 1;
+      slider.value = next;
+      _yearStart = _currentYear - next;
+      _yearEnd = _currentYear;
+      const yearsLabel = document.getElementById('slider-years-label');
+      if (yearsLabel) yearsLabel.textContent = next === 1 ? '1 year' : next + ' years';
+      updateRangeDisplay();
       fireChange();
-    }, 200);
+    }, 300);
   }
 
   function stopPlayback() {
