@@ -18,6 +18,18 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from scripts.utils.normalize import *
 from scripts.utils.geo import *
 
+
+def _clamp_lat(lat):
+    if lat is None:
+        return None
+    return max(-90.0, min(90.0, float(lat)))
+
+
+def _clamp_lon(lon):
+    if lon is None:
+        return None
+    return max(-180.0, min(180.0, float(lon)))
+
 RAW_DIR = 'raw/emdat'
 
 EMDAT_TYPE_MAP = {
@@ -214,49 +226,49 @@ def _process_dataframe(df, min_year):
     print(f"[EM-DAT] Processing {len(df)} rows...")
 
     for idx, row in df.iterrows():
-        disaster_type = safe_str(row.get(type_col)) if type_col else None
-        disaster_subtype = safe_str(row.get(subtype_col)) if subtype_col else None
+        disaster_type = clean_string(row.get(type_col)) if type_col else None
+        disaster_subtype = clean_string(row.get(subtype_col)) if subtype_col else None
 
         our_type = map_emdat_type(disaster_type, disaster_subtype)
         if our_type is None:
             skipped_type += 1
             continue
 
-        year = safe_int(row.get(year_col)) if year_col else None
+        year = parse_int(row.get(year_col)) if year_col else None
         if year is None:
             continue
         if year < min_year:
             skipped_year += 1
             continue
 
-        lat = safe_float(row.get(lat_col)) if lat_col else None
-        lon = safe_float(row.get(lon_col)) if lon_col else None
+        lat = parse_float(row.get(lat_col)) if lat_col else None
+        lon = parse_float(row.get(lon_col)) if lon_col else None
 
-        country_raw = safe_str(row.get(country_col)) if country_col else None
+        country_raw = clean_string(row.get(country_col)) if country_col else None
         country = normalize_country(country_raw) if country_raw else None
-        iso = safe_str(row.get(iso_col)) if iso_col else None
+        iso = clean_string(row.get(iso_col)) if iso_col else None
 
-        event_name = safe_str(row.get(name_col)) if name_col else None
-        dis_no = safe_str(row.get(dis_no_col)) if dis_no_col else None
-        region = safe_str(row.get(region_col)) if region_col else None
-        continent = safe_str(row.get(continent_col)) if continent_col else None
-        location = safe_str(row.get(location_col)) if location_col else None
+        event_name = clean_string(row.get(name_col)) if name_col else None
+        dis_no = clean_string(row.get(dis_no_col)) if dis_no_col else None
+        region = clean_string(row.get(region_col)) if region_col else None
+        continent = clean_string(row.get(continent_col)) if continent_col else None
+        location = clean_string(row.get(location_col)) if location_col else None
 
-        deaths = safe_int(row.get(deaths_col)) if deaths_col else None
-        injured = safe_int(row.get(injured_col)) if injured_col else None
-        affected = safe_int(row.get(affected_col)) if affected_col else None
-        homeless = safe_int(row.get(homeless_col)) if homeless_col else None
+        deaths = parse_int(row.get(deaths_col)) if deaths_col else None
+        injured = parse_int(row.get(injured_col)) if injured_col else None
+        affected = parse_int(row.get(affected_col)) if affected_col else None
+        homeless = parse_int(row.get(homeless_col)) if homeless_col else None
 
-        damage_thousands = safe_float(row.get(damage_col)) if damage_col else None
+        damage_thousands = parse_float(row.get(damage_col)) if damage_col else None
         damage_usd = damage_thousands * 1000 if damage_thousands else None
-        insured_thousands = safe_float(row.get(insured_col)) if insured_col else None
+        insured_thousands = parse_float(row.get(insured_col)) if insured_col else None
         insured_usd = insured_thousands * 1000 if insured_thousands else None
 
-        start_month = safe_int(row.get(start_month_col)) if start_month_col else None
-        start_day = safe_int(row.get(start_day_col)) if start_day_col else None
-        end_yr = safe_int(row.get(end_year_col)) if end_year_col else None
-        end_mo = safe_int(row.get(end_month_col)) if end_month_col else None
-        end_dy = safe_int(row.get(end_day_col)) if end_day_col else None
+        start_month = parse_int(row.get(start_month_col)) if start_month_col else None
+        start_day = parse_int(row.get(start_day_col)) if start_day_col else None
+        end_yr = parse_int(row.get(end_year_col)) if end_year_col else None
+        end_mo = parse_int(row.get(end_month_col)) if end_month_col else None
+        end_dy = parse_int(row.get(end_day_col)) if end_day_col else None
 
         start_date = _build_date(year, start_month, start_day)
         end_date = _build_date(end_yr or year, end_mo or start_month, end_dy)
@@ -296,8 +308,8 @@ def _process_dataframe(df, min_year):
         props = {k: v for k, v in props.items() if v is not None}
 
         if lat is not None and lon is not None:
-            lat = clamp_lat(lat)
-            lon = clamp_lon(lon)
+            lat = _clamp_lat(lat)
+            lon = _clamp_lon(lon)
             feat = point_feature(lon, lat, props)
         elif country:
             coords = _country_centroid(country)

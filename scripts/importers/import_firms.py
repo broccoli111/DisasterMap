@@ -22,6 +22,18 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from scripts.utils.normalize import *
 from scripts.utils.geo import *
 
+
+def _clamp_lat(lat):
+    if lat is None:
+        return None
+    return max(-90.0, min(90.0, float(lat)))
+
+
+def _clamp_lon(lon):
+    if lon is None:
+        return None
+    return max(-180.0, min(180.0, float(lon)))
+
 RAW_DIR = 'raw/firms'
 
 FIRMS_API_BASE = 'https://firms.modaps.eosdis.nasa.gov'
@@ -160,23 +172,23 @@ def load(min_year=2000, min_frp=100):
             continue
 
         for _, row in df.iterrows():
-            lat = safe_float(row.get(lat_col))
-            lon = safe_float(row.get(lon_col))
+            lat = parse_float(row.get(lat_col))
+            lon = parse_float(row.get(lon_col))
             if lat is None or lon is None:
                 continue
 
-            frp = safe_float(row.get(frp_col)) if frp_col else None
+            frp = parse_float(row.get(frp_col)) if frp_col else None
             if frp is not None and frp < min_frp:
                 continue
 
             if conf_col:
-                conf = safe_str(row.get(conf_col), '')
+                conf = clean_string(row.get(conf_col)) or ''
                 if conf.lower() in ('l', 'low', '0'):
                     continue
 
             acq_date = None
             if date_col:
-                raw_date = safe_str(row.get(date_col))
+                raw_date = clean_string(row.get(date_col))
                 if raw_date:
                     parsed = parse_date(raw_date)
                     if parsed:
@@ -190,11 +202,11 @@ def load(min_year=2000, min_frp=100):
             if acq_date.year < min_year:
                 continue
 
-            brightness = safe_float(row.get(bright_col)) if bright_col else None
+            brightness = parse_float(row.get(bright_col)) if bright_col else None
 
             all_detections.append({
-                'lat': clamp_lat(lat),
-                'lon': clamp_lon(lon),
+                'lat': _clamp_lat(lat),
+                'lon': _clamp_lon(lon),
                 'date': acq_date,
                 'frp': frp or 0,
                 'brightness': brightness or 0,
@@ -301,12 +313,12 @@ def load_fallback():
             lon_col = _find_col(df, ['longitude', 'lon', 'LONGITUDE'])
             if lat_col and lon_col:
                 for _, row in df.iterrows():
-                    lat = safe_float(row.get(lat_col))
-                    lon = safe_float(row.get(lon_col))
+                    lat = parse_float(row.get(lat_col))
+                    lon = parse_float(row.get(lon_col))
                     if lat is not None and lon is not None:
                         props = {}
                         for col in df.columns:
-                            val = safe_str(row.get(col))
+                            val = clean_string(row.get(col))
                             if val is not None:
                                 props[col] = val
                         props['type'] = 'wildfire'

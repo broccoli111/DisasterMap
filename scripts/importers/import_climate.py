@@ -21,6 +21,18 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from scripts.utils.normalize import *
 from scripts.utils.geo import *
 
+
+def _clamp_lat(lat):
+    if lat is None:
+        return None
+    return max(-90.0, min(90.0, float(lat)))
+
+
+def _clamp_lon(lon):
+    if lon is None:
+        return None
+    return max(-180.0, min(180.0, float(lon)))
+
 RAW_DIR = 'raw/climate'
 
 KNOWN_HEATWAVES = [
@@ -133,8 +145,8 @@ def generate_event_polygon(center_lon, center_lat, radius_km):
 
         dlat = (r / earth_radius_km) * math.cos(angle)
         dlon = (r / (earth_radius_km * max(math.cos(lat_rad), 0.01))) * math.sin(angle)
-        pt_lat = clamp_lat(center_lat + math.degrees(dlat))
-        pt_lon = clamp_lon(center_lon + math.degrees(dlon))
+        pt_lat = _clamp_lat(center_lat + math.degrees(dlat))
+        pt_lon = _clamp_lon(center_lon + math.degrees(dlon))
         coords.append([pt_lon, pt_lat])
 
     coords.append(coords[0])
@@ -247,7 +259,7 @@ def _load_raw_data(min_year):
                 data = json.load(f)
             if data.get('type') == 'FeatureCollection':
                 for feat in data.get('features', []):
-                    yr = safe_int(feat.get('properties', {}).get('year'))
+                    yr = parse_int(feat.get('properties', {}).get('year'))
                     if yr is not None and yr < min_year:
                         continue
                     feat.setdefault('properties', {})['source'] = 'Raw climate data'
@@ -278,16 +290,16 @@ def _load_raw_data(min_year):
 
             if lat_col and lon_col:
                 for _, row in df.iterrows():
-                    lat = safe_float(row.get(lat_col))
-                    lon = safe_float(row.get(lon_col))
+                    lat = parse_float(row.get(lat_col))
+                    lon = parse_float(row.get(lon_col))
                     if lat is not None and lon is not None:
                         yr_col = cols_lower.get('year')
-                        yr = safe_int(row.get(yr_col)) if yr_col else None
+                        yr = parse_int(row.get(yr_col)) if yr_col else None
                         if yr is not None and yr < min_year:
                             continue
                         props = {}
                         for col in df.columns:
-                            val = safe_str(row.get(col))
+                            val = clean_string(row.get(col))
                             if val is not None:
                                 props[col] = val
                         props['source'] = 'Raw climate CSV'

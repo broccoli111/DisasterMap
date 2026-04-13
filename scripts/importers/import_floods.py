@@ -19,6 +19,18 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from scripts.utils.normalize import *
 from scripts.utils.geo import *
 
+
+def _clamp_lat(lat):
+    if lat is None:
+        return None
+    return max(-90.0, min(90.0, float(lat)))
+
+
+def _clamp_lon(lon):
+    if lon is None:
+        return None
+    return max(-180.0, min(180.0, float(lon)))
+
 RAW_DIR = 'raw/floods'
 DFO_URL = 'https://floodobservatory.colorado.edu/Archives/index.html'
 
@@ -166,20 +178,20 @@ def load(min_year=1976):
     skipped = 0
 
     for idx, row in df.iterrows():
-        lat = safe_float(row.get(lat_col)) if lat_col else None
-        lon = safe_float(row.get(lon_col)) if lon_col else None
+        lat = parse_float(row.get(lat_col)) if lat_col else None
+        lon = parse_float(row.get(lon_col)) if lon_col else None
 
         if lat is None or lon is None:
             skipped += 1
             continue
 
-        lat = clamp_lat(lat)
-        lon = clamp_lon(lon)
+        lat = _clamp_lat(lat)
+        lon = _clamp_lon(lon)
 
-        country_raw = safe_str(row.get(country_col)) if country_col else None
+        country_raw = clean_string(row.get(country_col)) if country_col else None
         country = normalize_country(country_raw) if country_raw else None
 
-        other_countries = safe_str(row.get(other_country_col)) if other_country_col else None
+        other_countries = clean_string(row.get(other_country_col)) if other_country_col else None
 
         began = None
         year = None
@@ -189,7 +201,7 @@ def load(min_year=1976):
                 year = int(began[:4])
 
         if year is None:
-            year_val = safe_int(row.get('Year') if 'Year' in df.columns else None)
+            year_val = parse_int(row.get('Year') if 'Year' in df.columns else None)
             if year_val:
                 year = year_val
 
@@ -197,14 +209,14 @@ def load(min_year=1976):
             continue
 
         ended = parse_date(row.get(ended_col)) if ended_col else None
-        deaths = safe_int(row.get(dead_col)) if dead_col else None
-        displaced = safe_int(row.get(displaced_col)) if displaced_col else None
-        severity = safe_float(row.get(severity_col)) if severity_col else None
-        area_sqkm = safe_float(row.get(area_col)) if area_col else None
-        cause = safe_str(row.get(cause_col)) if cause_col else None
-        register = safe_str(row.get(register_col)) if register_col else None
-        glide = safe_str(row.get(glide_col)) if glide_col else None
-        duration = safe_int(row.get(duration_col)) if duration_col else None
+        deaths = parse_int(row.get(dead_col)) if dead_col else None
+        displaced = parse_int(row.get(displaced_col)) if displaced_col else None
+        severity = parse_float(row.get(severity_col)) if severity_col else None
+        area_sqkm = parse_float(row.get(area_col)) if area_col else None
+        cause = clean_string(row.get(cause_col)) if cause_col else None
+        register = clean_string(row.get(register_col)) if register_col else None
+        glide = clean_string(row.get(glide_col)) if glide_col else None
+        duration = parse_int(row.get(duration_col)) if duration_col else None
 
         name_parts = []
         if country:
@@ -290,10 +302,10 @@ def load_fallback():
                     break
             if lat_col and lon_col:
                 for _, row in df.iterrows():
-                    lat = safe_float(row.get(lat_col))
-                    lon = safe_float(row.get(lon_col))
+                    lat = parse_float(row.get(lat_col))
+                    lon = parse_float(row.get(lon_col))
                     if lat is not None and lon is not None:
-                        props = {k: safe_str(v) for k, v in row.to_dict().items() if safe_str(v) is not None}
+                        props = {k: clean_string(v) for k, v in row.to_dict().items() if clean_string(v) is not None}
                         props['type'] = 'flooding'
                         props['source'] = 'DFO (fallback CSV)'
                         features.append(point_feature(lon, lat, props))
