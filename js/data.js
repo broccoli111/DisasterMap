@@ -1,10 +1,15 @@
 /**
  * Data module — loads, stores, and filters disaster GeoJSON data.
+ * Supports two loading modes:
+ *   1. Per-type files (earthquakes.geojson, hurricanes.geojson, etc.)
+ *   2. Single combined file (disasters.geojson) as fallback
  */
 
 const DataModule = (() => {
   let _allFeatures = [];
   let _filteredFeatures = [];
+  let _metadata = null;
+  let _loadedTypes = new Set();
 
   const DISASTER_TYPES = [
     { key: 'earthquake',        label: 'Earthquakes',        color: '#1a1a1a' },
@@ -21,6 +26,21 @@ const DataModule = (() => {
     { key: 'heatwave',          label: 'Heatwaves',          color: '#ef6c00' }
   ];
 
+  const TYPE_TO_FILE = {
+    earthquake:        'data/earthquakes.geojson',
+    hurricane:         'data/hurricanes.geojson',
+    wildfire:          'data/wildfires.geojson',
+    drought:           'data/droughts.geojson',
+    flooding:          'data/floods.geojson',
+    volcanic_eruption: 'data/volcanoes.geojson',
+    tsunami:           'data/tsunamis.geojson',
+    tornado:           'data/tornadoes.geojson',
+    ice_storm:         'data/winter.geojson',
+    blizzard:          'data/winter.geojson',
+    cold_wave:         'data/winter.geojson',
+    heatwave:          'data/heatwaves.geojson'
+  };
+
   const DEFAULT_ENABLED_TYPES = DISASTER_TYPES.map(t => t.key);
 
   function getColorForType(type) {
@@ -28,12 +48,100 @@ const DataModule = (() => {
     return found ? found.color : '#888';
   }
 
-  async function load(url) {
-    const resp = await fetch(url);
-    if (!resp.ok) throw new Error(`Failed to load data: ${resp.status}`);
-    const geojson = await resp.json();
-    _allFeatures = geojson.features || [];
+  /**
+   * Try to load metadata.json first, then per-type files, falling back to combined file.
+   */
+  async function load() {
+    _metadata = await _tryLoadMetadata();
+
+    const perTypeLoaded = await _tryLoadPerType();
+    if (!perTypeLoaded) {
+      await _loadCombined();
+    }
+
     return _allFeatures;
+  }
+
+  async function _tryLoadMetadata() {
+    try {
+      const resp = await fetch('data/metadata.json');
+      if (resp.ok) return await resp.json();
+    } catch (e) { /* ignore */ }
+    return null;
+  }
+
+  async function _tryLoadPerType() {
+    const uniqueFiles = [...new Set(Object.values(TYPE_TO_FILE))];
+    const results = await Promise.allSettled(
+      uniqueFiles.map(url => fetch(url).then(r => r.ok ? r.json() : Promise.reject()))
+    );
+
+    let anyLoaded = false;
+    for (let i = 0; i < uniqueFiles.length; i++) {
+      if (results[i].status === 'fulfilled') {
+        const geojson = results[i].value;
+        const features = geojson.features || [];
+        _allFeatures.push(...features);
+        anyLoaded = true;
+      }
+    }
+
+    if (anyLoaded) {
+      _deduplicateById();
+      DISASTER_TYPES.forEach(t => _loadedTypes.add(t.key));
+    }
+
+    return anyLoaded;
+  }
+
+  async function _loadCombined() {
+    const urls = ['data/all_disasters.geojson', 'data/disasters.geojson'];
+    for (const url of urls) {
+      try {
+        const resp = await fetch(url);
+        if (!resp.ok) continue;
+        const geojson = await resp.json();
+        _allFeatures = geojson.features || [];
+        DISASTER_TYPES.forEach(t => _loadedTypes.add(t.key));
+        return;
+      } catch (e) { /* try next */ }
+    }
+    throw new Error('No disaster data files found');
+  }
+
+  function _deduplicateById() {
+    const seen = new Set();
+    _allFeatures = _allFeatures.filter(f => {
+      const id = f.properties && f.properties.id;
+      if (!id || seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
+  }
+
+  /**
+   * Lazy-load a specific disaster type's file on demand.
+   */
+  async function loadType(typeKey) {
+    if (_loadedTypes.has(typeKey)) return;
+    const file = TYPE_TO_FILE[typeKey];
+    if (!file) return;
+
+    try {
+      const resp = await fetch(file);
+      if (!resp.ok) return;
+      const geojson = await resp.json();
+      const features = geojson.features || [];
+      _allFeatures.push(...features);
+      _deduplicateById();
+      _loadedTypes.add(typeKey);
+    } catch (e) {
+      console.warn(`Failed to load ${file}:`, e);
+    }
+  }
+
+  function getMetadata() {
+    return _metadata;
   }
 
   function getAllFeatures() {
@@ -44,11 +152,11 @@ const DataModule = (() => {
     return _filteredFeatures;
   }
 
-  /**
-   * Returns the min and max year across the full dataset.
-   */
   function getYearRange() {
-    if (!_allFeatures.length) return { min: 1900, max: new Date().getFullYear() };
+    if (_metadata && _metadata.min_year && _metadata.max_year) {
+      return { min: _metadata.min_year, max: _metadata.max_year };
+    }
+    if (!_allFeatures.length) return { min: 1976, max: new Date().getFullYear() };
     let min = Infinity, max = -Infinity;
     for (const f of _allFeatures) {
       const y = f.properties.year;
@@ -58,10 +166,6 @@ const DataModule = (() => {
     return { min, max };
   }
 
-  /**
-   * Filter features by active types and year range.
-   * Returns a new array (does not mutate _allFeatures).
-   */
   function filter({ enabledTypes, yearStart, yearEnd }) {
     _filteredFeatures = _allFeatures.filter(f => {
       const p = f.properties;
@@ -72,9 +176,6 @@ const DataModule = (() => {
     return _filteredFeatures;
   }
 
-  /**
-   * Search features by query string (matches name, country, year, type).
-   */
   function search(query) {
     if (!query || !query.trim()) return [];
     const q = query.trim().toLowerCase();
@@ -90,9 +191,6 @@ const DataModule = (() => {
     });
   }
 
-  /**
-   * Count features per type within a year range.
-   */
   function countByType(yearStart, yearEnd) {
     const counts = {};
     for (const t of DISASTER_TYPES) counts[t.key] = 0;
@@ -105,22 +203,16 @@ const DataModule = (() => {
     return counts;
   }
 
-  /**
-   * Deduplicate features by base id (removes _area suffix duplicates for listing).
-   */
   function getUniqueEvents(features) {
     const seen = new Set();
     return features.filter(f => {
-      const baseId = f.properties.id.replace(/_area$/, '');
+      const baseId = (f.properties.id || '').replace(/_area$/, '').replace(/_ring$/, '');
       if (seen.has(baseId)) return false;
       seen.add(baseId);
       return true;
     });
   }
 
-  /**
-   * Export filtered features as downloadable JSON.
-   */
   function exportFiltered() {
     const geojson = {
       type: 'FeatureCollection',
@@ -142,6 +234,8 @@ const DataModule = (() => {
     DEFAULT_ENABLED_TYPES,
     getColorForType,
     load,
+    loadType,
+    getMetadata,
     getAllFeatures,
     getFilteredFeatures,
     getYearRange,

@@ -3,3 +3,41 @@
 .env
 .env*.local
 .vercel
+
+# Raw data downloads (large files, not committed)
+raw/usgs/*.csv
+raw/ibtracs/*.csv
+raw/firms/*.csv
+raw/firms/*.zip
+raw/volcano/*.json
+raw/floods/*.xlsx
+raw/floods/*.csv
+raw/tornadoes/*.csv.gz
+raw/tornadoes/*.csv
+raw/climate/*.csv
+raw/emdat/*.xlsx
+raw/emdat/*.csv
+
+# Generated data files (produced by pipeline, not committed)
+# Users run: python scripts/run_all.py --download
+data/earthquakes.geojson
+data/hurricanes.geojson
+data/wildfires.geojson
+data/droughts.geojson
+data/floods.geojson
+data/volcanoes.geojson
+data/tsunamis.geojson
+data/tornadoes.geojson
+data/winter.geojson
+data/heatwaves.geojson
+data/all_disasters.geojson
+data/metadata.json
+data/heat_wave.geojson
+data/tropical_cyclone.geojson
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+raw/usgs/tsunamis.json

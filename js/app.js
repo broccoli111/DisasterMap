@@ -4,9 +4,17 @@
 
 (async function App() {
   const loadingOverlay = document.getElementById('loading-overlay');
+  const loadingText = loadingOverlay && loadingOverlay.querySelector('.loading-text');
 
   try {
-    await DataModule.load('data/disasters.geojson');
+    if (loadingText) loadingText.textContent = 'Loading disaster data\u2026';
+
+    await DataModule.load();
+
+    const meta = DataModule.getMetadata();
+    if (meta) {
+      console.log(`Loaded ${meta.total_records} records (${meta.min_year}\u2013${meta.max_year})`);
+    }
 
     MapModule.init('map');
 
@@ -16,23 +24,22 @@
       UIModule.updateCounter();
     });
 
-    // Trigger initial filter + render
     const initialState = UIModule.getState();
     const features = DataModule.filter(initialState);
     MapModule.renderFeatures(features);
     UIModule.initialRender();
 
-    // Hide loading overlay
     if (loadingOverlay) {
       loadingOverlay.classList.add('hidden');
       setTimeout(() => loadingOverlay.remove(), 500);
     }
   } catch (err) {
     console.error('Failed to initialize application:', err);
-    if (loadingOverlay) {
-      loadingOverlay.querySelector('.loading-text').textContent =
+    if (loadingText) {
+      loadingText.textContent =
         'Failed to load data. Make sure you are serving via HTTP (not file://).';
-      loadingOverlay.querySelector('.loading-spinner').style.display = 'none';
     }
+    const spinner = loadingOverlay && loadingOverlay.querySelector('.loading-spinner');
+    if (spinner) spinner.style.display = 'none';
   }
 })();
